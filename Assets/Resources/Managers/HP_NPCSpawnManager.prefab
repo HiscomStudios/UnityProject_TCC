@@ -63,9 +63,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveFileSet: 
-  dataRulesToUse: {fileID: 0}
-  dataFileAction: 0
+  saveFileSet: NPCSpawnManager
+  dataRulesToUse: {fileID: 11400000, guid: 13dadc5a185a4d24f9c939481b1c005b, type: 2}
+  dataFileAction: 1
   dataFileType: 0
   componentsValues:
   - {fileID: 6956052105889000539}

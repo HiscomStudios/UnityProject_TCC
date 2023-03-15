@@ -41,6 +41,11 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
             Invoke(nameof(Teste), 5);
         }
 
+        public void SaveNPCList()
+        {
+            HP_NPCSpawnManager.Instance.SaveNPCList();
+        }
+
         public void Teste()
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
