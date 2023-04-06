@@ -9,7 +9,13 @@
         "com.unity.nuget.newtonsoft-json": "1.1.1",
         "com.unity.textmeshpro": "1.1.1"
       },
-      "hash": "1a78f59a03136206412223e549be367cf98b2ff5"
+      "hash": "2d64299d77d85203fcff2fc4a9f6e790b2f44a24"
+    },
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "2.0.1",
