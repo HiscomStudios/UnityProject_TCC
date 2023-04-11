@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4043316200735073}
   - component: {fileID: 4043316200735074}
   m_Layer: 0
-  m_Name: DayNightCycleManager
+  m_Name: DaysManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

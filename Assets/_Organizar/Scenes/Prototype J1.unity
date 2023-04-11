@@ -1926,7 +1926,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hours:
-  - name: 
+  - name: 06h00min
     hourValue: 6
     minutesValue: 0
     onHourReachedEvent:
@@ -1937,7 +1937,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.3
       color: {r: 1, g: 0.7806212, b: 0.4481132, a: 1}
-  - name: 
+  - name: 07h00min
     hourValue: 7
     minutesValue: 0
     onHourReachedEvent:
@@ -1948,7 +1948,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.4
       color: {r: 1, g: 0.89879054, b: 0.5896226, a: 1}
-  - name: 
+  - name: 08h00min
     hourValue: 8
     minutesValue: 0
     onHourReachedEvent:
@@ -1959,7 +1959,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.5
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 09h00min
     hourValue: 9
     minutesValue: 0
     onHourReachedEvent:
@@ -1970,7 +1970,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.6
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 10h00min
     hourValue: 10
     minutesValue: 0
     onHourReachedEvent:
@@ -1981,7 +1981,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.7
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 11h00min
     hourValue: 11
     minutesValue: 0
     onHourReachedEvent:
@@ -1992,7 +1992,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.8
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 12h00min
     hourValue: 12
     minutesValue: 0
     onHourReachedEvent:
@@ -2003,7 +2003,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.9
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 13h00min
     hourValue: 13
     minutesValue: 0
     onHourReachedEvent:
@@ -2014,7 +2014,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 1
       color: {r: 1, g: 1, b: 1, a: 1}
-  - name: 
+  - name: 14h00min
     hourValue: 14
     minutesValue: 0
     onHourReachedEvent:
@@ -2025,7 +2025,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.9
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 15h00min
     hourValue: 15
     minutesValue: 0
     onHourReachedEvent:
@@ -2036,7 +2036,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.8
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 16h00min
     hourValue: 16
     minutesValue: 0
     onHourReachedEvent:
@@ -2047,7 +2047,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.7
       color: {r: 1, g: 0.98039216, b: 0.85490197, a: 1}
-  - name: 
+  - name: 17h00min
     hourValue: 17
     minutesValue: 0
     onHourReachedEvent:
@@ -2058,7 +2058,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.6
       color: {r: 1, g: 0.75371844, b: 0.495283, a: 1}
-  - name: 
+  - name: 18h00min
     hourValue: 18
     minutesValue: 0
     onHourReachedEvent:
@@ -2069,7 +2069,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.5
       color: {r: 0.8211716, g: 0.6462264, b: 1, a: 1}
-  - name: 
+  - name: 19h00min
     hourValue: 19
     minutesValue: 0
     onHourReachedEvent:
@@ -2080,7 +2080,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.6
       color: {r: 0.4481132, g: 0.594201, b: 1, a: 1}
-  - name: 
+  - name: 20h00min
     hourValue: 20
     minutesValue: 0
     onHourReachedEvent:
@@ -2091,7 +2091,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.5
       color: {r: 0.44705883, g: 0.59607846, b: 1, a: 1}
-  - name: 
+  - name: 21h00min
     hourValue: 21
     minutesValue: 0
     onHourReachedEvent:
@@ -2102,7 +2102,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.4
       color: {r: 0.44705883, g: 0.59607846, b: 1, a: 1}
-  - name: 
+  - name: 22h00min
     hourValue: 22
     minutesValue: 0
     onHourReachedEvent:
@@ -2113,7 +2113,7 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.3
       color: {r: 0.44705883, g: 0.59607846, b: 1, a: 1}
-  - name: 
+  - name: 23h00min
     hourValue: 23
     minutesValue: 0
     onHourReachedEvent:
@@ -2124,8 +2124,8 @@ MonoBehaviour:
       reference: {fileID: 1440699444}
       intensity: 0.2
       color: {r: 0.23529412, g: 0.35686275, b: 0.59607846, a: 1}
-  - name: 
-    hourValue: 24
+  - name: 00h00min
+    hourValue: 0
     minutesValue: 0
     onHourReachedEvent:
       m_PersistentCalls:
@@ -2615,7 +2615,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
