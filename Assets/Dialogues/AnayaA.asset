@@ -18,6 +18,7 @@ MonoBehaviour:
   - sentence: "Anaya: N\xE3o vamos ficar parados, temos que contra-atacar."
     icon: {fileID: 0}
     audio: {fileID: 0}
-  - sentence: "Anaya: Eu posso melhorar a sua X. Preciso apenas da ra\xEDz de cravo!"
+  - sentence: "Anaya: Eu posso melhorar o seu ataque. Preciso apenas da ra\xEDz de
+      cravo!"
     icon: {fileID: 0}
     audio: {fileID: 0}
