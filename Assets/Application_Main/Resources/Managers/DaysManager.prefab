@@ -44,14 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b29cfaf36731abd4a9400a54a8253952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dayDuration: 5
-  timescale: 1
+  useWeeks: 0
+  useMonths: 0
+  useYears: 0
+  amountOfDaysPerWeek: 0
+  amountOfWeeksPerMonth: 0
+  amountOfMonthsPerYear: 0
   days:
-  - name: Day 1
-    onDayReachedEvent:
-      m_PersistentCalls:
-        m_Calls: []
-  - name: Day 2
-    onDayReachedEvent:
-      m_PersistentCalls:
-        m_Calls: []
+  - {fileID: 11400000, guid: 6d003e5aacdd68642845e5364527989d, type: 2}
+  - {fileID: 11400000, guid: 6d003e5aacdd68642845e5364527989d, type: 2}
+  - {fileID: 11400000, guid: 6d003e5aacdd68642845e5364527989d, type: 2}
