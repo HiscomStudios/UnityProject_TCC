@@ -1,4 +1,6 @@
-#define Days
 public enum Days
 {
+	Segunda,
+	Terça,
+	Quarta,
 }

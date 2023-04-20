@@ -10,14 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
-  m_Name: AshiaB
+  m_Name: "Luena_Dia1_Miss\xE3o01"
   m_EditorClassIdentifier: 
-  dialogueName: AshiaB
-  dialogueId: 3
+  dialogueName: "Luena_Dia1_Miss\xE3o01"
+  dialogueId: 1
   dialogueContent:
-  - sentence: "Busque pra mim a ra\xEDz de cravo."
-    icon: {fileID: 0}
-    audio: {fileID: 0}
-  - sentence: Com isso, vou poder melhorar os seus atributos.
+  - sentence: "Mate 3 inimigos comuns at\xE9 o final do dia para melhorar o dano
+      de ataque"
     icon: {fileID: 0}
     audio: {fileID: 0}
