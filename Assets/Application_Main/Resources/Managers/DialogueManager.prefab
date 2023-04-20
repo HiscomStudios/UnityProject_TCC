@@ -48,3 +48,8 @@ MonoBehaviour:
   - dialoguesLanguage: 
     currentLanguageDialogues:
     - {fileID: 11400000, guid: 749b02f1e970fc943ae93e542b7b10e5, type: 2}
+    - {fileID: 11400000, guid: 1336721663cdcf44ab11e0468c6d72d0, type: 2}
+    - {fileID: 11400000, guid: daacad0de554c8b43bbab644bbcd20b3, type: 2}
+    - {fileID: 11400000, guid: 5240e554f7f968d4e968159475cea0e3, type: 2}
+    - {fileID: 11400000, guid: e3132bb70a4680f4794eddad99b2abc4, type: 2}
+    - {fileID: 11400000, guid: 98f0ef3ff76103e46826af98bf96c735, type: 2}
