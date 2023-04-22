@@ -960,7 +960,7 @@ MonoBehaviour:
           - m_Target: {fileID: 649481751}
             m_TargetAssemblyTypeName: HiscomEngine.Addons.Combat.Runtime.Scripts.Patterns.MMVCC.Views.ShootingCombatView,
               com.thehiscomgameengine.addons.combat
-            m_MethodName: DoDamage
+            m_MethodName: Damage
             m_Mode: 1
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
