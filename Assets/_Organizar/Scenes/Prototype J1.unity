@@ -19207,7 +19207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inventoryController: {fileID: 1952777924}
   idsToCheck:
-  - obj_Almas
+  - obj_AloeVera0201
 --- !u!114 &675118328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19220,7 +19220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 2
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 1
@@ -19230,6 +19230,19 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1581170447}
+        m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.LoggerController,
+          com.thehiscomgameengine.core
+        m_MethodName: LogMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: True
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 171242194}
         m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
           com.thehiscomgameengine.addons.gameprogression
@@ -19238,9 +19251,9 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Luena_Dia1_Recompensa01
+          m_StringArgument: Luena_Dia1_Concluido01
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1952777924}
@@ -19271,17 +19284,31 @@ MonoBehaviour:
   eventToExecuteIfConditionFalse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1748571629}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1581170447}
+        m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.LoggerController,
+          com.thehiscomgameengine.core
+        m_MethodName: LogMessage
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_StringArgument: False
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 171242194}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
+          com.thehiscomgameengine.addons.gameprogression
+        m_MethodName: StartDialogue
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Luena_Dia4_Recompensa01
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 675118325}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -24472,7 +24499,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 675118326}
-  - {fileID: 1748571630}
   m_Father: {fileID: 168599893}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24503,7 +24529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 2
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -24513,6 +24539,19 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1581170447}
+        m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.LoggerController,
+          com.thehiscomgameengine.core
+        m_MethodName: LogMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Recompensa
+          m_BoolArgument: 1
+        m_CallState: 2
       - m_Target: {fileID: 675118325}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -33324,6 +33363,7 @@ Transform:
   - {fileID: 743495365}
   - {fileID: 171242195}
   - {fileID: 1195493959}
+  - {fileID: 1581170448}
   m_Father: {fileID: 1636384422}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44421,6 +44461,50 @@ Transform:
   m_Father: {fileID: 1335272336}
   m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &1581170446
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1581170448}
+  - component: {fileID: 1581170447}
+  m_Layer: 0
+  m_Name: LoggerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1581170447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581170446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e59a3361775a474fabcdec680f7d9ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1581170448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581170446}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194742890}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581224902
 GameObject:
   m_ObjectHideFlags: 0
@@ -48380,87 +48464,6 @@ Transform:
   m_Father: {fileID: 957182783}
   m_RootOrder: 183
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1748571629
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1748571630}
-  - component: {fileID: 1748571631}
-  m_Layer: 0
-  m_Name: Int_Concluido01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1748571630
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748571629}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 866219933}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1748571631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1748571629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 2
-  timerToWaitBeforeExecutingAction: 0
-  repeatEvent: 0
-  executeOnEnable: 1
-  executeOnStart: 0
-  eventConditions: []
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 171242194}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
-          com.thehiscomgameengine.addons.gameprogression
-        m_MethodName: StartDialogue
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: Luena_Dia1_Concluido01
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1748571629}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &1748652172
 GameObject:
   m_ObjectHideFlags: 0
