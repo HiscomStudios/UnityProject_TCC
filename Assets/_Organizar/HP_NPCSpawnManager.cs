@@ -11,8 +11,8 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 
         #region Private Variables
         
-        public List<HP_NPCView> availableNPCs;
-        public List<HP_NPCView> sessionNPCs;
+        public List<string> availableNPCs;
+        public List<string> sessionNPCs;
 
         #endregion
 
@@ -24,7 +24,8 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 
         private void Setup()
         {
-            sessionNPCs = new List<HP_NPCView>();
+            sessionNPCs = new List<string>();
+            
             foreach (var availableNPC in availableNPCs)
                 sessionNPCs.Add(availableNPC);
         }
