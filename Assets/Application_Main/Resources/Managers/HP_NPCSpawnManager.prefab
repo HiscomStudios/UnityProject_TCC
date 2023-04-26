@@ -47,9 +47,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableNPCs:
-  - {fileID: 4400977399021555295, guid: 35046ed274fcce74e8ffb09f069d870a, type: 3}
-  - {fileID: 2781226150790840023, guid: e45537a80805c5b42b4a951fa25f08fe, type: 3}
-  - {fileID: 5250630935784624375, guid: ac9b78ca9cbc0674ca7c396a94048b20, type: 3}
+  - obj_Luena
+  - obj_Daktari
+  - obj_Adumi
   sessionNPCs: []
 --- !u!114 &2683945977966640344
 MonoBehaviour:
@@ -63,8 +63,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saveFileSet: 
-  dataRulesToUse: {fileID: 0}
+  saveFileSet: NPC
+  dataRulesToUse: {fileID: 11400000, guid: 2d4771a13fceced498ad3fa60257e474, type: 2}
   dataFileAction: 0
   dataFileType: 0
   componentsValues:

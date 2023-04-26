@@ -1832,7 +1832,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1927926947}
-  - {fileID: 841647967}
   m_Father: {fileID: 1596666383}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1863,7 +1862,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -2110,87 +2109,6 @@ Transform:
   m_Father: {fileID: 957182783}
   m_RootOrder: 151
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &82192819
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 82192820}
-  - component: {fileID: 82192821}
-  m_Layer: 0
-  m_Name: Int_Concluido01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &82192820
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82192819}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1564709791}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &82192821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 82192819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 0
-  timerToWaitBeforeExecutingAction: 0
-  repeatEvent: 0
-  executeOnEnable: 1
-  executeOnStart: 0
-  eventConditions: []
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 171242194}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
-          com.thehiscomgameengine.addons.gameprogression
-        m_MethodName: StartDialogue
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: Adumi_Dia02_Concluido01
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 82192819}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &83075184
 GameObject:
   m_ObjectHideFlags: 0
@@ -4734,6 +4652,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8003402c88d43e4f8e72f47834bdce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: obj_Adumi
   spawnPosition: {x: 191.2, y: 2.5, z: 231.2}
   spawnRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &152692859
@@ -12993,6 +12912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8003402c88d43e4f8e72f47834bdce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: obj_Daktari
   spawnPosition: {x: 174, y: 2.5, z: 76}
   spawnRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &445724336
@@ -19648,7 +19568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 1
@@ -19668,7 +19588,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: Adumi_Dia02_Recompensa01
+          m_StringArgument: Adumi_Dia02_Concluido01
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1952777924}
@@ -19699,17 +19619,18 @@ MonoBehaviour:
   eventToExecuteIfConditionFalse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 82192819}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 171242194}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
+          com.thehiscomgameengine.addons.gameprogression
+        m_MethodName: StartDialogue
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_StringArgument: Adumi_Dia02_Recompensa01
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 690493893}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -23854,87 +23775,6 @@ Transform:
   m_Father: {fileID: 1057528133}
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
---- !u!1 &841647966
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 841647967}
-  - component: {fileID: 841647968}
-  m_Layer: 0
-  m_Name: Int_Concluido01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &841647967
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841647966}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 70113619}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &841647968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 841647966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 0
-  timerToWaitBeforeExecutingAction: 0
-  repeatEvent: 0
-  executeOnEnable: 1
-  executeOnStart: 0
-  eventConditions: []
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 171242194}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
-          com.thehiscomgameengine.addons.gameprogression
-        m_MethodName: StartDialogue
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: Adumi_Dia01_Concluido01
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 841647966}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &842251082
 GameObject:
   m_ObjectHideFlags: 0
@@ -25363,6 +25203,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8003402c88d43e4f8e72f47834bdce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: obj_Luena
   spawnPosition: {x: 147.4, y: 2.5, z: 347.6}
   spawnRotation: {x: 0, y: 0, z: 0}
 --- !u!1 &906870904
@@ -27193,7 +27034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 2
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -34446,6 +34287,88 @@ Transform:
   m_Father: {fileID: 1057528133}
   m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &1263769993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263769995}
+  - component: {fileID: 1263769994}
+  m_Layer: 0
+  m_Name: event_Kill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1263769994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263769993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  timerToWaitBeforeExecutingAction: 5
+  repeatEvent: 0
+  executeOnEnable: 0
+  executeOnStart: 1
+  eventConditions: []
+  eventToExecuteIfConditionTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1797540450}
+        m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Controllers.HP_NPCLifeController,
+          Assembly-CSharp
+        m_MethodName: KillRandomNPC
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1797540450}
+        m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Controllers.HP_NPCLifeController,
+          Assembly-CSharp
+        m_MethodName: SaveNPCs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!4 &1263769995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263769993}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264887614
 GameObject:
   m_ObjectHideFlags: 0
@@ -38113,37 +38036,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 957182783}
   m_RootOrder: 186
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1400124783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1400124784}
-  m_Layer: 0
-  m_Name: event_spawnNPCS
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1400124784
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1400124783}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 152.1411, y: -13.703146, z: 330.5237}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1402428089
 GameObject:
@@ -44137,7 +44029,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 690493894}
-  - {fileID: 82192820}
   m_Father: {fileID: 1584671301}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44168,7 +44059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -50226,7 +50117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 2
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -52586,6 +52477,19 @@ MonoBehaviour:
       - m_Target: {fileID: 1797540450}
         m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Controllers.HP_NPCLifeController,
           Assembly-CSharp
+        m_MethodName: LoadNPCs
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1797540450}
+        m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Controllers.HP_NPCLifeController,
+          Assembly-CSharp
         m_MethodName: SpawnNPC
         m_Mode: 1
         m_Arguments:
@@ -53883,7 +53787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 0
+  priority: 10
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 1
@@ -53903,7 +53807,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 3
           m_FloatArgument: 0
-          m_StringArgument: Adumi_Dia05_Recompensa01
+          m_StringArgument: Adumi_Dia01_Concluido01
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1952777924}
@@ -53934,17 +53838,18 @@ MonoBehaviour:
   eventToExecuteIfConditionFalse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 841647966}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 171242194}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.Dialogues.Runtime.Scripts.Patterns.MVC.Controllers.DialogueController,
+          com.thehiscomgameengine.addons.gameprogression
+        m_MethodName: StartDialogue
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
+          m_StringArgument: Adumi_Dia05_Recompensa01
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1927926946}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
