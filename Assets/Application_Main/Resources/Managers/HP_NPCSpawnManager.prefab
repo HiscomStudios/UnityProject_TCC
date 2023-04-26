@@ -70,6 +70,18 @@ MonoBehaviour:
   componentsValues:
   - {fileID: 6956052105889000539}
   stringValue: 
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &-2593616985420752188
 MonoBehaviour:
   m_ObjectHideFlags: 0
