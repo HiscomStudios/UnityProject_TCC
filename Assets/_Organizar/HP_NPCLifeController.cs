@@ -1,3 +1,7 @@
+using System;
+using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Connectors;
+using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers;
+
 namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
 {
     using System.Collections.Generic;
@@ -12,10 +16,19 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
         #region Private Variables
         
         private List<HP_NPCView> _spawnedNPCs = new();
-
+        
+        private DataController dataController;
+        private DataConnector dataConnector;
+        
         #endregion
 
         #endregion
+
+        private void Start()
+        {
+            dataController = HP_NPCSpawnManager.Instance.gameObject.GetComponent<DataController>();
+            dataConnector = HP_NPCSpawnManager.Instance.gameObject.GetComponent<DataConnector>();
+        }
 
         public void SpawnNPC()
         {
@@ -37,6 +50,12 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
         {
             HP_NPCSpawnManager.Instance.sessionNPCs.RemoveAt(npcToKillID);
             Destroy(_spawnedNPCs[npcToKillID].gameObject);
+        }
+        
+        public void SaveNPCs()
+        {
+            dataController.QueueToSave(dataConnector);
+            dataController.Save();
         }
     }
 }
