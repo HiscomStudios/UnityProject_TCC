@@ -1,3 +1,4 @@
+using System;
 using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Connectors;
 using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers;
 
@@ -46,8 +47,17 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 
         public void Load()
         {
-            dataController.QueueToLoad(dataConnector);
-            dataController.Load(dataConnector);
+            try
+            {
+                dataController.QueueToLoad(dataConnector);
+                dataController.Load(dataConnector);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }
             
             sessionNPCs = new List<string>();
             
