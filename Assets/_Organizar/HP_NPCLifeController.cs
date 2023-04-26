@@ -16,19 +16,10 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
         #region Private Variables
         
         private List<HP_NPCView> _spawnedNPCs = new();
-        
-        private DataController dataController;
-        private DataConnector dataConnector;
-        
-        #endregion
 
         #endregion
 
-        private void Start()
-        {
-            dataController = HP_NPCSpawnManager.Instance.gameObject.GetComponent<DataController>();
-            dataConnector = HP_NPCSpawnManager.Instance.gameObject.GetComponent<DataConnector>();
-        }
+        #endregion
 
         public void SpawnNPC()
         {
@@ -54,8 +45,12 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
         
         public void SaveNPCs()
         {
-            dataController.QueueToSave(dataConnector);
-            dataController.Save();
+            HP_NPCSpawnManager.Instance.Save();
+        }
+        
+        public void LoadNPCs()
+        {
+            HP_NPCSpawnManager.Instance.Load();
         }
     }
 }

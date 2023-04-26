@@ -1,3 +1,6 @@
+using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Connectors;
+using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers;
+
 namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 {
     using Unity.VisualScripting;
@@ -14,6 +17,9 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
         public List<string> availableNPCs;
         public List<string> sessionNPCs;
 
+        private DataController dataController;
+        private DataConnector dataConnector;
+        
         #endregion
 
         #endregion
@@ -22,8 +28,27 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 
         #region Private Methods
 
-        private void Setup()
+        private void Awake()
         {
+            dataController = gameObject.AddComponent<DataController>();
+            dataConnector = gameObject.AddComponent<DataConnector>();
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public void Save()
+        {
+            dataController.QueueToSave(dataConnector);
+            dataController.Save();
+        }
+
+        public void Load()
+        {
+            dataController.QueueToLoad(dataConnector);
+            dataController.Load(dataConnector);
+            
             sessionNPCs = new List<string>();
             
             foreach (var availableNPC in availableNPCs)
@@ -46,8 +71,7 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
                 var go = Instantiate(Resources.Load("Managers/HP_NPCSpawnManager"));
                 go.name = "@HP_NPCSpawnManager";
                 _instance = go.GetComponent<HP_NPCSpawnManager>();
-                _instance.Setup();
-                
+
                 DontDestroyOnLoad(go); 
                 return _instance;
             }
