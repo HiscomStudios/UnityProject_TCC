@@ -53,12 +53,8 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
                 dataController.Load(dataConnector);
 
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
-            
+            catch (Exception e) {/* ignored */}
+
             sessionNPCs = new List<string>();
             
             foreach (var availableNPC in availableNPCs)
