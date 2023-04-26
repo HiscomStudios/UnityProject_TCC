@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Connectors;
 using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers;
 
@@ -39,8 +40,13 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
 
         public void KillNPC(int npcToKillID)
         {
-            HP_NPCSpawnManager.Instance.sessionNPCs.RemoveAt(npcToKillID);
-            Destroy(_spawnedNPCs[npcToKillID].gameObject);
+            foreach (var npc in HP_NPCSpawnManager.Instance.sessionNPCs.Where(npc => npc == _spawnedNPCs[npcToKillID].GetID))
+            {
+                HP_NPCSpawnManager.Instance.sessionNPCs.Remove(npc);
+                break;
+            }
+            
+            _spawnedNPCs[npcToKillID].gameObject.SetActive(false);
         }
         
         public void SaveNPCs()

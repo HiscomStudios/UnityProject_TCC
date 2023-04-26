@@ -31,8 +31,8 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
 
         private void Awake()
         {
-            dataController = gameObject.AddComponent<DataController>();
-            dataConnector = gameObject.AddComponent<DataConnector>();
+            dataController = gameObject.GetComponent<DataController>();
+            dataConnector = gameObject.GetComponent<DataConnector>();
         }
 
         #endregion
@@ -51,10 +51,22 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
             {
                 dataController.QueueToLoad(dataConnector);
                 dataController.Load(dataConnector);
-
             }
             catch (Exception e) {/* ignored */}
+        }
 
+        public void OnLoadSuccess()
+        {
+            availableNPCs = sessionNPCs;
+            
+            sessionNPCs = new List<string>();
+            
+            foreach (var availableNPC in availableNPCs)
+                sessionNPCs.Add(availableNPC);
+        }
+        
+        public void OnLoadFail()
+        {
             sessionNPCs = new List<string>();
             
             foreach (var availableNPC in availableNPCs)
