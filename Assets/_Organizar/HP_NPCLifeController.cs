@@ -1,6 +1,3 @@
-using System.Linq;
-using UnityEngine.SceneManagement;
-
 namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
 {
     using System.Collections.Generic;
@@ -22,9 +19,11 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
 
         public void SpawnNPC()
         {
-            foreach (var availableNPC in HP_NPCSpawnManager.Instance.sessionNPCs)
+            foreach (var npc in FindObjectsOfType<HP_NPCView>())
             {
-                var npc = Instantiate(availableNPC, availableNPC.GetSpawnPosition, Quaternion.Euler(availableNPC.GetSpawnRotation));
+                npc.gameObject.SetActive(false);
+                if (!HP_NPCSpawnManager.Instance.sessionNPCs.Contains(npc.GetID)) continue;
+                npc.gameObject.SetActive(true);
                 _spawnedNPCs.Add(npc);
             }
         }
@@ -38,12 +37,6 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
         {
             HP_NPCSpawnManager.Instance.sessionNPCs.RemoveAt(npcToKillID);
             Destroy(_spawnedNPCs[npcToKillID].gameObject);
-            Invoke(nameof(Teste), 5);
-        }
-
-        public void Teste()
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 }
