@@ -629,7 +629,7 @@ GameObject:
   - component: {fileID: 28055944}
   m_Layer: 0
   m_Name: Reto
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -645,7 +645,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 261023340}
   m_Father: {fileID: 444592953}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -660,7 +661,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.66, y: 4.37, z: 0.2}
+  m_Size: {x: 2.66, y: 4.37, z: -1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &29328633
 GameObject:
@@ -925,7 +926,7 @@ GameObject:
   - component: {fileID: 34858335}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1022,7 +1023,7 @@ GameObject:
   - component: {fileID: 41511644}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1119,7 +1120,7 @@ GameObject:
   - component: {fileID: 49316398}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1332,7 +1333,7 @@ GameObject:
   - component: {fileID: 52333726}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1672,7 +1673,7 @@ GameObject:
   - component: {fileID: 66742412}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1929,7 +1930,7 @@ GameObject:
   - component: {fileID: 72648130}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2026,7 +2027,7 @@ GameObject:
   - component: {fileID: 80497346}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2123,7 +2124,7 @@ GameObject:
   - component: {fileID: 83075186}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2387,7 +2388,7 @@ GameObject:
   - component: {fileID: 88072961}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2484,7 +2485,7 @@ GameObject:
   - component: {fileID: 88425998}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2833,7 +2834,7 @@ GameObject:
   - component: {fileID: 96034423}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2930,7 +2931,7 @@ GameObject:
   - component: {fileID: 96351525}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3208,7 +3209,7 @@ GameObject:
   - component: {fileID: 102863527}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3541,7 +3542,7 @@ GameObject:
   - component: {fileID: 109002379}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3638,7 +3639,7 @@ GameObject:
   - component: {fileID: 116493404}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3831,7 +3832,7 @@ GameObject:
   - component: {fileID: 121992212}
   m_Layer: 0
   m_Name: Reto
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3847,9 +3848,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1502740509}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &121992212
 BoxCollider:
@@ -3862,7 +3864,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.66, y: 4.37, z: 0.2}
+  m_Size: {x: 2.66, y: 4.37, z: -3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &123450972
 GameObject:
@@ -3878,7 +3880,7 @@ GameObject:
   - component: {fileID: 123450973}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4129,7 +4131,7 @@ GameObject:
   - component: {fileID: 135886153}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4520,7 +4522,7 @@ GameObject:
   - component: {fileID: 151709122}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4632,11 +4634,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 121992211}
   - {fileID: 930866815}
   - {fileID: 1666953614}
   - {fileID: 1085996579}
-  - {fileID: 121992211}
-  - {fileID: 1502740509}
   m_Father: {fileID: 995792137}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4767,7 +4768,7 @@ GameObject:
   - component: {fileID: 160878378}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5008,7 +5009,7 @@ GameObject:
   - component: {fileID: 170617638}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5208,7 +5209,7 @@ GameObject:
   - component: {fileID: 173912953}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5305,7 +5306,7 @@ GameObject:
   - component: {fileID: 175781597}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5402,7 +5403,7 @@ GameObject:
   - component: {fileID: 180150538}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5499,7 +5500,7 @@ GameObject:
   - component: {fileID: 183164576}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5615,7 +5616,7 @@ Transform:
   - {fileID: 1993616071}
   - {fileID: 1700984265}
   m_Father: {fileID: 898034640}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &187822251
 MonoBehaviour:
@@ -5937,7 +5938,7 @@ GameObject:
   - component: {fileID: 196674646}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6079,7 +6080,7 @@ GameObject:
   - component: {fileID: 200292532}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6641,7 +6642,7 @@ Transform:
   m_Children:
   - {fileID: 67773864}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &228419750
 MonoBehaviour:
@@ -6669,7 +6670,7 @@ GameObject:
   - component: {fileID: 230127483}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7329,7 +7330,7 @@ GameObject:
   - component: {fileID: 256742240}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7426,7 +7427,7 @@ GameObject:
   - component: {fileID: 258453961}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7533,13 +7534,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261023339}
-  m_LocalRotation: {x: 0.46174863, y: 0, z: 0, w: 0.8870109}
+  m_LocalRotation: {x: 0.46174863, y: -0, z: -0, w: 0.8870109}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 444592953}
-  m_RootOrder: 1
+  m_Father: {fileID: 28055943}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 55, y: 0, z: 0}
 --- !u!212 &261023341
 SpriteRenderer:
@@ -7819,7 +7820,7 @@ GameObject:
   - component: {fileID: 267339735}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8014,7 +8015,7 @@ GameObject:
   - component: {fileID: 272844294}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8442,7 +8443,7 @@ GameObject:
   - component: {fileID: 280693199}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8539,7 +8540,7 @@ GameObject:
   - component: {fileID: 285363047}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8984,7 +8985,7 @@ Transform:
   m_Children:
   - {fileID: 1646913636}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &298973334
 MonoBehaviour:
@@ -9541,7 +9542,7 @@ GameObject:
   - component: {fileID: 316162195}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9638,7 +9639,7 @@ GameObject:
   - component: {fileID: 316321822}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9931,7 +9932,7 @@ GameObject:
   - component: {fileID: 321403266}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10028,7 +10029,7 @@ GameObject:
   - component: {fileID: 326215387}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10142,7 +10143,7 @@ Transform:
   m_Children:
   - {fileID: 696711251}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &335197570
 MonoBehaviour:
@@ -10170,7 +10171,7 @@ GameObject:
   - component: {fileID: 336760621}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10267,7 +10268,7 @@ GameObject:
   - component: {fileID: 337944951}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10702,7 +10703,7 @@ GameObject:
   - component: {fileID: 351638327}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10799,7 +10800,7 @@ GameObject:
   - component: {fileID: 352581615}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10896,7 +10897,7 @@ GameObject:
   - component: {fileID: 355542887}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10993,7 +10994,7 @@ GameObject:
   - component: {fileID: 360759529}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11384,7 +11385,7 @@ GameObject:
   - component: {fileID: 374407736}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11528,7 +11529,7 @@ GameObject:
   - component: {fileID: 387337875}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11625,7 +11626,7 @@ GameObject:
   - component: {fileID: 387794321}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11805,7 +11806,7 @@ GameObject:
   - component: {fileID: 393699762}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12098,7 +12099,7 @@ GameObject:
   - component: {fileID: 409474872}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12890,7 +12891,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 28055943}
-  - {fileID: 261023340}
   - {fileID: 2080025755}
   - {fileID: 467892128}
   - {fileID: 1833148193}
@@ -13013,7 +13013,7 @@ GameObject:
   - component: {fileID: 448164449}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13176,7 +13176,7 @@ GameObject:
   - component: {fileID: 450587837}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13469,7 +13469,7 @@ GameObject:
   - component: {fileID: 465224466}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13583,7 +13583,7 @@ Transform:
   m_Children:
   - {fileID: 1041046372}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &467892129
 MonoBehaviour:
@@ -14070,7 +14070,7 @@ GameObject:
   - component: {fileID: 483347392}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14167,7 +14167,7 @@ GameObject:
   - component: {fileID: 490111283}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14362,7 +14362,7 @@ GameObject:
   - component: {fileID: 491188034}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15040,7 +15040,7 @@ GameObject:
   - component: {fileID: 517666503}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15137,7 +15137,7 @@ GameObject:
   - component: {fileID: 519303170}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15528,7 +15528,7 @@ GameObject:
   - component: {fileID: 528777859}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15821,7 +15821,7 @@ GameObject:
   - component: {fileID: 537913439}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16114,7 +16114,7 @@ GameObject:
   - component: {fileID: 561966186}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16211,7 +16211,7 @@ GameObject:
   - component: {fileID: 567966488}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16452,7 +16452,7 @@ GameObject:
   - component: {fileID: 572746161}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16647,7 +16647,7 @@ GameObject:
   - component: {fileID: 577810480}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17023,7 +17023,7 @@ GameObject:
   - component: {fileID: 604811205}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17218,7 +17218,7 @@ GameObject:
   - component: {fileID: 607045489}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17707,7 +17707,7 @@ GameObject:
   - component: {fileID: 618465517}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17889,7 +17889,7 @@ GameObject:
   - component: {fileID: 621582217}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18182,7 +18182,7 @@ GameObject:
   - component: {fileID: 630553247}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18573,7 +18573,7 @@ GameObject:
   - component: {fileID: 641387047}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19026,7 +19026,7 @@ GameObject:
   - component: {fileID: 659891802}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19440,7 +19440,7 @@ GameObject:
   - component: {fileID: 690303480}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19673,7 +19673,7 @@ GameObject:
   - component: {fileID: 691938402}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19914,7 +19914,7 @@ GameObject:
   - component: {fileID: 707067394}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20210,7 +20210,7 @@ GameObject:
   - component: {fileID: 726237854}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20307,7 +20307,7 @@ GameObject:
   - component: {fileID: 730809892}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20502,7 +20502,7 @@ GameObject:
   - component: {fileID: 736692027}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20599,7 +20599,7 @@ GameObject:
   - component: {fileID: 743344469}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20838,7 +20838,7 @@ GameObject:
   - component: {fileID: 744951937}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21555,7 +21555,7 @@ GameObject:
   - component: {fileID: 761312160}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21652,7 +21652,7 @@ GameObject:
   - component: {fileID: 761559511}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22043,7 +22043,7 @@ GameObject:
   - component: {fileID: 769108572}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22140,7 +22140,7 @@ GameObject:
   - component: {fileID: 771202572}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22412,7 +22412,7 @@ GameObject:
   - component: {fileID: 775665810}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22509,7 +22509,7 @@ GameObject:
   - component: {fileID: 781469269}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22606,7 +22606,7 @@ GameObject:
   - component: {fileID: 789718715}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22703,7 +22703,7 @@ GameObject:
   - component: {fileID: 790061554}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22883,7 +22883,7 @@ GameObject:
   - component: {fileID: 800261998}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23135,7 +23135,7 @@ GameObject:
   - component: {fileID: 804997307}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23279,7 +23279,7 @@ GameObject:
   - component: {fileID: 812485103}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23789,7 +23789,7 @@ GameObject:
   - component: {fileID: 842251083}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23934,7 +23934,7 @@ GameObject:
   - component: {fileID: 847691557}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24538,7 +24538,7 @@ GameObject:
   - component: {fileID: 868898467}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24976,7 +24976,7 @@ GameObject:
   - component: {fileID: 891215874}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25186,8 +25186,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 187822250}
   - {fileID: 1649186080}
+  - {fileID: 187822250}
   m_Father: {fileID: 995792137}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25220,7 +25220,7 @@ GameObject:
   - component: {fileID: 906870905}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25317,7 +25317,7 @@ GameObject:
   - component: {fileID: 917434312}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25414,7 +25414,7 @@ GameObject:
   - component: {fileID: 918908381}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25789,7 +25789,7 @@ GameObject:
   - component: {fileID: 927395356}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25886,7 +25886,7 @@ GameObject:
   - component: {fileID: 927784461}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26151,7 +26151,7 @@ Transform:
   m_Children:
   - {fileID: 1584671301}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &930866816
 MonoBehaviour:
@@ -26179,7 +26179,7 @@ GameObject:
   - component: {fileID: 935922464}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26374,7 +26374,7 @@ GameObject:
   - component: {fileID: 944151496}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26554,7 +26554,7 @@ GameObject:
   - component: {fileID: 950884679}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27456,7 +27456,7 @@ GameObject:
   - component: {fileID: 978688746}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27749,7 +27749,7 @@ GameObject:
   - component: {fileID: 987347560}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27846,7 +27846,7 @@ GameObject:
   - component: {fileID: 994872729}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27943,7 +27943,7 @@ GameObject:
   - component: {fileID: 995741130}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28368,7 +28368,7 @@ GameObject:
   - component: {fileID: 1007863511}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29075,7 +29075,7 @@ GameObject:
   - component: {fileID: 1037795341}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29217,7 +29217,7 @@ GameObject:
   - component: {fileID: 1041154450}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29360,7 +29360,7 @@ GameObject:
   - component: {fileID: 1044657216}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29457,7 +29457,7 @@ GameObject:
   - component: {fileID: 1055696502}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29875,7 +29875,7 @@ GameObject:
   - component: {fileID: 1075941487}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29972,7 +29972,7 @@ GameObject:
   - component: {fileID: 1076048222}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30100,7 +30100,7 @@ GameObject:
   - component: {fileID: 1078417598}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30510,7 +30510,7 @@ Transform:
   m_Children:
   - {fileID: 570034817}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1085996580
 MonoBehaviour:
@@ -30636,7 +30636,7 @@ GameObject:
   - component: {fileID: 1089137492}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30887,7 +30887,7 @@ GameObject:
   - component: {fileID: 1103115013}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31082,7 +31082,7 @@ GameObject:
   - component: {fileID: 1121997609}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31571,7 +31571,7 @@ GameObject:
   - component: {fileID: 1140251181}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31890,7 +31890,7 @@ GameObject:
   - component: {fileID: 1147755032}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32280,7 +32280,7 @@ GameObject:
   - component: {fileID: 1153968543}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32377,7 +32377,7 @@ GameObject:
   - component: {fileID: 1156016818}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32899,7 +32899,7 @@ GameObject:
   - component: {fileID: 1184419150}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32996,7 +32996,7 @@ GameObject:
   - component: {fileID: 1185260785}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33463,7 +33463,7 @@ GameObject:
   - component: {fileID: 1200751387}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34106,7 +34106,7 @@ GameObject:
   - component: {fileID: 1238880977}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34383,7 +34383,7 @@ GameObject:
   - component: {fileID: 1264887615}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34480,7 +34480,7 @@ GameObject:
   - component: {fileID: 1265098525}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34660,7 +34660,7 @@ GameObject:
   - component: {fileID: 1266405601}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34757,7 +34757,7 @@ GameObject:
   - component: {fileID: 1271868720}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34920,7 +34920,7 @@ GameObject:
   - component: {fileID: 1288351893}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35017,7 +35017,7 @@ GameObject:
   - component: {fileID: 1288923716}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35114,7 +35114,7 @@ GameObject:
   - component: {fileID: 1294001093}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35407,7 +35407,7 @@ GameObject:
   - component: {fileID: 1313713640}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35685,7 +35685,7 @@ GameObject:
   - component: {fileID: 1321996339}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35978,7 +35978,7 @@ GameObject:
   - component: {fileID: 1328595186}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36297,7 +36297,7 @@ GameObject:
   - component: {fileID: 1339975147}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36394,7 +36394,7 @@ GameObject:
   - component: {fileID: 1343920156}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36687,7 +36687,7 @@ GameObject:
   - component: {fileID: 1361027204}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36784,7 +36784,7 @@ GameObject:
   - component: {fileID: 1362612249}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36979,7 +36979,7 @@ GameObject:
   - component: {fileID: 1363982099}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37076,7 +37076,7 @@ GameObject:
   - component: {fileID: 1366776871}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37565,7 +37565,7 @@ GameObject:
   - component: {fileID: 1385209466}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37662,7 +37662,7 @@ GameObject:
   - component: {fileID: 1386088134}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37759,7 +37759,7 @@ GameObject:
   - component: {fileID: 1389136938}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37954,7 +37954,7 @@ GameObject:
   - component: {fileID: 1399357449}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38247,7 +38247,7 @@ GameObject:
   - component: {fileID: 1404955555}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38730,7 +38730,7 @@ GameObject:
   - component: {fileID: 1424415246}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38924,7 +38924,7 @@ GameObject:
   - component: {fileID: 1433334876}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39021,7 +39021,7 @@ GameObject:
   - component: {fileID: 1435592853}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39118,7 +39118,7 @@ GameObject:
   - component: {fileID: 1435679608}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39313,7 +39313,7 @@ GameObject:
   - component: {fileID: 1438788277}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39769,7 +39769,7 @@ GameObject:
   - component: {fileID: 1441712436}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40061,7 +40061,7 @@ GameObject:
   - component: {fileID: 1456340073}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40312,7 +40312,7 @@ GameObject:
   - component: {fileID: 1458075663}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40409,7 +40409,7 @@ GameObject:
   - component: {fileID: 1458138515}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40702,7 +40702,7 @@ GameObject:
   - component: {fileID: 1471056822}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40897,7 +40897,7 @@ GameObject:
   - component: {fileID: 1482605880}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41092,7 +41092,7 @@ GameObject:
   - component: {fileID: 1486059890}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41451,13 +41451,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1502740508}
-  m_LocalRotation: {x: 0.46174863, y: 0, z: 0, w: 0.8870109}
+  m_LocalRotation: {x: 0.46174863, y: -0, z: -0, w: 0.8870109}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 151744111}
-  m_RootOrder: 4
+  m_Father: {fileID: 121992211}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 55, y: 0, z: 0}
 --- !u!212 &1502740510
 SpriteRenderer:
@@ -41525,7 +41525,7 @@ GameObject:
   - component: {fileID: 1504451050}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41763,7 +41763,7 @@ GameObject:
   - component: {fileID: 1513876092}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41958,7 +41958,7 @@ GameObject:
   - component: {fileID: 1515460497}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42251,7 +42251,7 @@ GameObject:
   - component: {fileID: 1525163273}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42348,7 +42348,7 @@ GameObject:
   - component: {fileID: 1527352109}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42543,7 +42543,7 @@ GameObject:
   - component: {fileID: 1534631776}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42640,7 +42640,7 @@ GameObject:
   - component: {fileID: 1537136709}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42933,7 +42933,7 @@ GameObject:
   - component: {fileID: 1542493856}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43346,7 +43346,7 @@ GameObject:
   - component: {fileID: 1551504667}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43816,7 +43816,7 @@ GameObject:
   - component: {fileID: 1558137895}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44510,7 +44510,7 @@ GameObject:
   - component: {fileID: 1587469073}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44607,7 +44607,7 @@ GameObject:
   - component: {fileID: 1594845066}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45013,7 +45013,7 @@ GameObject:
   - component: {fileID: 1609897529}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45306,7 +45306,7 @@ GameObject:
   - component: {fileID: 1617517505}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45805,7 +45805,7 @@ GameObject:
   - component: {fileID: 1649186081}
   m_Layer: 0
   m_Name: Reto
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45824,7 +45824,7 @@ Transform:
   m_Children:
   - {fileID: 87407727}
   m_Father: {fileID: 898034640}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1649186081
 BoxCollider:
@@ -45837,7 +45837,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.66, y: 4.37, z: 0.2}
+  m_Size: {x: 2.66, y: 4.37, z: -1.5}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1653762276
 GameObject:
@@ -46078,7 +46078,7 @@ GameObject:
   - component: {fileID: 1658220521}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46192,7 +46192,7 @@ Transform:
   m_Children:
   - {fileID: 1596666383}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1666953615
 MonoBehaviour:
@@ -46220,7 +46220,7 @@ GameObject:
   - component: {fileID: 1674305142}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46317,7 +46317,7 @@ GameObject:
   - component: {fileID: 1674611436}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46512,7 +46512,7 @@ GameObject:
   - component: {fileID: 1688322346}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46609,7 +46609,7 @@ GameObject:
   - component: {fileID: 1697708620}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46804,7 +46804,7 @@ GameObject:
   - component: {fileID: 1700965119}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47296,7 +47296,7 @@ GameObject:
   - component: {fileID: 1710484619}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47607,7 +47607,7 @@ GameObject:
   - component: {fileID: 1717492028}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48229,7 +48229,7 @@ GameObject:
   - component: {fileID: 1748394443}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48522,7 +48522,7 @@ GameObject:
   - component: {fileID: 1751676130}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48619,7 +48619,7 @@ GameObject:
   - component: {fileID: 1751882302}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48716,7 +48716,7 @@ GameObject:
   - component: {fileID: 1752703346}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48813,7 +48813,7 @@ GameObject:
   - component: {fileID: 1758732351}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49302,7 +49302,7 @@ GameObject:
   - component: {fileID: 1776898660}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50617,7 +50617,7 @@ GameObject:
   - component: {fileID: 1832537022}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50731,7 +50731,7 @@ Transform:
   m_Children:
   - {fileID: 2147262683}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1833148194
 MonoBehaviour:
@@ -50955,7 +50955,7 @@ GameObject:
   - component: {fileID: 1838688061}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51779,7 +51779,7 @@ GameObject:
   - component: {fileID: 1868661548}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52015,7 +52015,7 @@ GameObject:
   - component: {fileID: 1871209451}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52112,7 +52112,7 @@ GameObject:
   - component: {fileID: 1871379473}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52532,7 +52532,7 @@ GameObject:
   - component: {fileID: 1890539238}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52727,7 +52727,7 @@ GameObject:
   - component: {fileID: 1892319122}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52824,7 +52824,7 @@ GameObject:
   - component: {fileID: 1894040984}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -52921,7 +52921,7 @@ GameObject:
   - component: {fileID: 1902189602}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54525,7 +54525,7 @@ GameObject:
   - component: {fileID: 1960274199}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54818,7 +54818,7 @@ GameObject:
   - component: {fileID: 1971014200}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55111,7 +55111,7 @@ GameObject:
   - component: {fileID: 1981452343}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55365,7 +55365,7 @@ GameObject:
   - component: {fileID: 1983285192}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55462,7 +55462,7 @@ GameObject:
   - component: {fileID: 1986049293}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55559,7 +55559,7 @@ GameObject:
   - component: {fileID: 1987546983}
   m_Layer: 0
   m_Name: Meio Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55942,7 +55942,7 @@ GameObject:
   - component: {fileID: 2013233746}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56039,7 +56039,7 @@ GameObject:
   - component: {fileID: 2018382754}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56136,7 +56136,7 @@ GameObject:
   - component: {fileID: 2037626825}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56233,7 +56233,7 @@ GameObject:
   - component: {fileID: 2039719655}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56330,7 +56330,7 @@ GameObject:
   - component: {fileID: 2040443673}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56525,7 +56525,7 @@ GameObject:
   - component: {fileID: 2043001036}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56622,7 +56622,7 @@ GameObject:
   - component: {fileID: 2052204849}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56817,7 +56817,7 @@ GameObject:
   - component: {fileID: 2055159946}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56914,7 +56914,7 @@ GameObject:
   - component: {fileID: 2059688660}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57011,7 +57011,7 @@ GameObject:
   - component: {fileID: 2061586567}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57108,7 +57108,7 @@ GameObject:
   - component: {fileID: 2068515641}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57320,7 +57320,7 @@ Transform:
   m_Children:
   - {fileID: 468933074}
   m_Father: {fileID: 444592953}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2080025756
 MonoBehaviour:
@@ -57395,7 +57395,7 @@ GameObject:
   - component: {fileID: 2088017544}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57688,7 +57688,7 @@ GameObject:
   - component: {fileID: 2089456747}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57785,7 +57785,7 @@ GameObject:
   - component: {fileID: 2091867663}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57882,7 +57882,7 @@ GameObject:
   - component: {fileID: 2101199393}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58357,7 +58357,7 @@ GameObject:
   - component: {fileID: 2135540741}
   m_Layer: 0
   m_Name: Bloco
-  m_TagString: Untagged
+  m_TagString: Collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Bala
   - Inimigo
+  - Collider
   layers:
   - Default
   - TransparentFX

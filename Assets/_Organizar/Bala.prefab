@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 600343828118087142}
   - component: {fileID: 458228593920851945}
   - component: {fileID: 6350717989610449450}
-  - component: {fileID: 542262517217348169}
+  - component: {fileID: 3168211329192602774}
+  - component: {fileID: 1091871956264659262}
   m_Layer: 0
-  m_Name: Bola
+  m_Name: Bala
   m_TagString: Bala
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -115,9 +116,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3507e55edad063d43aed1a457c612c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletSpeed: 1500
---- !u!65 &542262517217348169
-BoxCollider:
+  bulletSpeed: 2000
+--- !u!114 &3168211329192602774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403563447898099747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2c504ebb7c7e1345a5aecd84c93a5ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  timerToWaitBeforeExecutingAction: 0
+  repeatEvent: 0
+  executeOnEnable: 0
+  executeOnStart: 0
+  eventConditions: []
+  eventToExecuteIfConditionTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6403563447898099747}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  tagsToCollide:
+  - Collider
+  executeOnEnter: 0
+  executeOnStay: 1
+  executeOnExit: 0
+  eventToExecuteOnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnStay:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnExit:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!136 &1091871956264659262
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -126,6 +177,7 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.27, y: 0.37, z: 0.2}
+  m_Radius: 0.25
+  m_Height: 0
+  m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
