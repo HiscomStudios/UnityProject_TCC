@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 600343828118087142}
   - component: {fileID: 458228593920851945}
   - component: {fileID: 6350717989610449450}
-  - component: {fileID: 3168211329192602774}
   - component: {fileID: 1091871956264659262}
-  m_Layer: 0
+  - component: {fileID: 1087560401955196334}
+  m_Layer: 20
   m_Name: Bala
   m_TagString: Bala
   m_Icon: {fileID: 0}
@@ -117,7 +117,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 2000
---- !u!114 &3168211329192602774
+--- !u!136 &1091871956264659262
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6403563447898099747}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 0
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1087560401955196334
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +140,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6403563447898099747}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2c504ebb7c7e1345a5aecd84c93a5ff, type: 3}
+  m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   priority: 0
@@ -167,17 +181,3 @@ MonoBehaviour:
   eventToExecuteOnExit:
     m_PersistentCalls:
       m_Calls: []
---- !u!136 &1091871956264659262
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6403563447898099747}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.25
-  m_Height: 0
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
