@@ -634,9 +634,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5311649fe4b9ec4dbd1d144f726cf89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerView: {fileID: 0}
   hasMovementConditions: 0
   hasMovementAnimation: 0
   movementConditions: []
+  eventToExecuteBeforeMovement:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterMovement:
+    m_PersistentCalls:
+      m_Calls: []
   canMoveEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -647,7 +654,8 @@ MonoBehaviour:
   defaultAnimationClip: {fileID: 0}
   movementAnimationClip: {fileID: 0}
   movementForce: 10
-  rigidbody2d: {fileID: 1364460070}
+  directionalX: 0
+  directionalY: 0
 --- !u!1 &1128715900
 GameObject:
   m_ObjectHideFlags: 0
@@ -840,136 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6b679f71e400b438ede4cc4b17c1bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputConjunctions:
-  - actionName: Walk
-    objectInput:
-      inputAction:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: 32affad7-6492-43ff-95fc-f0a504bee897
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings:
-        - m_Name: 2D Vector
-          m_Id: 9dc75f3b-cda2-4702-b751-6c2d98e8fa36
-          m_Path: 2DVector
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 4
-        - m_Name: left
-          m_Id: e7dbcc59-3354-4dc0-89ea-8eed19ec13b8
-          m_Path: <Keyboard>/a
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 8
-        - m_Name: right
-          m_Id: dbb3b0a6-1dde-44d4-9400-476f8d5340a1
-          m_Path: <Keyboard>/d
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 8
-        m_Flags: 0
-      eventToExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 957735628}
-            m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MVC.Views.Internal.CallbackView,
-              com.thehiscomgameengine.core
-            m_MethodName: set_CallbackContext
-            m_Mode: 0
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-  - actionName: Jump
-    objectInput:
-      inputAction:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: 32affad7-6492-43ff-95fc-f0a504bee897
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings:
-        - m_Name: 2D Vector
-          m_Id: 59df264f-144f-4e85-a6cd-7e37132d66eb
-          m_Path: 2DVector
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 4
-        - m_Name: up
-          m_Id: 10ae91bc-7301-4211-b053-5df77f1d8d21
-          m_Path: <Keyboard>/space
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 8
-        m_Flags: 0
-      eventToExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 1745612445}
-            m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MVC.Views.Internal.CallbackView,
-              com.thehiscomgameengine.core
-            m_MethodName: set_CallbackContext
-            m_Mode: 0
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
-  - actionName: Shoot
-    objectInput:
-      inputAction:
-        m_Name: Input
-        m_Type: 0
-        m_ExpectedControlType: 
-        m_Id: 32affad7-6492-43ff-95fc-f0a504bee897
-        m_Processors: 
-        m_Interactions: 
-        m_SingletonActionBindings:
-        - m_Name: 
-          m_Id: 392f6728-bb05-48c4-91cd-fd7e5ad185c9
-          m_Path: <Keyboard>/z
-          m_Interactions: 
-          m_Processors: 
-          m_Groups: 
-          m_Action: Input
-          m_Flags: 0
-        m_Flags: 0
-      eventToExecute:
-        m_PersistentCalls:
-          m_Calls:
-          - m_Target: {fileID: 649481751}
-            m_TargetAssemblyTypeName: HiscomEngine.Addons.Combat.Runtime.Scripts.Patterns.MMVCC.Views.ShootingCombatView,
-              com.thehiscomgameengine.addons.combat
-            m_MethodName: Damage
-            m_Mode: 1
-            m_Arguments:
-              m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-              m_IntArgument: 0
-              m_FloatArgument: 0
-              m_StringArgument: 
-              m_BoolArgument: 0
-            m_CallState: 2
+  inputConnectors: []
 --- !u!114 &1364460072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,6 +861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea0b3480ebbf23c44b5a4224ba2ef108, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  priority: 0
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -1200,10 +1080,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bd897a72a9e31c489ccb7f1874b72cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerView: {fileID: 0}
   hasMovementConditions: 1
   hasMovementAnimation: 0
   movementConditions:
   - {fileID: 1745612446}
+  eventToExecuteBeforeMovement:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterMovement:
+    m_PersistentCalls:
+      m_Calls: []
   canMoveEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1214,7 +1101,8 @@ MonoBehaviour:
   defaultAnimationClip: {fileID: 0}
   movementAnimationClip: {fileID: 0}
   movementForce: 50
-  rigidbody2d: {fileID: 1364460070}
+  directionalX: 0
+  directionalY: 0
   fallForce: 200
 --- !u!114 &1745612446
 MonoBehaviour:
@@ -1365,7 +1253,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
