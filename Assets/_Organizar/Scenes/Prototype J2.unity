@@ -3391,21 +3391,27 @@ MonoBehaviour:
   onMoveEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   canMoveEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   cannotMoveEvent:
     m_PersistentCalls:
       m_Calls: []
+    m_CallsDirty: 1
   movementAnimator: {fileID: 0}
   defaultAnimationClip: {fileID: 0}
   movementAnimationClip: {fileID: 0}
+  movementConditionsEqualsNull: 0
   debugBulletDirections: 0
   useMouse: 0
   shootingCooldown: 1
   bulletPrefab: {fileID: 6350717989610449450, guid: 7d75ff7889c4a48448fca372cdb35a08, type: 3}
   bulletSpawn: {fileID: 1076781240}
   gunTransform: {fileID: 232905695}
+  canShoot: 0
+  instantiatedBullets: []
 --- !u!1 &107246583
 GameObject:
   m_ObjectHideFlags: 0
@@ -22346,7 +22352,10 @@ MonoBehaviour:
   hasMovementAnimation: 0
   movementConditions:
   - {fileID: 921434967}
-  onMoveEvent:
+  eventToExecuteBeforeMovement:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterMovement:
     m_PersistentCalls:
       m_Calls: []
   canMoveEvent:
@@ -28944,7 +28953,6 @@ Transform:
   m_Children:
   - {fileID: 743495365}
   - {fileID: 171242195}
-  - {fileID: 1195493959}
   - {fileID: 1581170448}
   - {fileID: 1797540451}
   m_Father: {fileID: 1636384422}
@@ -28962,7 +28970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1195493958
+--- !u!1 &1200476066
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28970,8 +28978,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1195493959}
-  - component: {fileID: 1195493960}
+  - component: {fileID: 1200476068}
+  - component: {fileID: 1200476067}
   m_Layer: 0
   m_Name: RoutineController
   m_TagString: Untagged
@@ -28979,28 +28987,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1195493959
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195493958}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1194742890}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1195493960
+--- !u!114 &1200476067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1195493958}
+  m_GameObject: {fileID: 1200476066}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0c7510e490af9014795423697c1ff51d, type: 3}
@@ -29021,7 +29014,7 @@ MonoBehaviour:
     season: 0
     seasonObject: {fileID: 1484937434}
     baseDay:
-      duration: 3
+      duration: 2
       timescale: 1
       hourViews:
       - hourValue: 0
@@ -29032,38 +29025,31 @@ MonoBehaviour:
         minutesValue: 0
       - hourValue: 0
         minutesValue: 0
-    lightningDataViews: []
-  multipleSeasons:
-  - season: 0
-    seasonObject: {fileID: 0}
-    baseDay:
-      duration: 0
-      timescale: 0
-      hourViews:
       - hourValue: 0
         minutesValue: 0
-    lightningDataViews:
-    - name: 
-      hourView:
-        hourValue: 0
-        minutesValue: 0
-      reference: {fileID: 0}
-      intensity: 0
-      color: {r: 0, g: 0, b: 0, a: 0}
-  eventDataViews:
-  - name: Day 0
-    id: 0
-    onHourReachedEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    hourView:
-      hourValue: 0
-      minutesValue: 0
+    lightningDataViews: []
+  multipleSeasons: []
+  eventDataViews: []
   yearsTMP: {fileID: 0}
   monthsTMP: {fileID: 0}
   seasonsTMP: {fileID: 0}
   daysTMP: {fileID: 0}
   hoursTMP: {fileID: 0}
+--- !u!4 &1200476068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200476066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200751386
 GameObject:
   m_ObjectHideFlags: 0
@@ -37910,7 +37896,10 @@ MonoBehaviour:
   hasMovementConditions: 0
   hasMovementAnimation: 0
   movementConditions: []
-  onMoveEvent:
+  eventToExecuteBeforeMovement:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterMovement:
     m_PersistentCalls:
       m_Calls: []
   canMoveEvent:
@@ -39034,7 +39023,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581224902
 GameObject:
@@ -43630,7 +43619,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802316370
 GameObject:
