@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 262.3369, g: 325.0498, b: 430.21924, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -474,51 +474,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &20629429
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 20629430}
-  - component: {fileID: 20629431}
-  m_Layer: 0
-  m_Name: Managers
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &20629430
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20629429}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1809473044}
-  m_Father: {fileID: 1636384422}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &20629431
-MonoBehaviour:
-  m_ObjectHideFlags: 10
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20629429}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &26772435
 GameObject:
   m_ObjectHideFlags: 0
@@ -12999,7 +12954,7 @@ Transform:
   - {fileID: 1263769995}
   - {fileID: 973163919}
   m_Father: {fileID: 1636384422}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &500723266
 MonoBehaviour:
@@ -25359,7 +25314,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022133563}
   m_LocalRotation: {x: 0.5735764, y: 0, z: 0, w: 0.8191521}
-  m_LocalPosition: {x: 0, y: 1.39, z: 0}
+  m_LocalPosition: {x: -0.43, y: 1.39, z: -0.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25387,7 +25342,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 2a48d30a8c24f374594f2f9699942c7d, type: 2}
+  - {fileID: 2100000, guid: d61685e7c7948674f870f2bdf1316de5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29036,6 +28991,7 @@ Transform:
   - {fileID: 743495365}
   - {fileID: 171242195}
   - {fileID: 1581170448}
+  - {fileID: 1200476068}
   - {fileID: 1797540451}
   m_Father: {fileID: 1636384422}
   m_RootOrder: 0
@@ -29088,16 +29044,55 @@ MonoBehaviour:
   showHours: 0
   onDayStartedEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1200476067}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
+          com.thehiscomgameengine.openworld
+        m_MethodName: StartDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onDayEndedEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1200476067}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
+          com.thehiscomgameengine.openworld
+        m_MethodName: EndDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1200476067}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
+          com.thehiscomgameengine.openworld
+        m_MethodName: StartDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   baseSeason:
     season: 0
     seasonObject: {fileID: 1484937434}
     baseDay:
-      duration: 2
-      timescale: 1
+      duration: 15
+      timescale: 0
       hourViews:
       - hourValue: 6
         minutesValue: 0
@@ -29138,54 +29133,141 @@ MonoBehaviour:
       - hourValue: 0
         minutesValue: 0
     lightningDataViews:
-    - name: 
+    - name: Sun
+      hourView:
+        hourValue: 6
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 0.2
+      color: {r: 1, g: 0.5882353, b: 0.24313726, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 7
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 2.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 8
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 3.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 9
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 4.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 10
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 5.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 11
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 6.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 12
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 7.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 13
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 7
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 14
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 6.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 15
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 6
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 16
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 5.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 17
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 4.5
+      color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 18
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 5
+      color: {r: 0.98039216, g: 0.35686275, b: 0.17254902, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 19
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 3
+      color: {r: 0.59607846, g: 0.29803923, b: 0.21176471, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 20
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 4
+      color: {r: 0.59607846, g: 0.28627452, b: 0.70980394, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 21
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 4
+      color: {r: 0.45490196, g: 0.5411765, b: 0.79607844, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 22
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 3
+      color: {r: 0.3137255, g: 0.41960785, b: 0.7294118, a: 1}
+    - name: Sun
+      hourView:
+        hourValue: 23
+        minutesValue: 0
+      reference: {fileID: 2015280083}
+      intensity: 0.5
+      color: {r: 0, g: 0, b: 0, a: 1}
+    - name: Sun
       hourView:
         hourValue: 0
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 2015280083}
       intensity: 0
-      color: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0}
-    - name: 
-      hourView:
-        hourValue: 0
-        minutesValue: 0
-      reference: {fileID: 0}
-      intensity: 0
-      color: {r: 0.25490198, g: 0.25490198, b: 0.25490198, a: 0}
+      color: {r: 0, g: 0, b: 0, a: 1}
   multipleSeasons: []
-  eventDataViews:
-  - name: Day 0
-    id: 0
-    onHourReachedEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    hourView:
-      hourValue: 0
-      minutesValue: 0
+  eventDataViews: []
   yearsTMP: {fileID: 0}
   monthsTMP: {fileID: 0}
   seasonsTMP: {fileID: 0}
@@ -29198,12 +29280,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200476066}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1194742890}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200751386
@@ -35845,7 +35927,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1484937434}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -40252,7 +40334,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1194742890}
-  - {fileID: 20629430}
   - {fileID: 500723265}
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -43595,7 +43676,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802316370
 GameObject:
@@ -43891,55 +43972,6 @@ Transform:
   m_Father: {fileID: 1057528133}
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
---- !u!1 &1809473043
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1809473044}
-  - component: {fileID: 1809473045}
-  m_Layer: 0
-  m_Name: RoutineManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1809473044
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809473043}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 20629430}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1809473045
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809473043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03dddd8a2b48d604b80d88dd4472f4e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useMultipleYears: 0
-  useMultipleMonths: 0
-  useMultipleSeasons: 0
-  useMultipleDays: 1
-  useMultipleHours: 1
 --- !u!1 &1810509115
 GameObject:
   m_ObjectHideFlags: 0
@@ -47224,10 +47256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441482e8936e35048a1dffac814e3ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Profile: {fileID: 11400000, guid: e1cd5c23661b8364194f1b044f5f0074, type: 2}
-  m_StaticLightingSkyUniqueID: 0
-  m_StaticLightingCloudsUniqueID: 0
-  m_StaticLightingVolumetricClouds: 0
 --- !u!4 &1938755025
 Transform:
   m_ObjectHideFlags: 1
@@ -47241,7 +47269,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1943011320
 GameObject:
@@ -48910,7 +48938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2015280084}
   - component: {fileID: 2015280083}
-  - component: {fileID: 2015280082}
+  - component: {fileID: 2015280085}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -48918,128 +48946,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2015280082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015280081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Intensity: 130000
-  m_EnableSpotReflector: 0
-  m_LuxAtDistance: 1
-  m_InnerSpotPercent: 0
-  m_SpotIESCutoffPercent: 100
-  m_LightDimmer: 1
-  m_VolumetricDimmer: 1
-  m_LightUnit: 2
-  m_FadeDistance: 10000
-  m_VolumetricFadeDistance: 10000
-  m_AffectDiffuse: 1
-  m_AffectSpecular: 1
-  m_NonLightmappedOnly: 0
-  m_ShapeWidth: 0.5
-  m_ShapeHeight: 0.5
-  m_AspectRatio: 1
-  m_ShapeRadius: 0.025
-  m_SoftnessScale: 1
-  m_UseCustomSpotLightShadowCone: 0
-  m_CustomSpotLightShadowCone: 30
-  m_MaxSmoothness: 0.99
-  m_ApplyRangeAttenuation: 1
-  m_DisplayAreaLightEmissiveMesh: 0
-  m_AreaLightCookie: {fileID: 0}
-  m_IESPoint: {fileID: 0}
-  m_IESSpot: {fileID: 0}
-  m_IncludeForRayTracing: 1
-  m_AreaLightShadowCone: 120
-  m_UseScreenSpaceShadows: 0
-  m_InteractsWithSky: 1
-  m_AngularDiameter: 2.5
-  m_FlareSize: 2
-  m_FlareTint: {r: 1, g: 1, b: 1, a: 1}
-  m_FlareFalloff: 4
-  m_SurfaceTexture: {fileID: 0}
-  m_SurfaceTint: {r: 1, g: 1, b: 1, a: 1}
-  m_Distance: 1.5e+11
-  m_UseRayTracedShadows: 0
-  m_NumRayTracingSamples: 4
-  m_FilterTracedShadow: 1
-  m_FilterSizeTraced: 16
-  m_SunLightConeAngle: 0.5
-  m_LightShadowRadius: 0.5
-  m_SemiTransparentShadow: 0
-  m_ColorShadow: 1
-  m_DistanceBasedFiltering: 0
-  m_EvsmExponent: 15
-  m_EvsmLightLeakBias: 0
-  m_EvsmVarianceBias: 0.00001
-  m_EvsmBlurPasses: 0
-  m_LightlayersMask: 1
-  m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
-  m_BlockerSampleCount: 24
-  m_FilterSampleCount: 16
-  m_MinFilterSize: 0.1
-  m_KernelSize: 5
-  m_LightAngle: 1
-  m_MaxDepthBias: 0.001
-  m_ShadowResolution:
-    m_Override: 512
-    m_UseOverride: 1
-    m_Level: 0
-  m_ShadowDimmer: 1
-  m_VolumetricShadowDimmer: 1
-  m_ShadowFadeDistance: 10000
-  m_UseContactShadow:
-    m_Override: 0
-    m_UseOverride: 1
-    m_Level: 0
-  m_RayTracedContactShadow: 0
-  m_ShadowTint: {r: 0, g: 0, b: 0, a: 1}
-  m_PenumbraTint: 0
-  m_NormalBias: 0.75
-  m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
-  m_AlwaysDrawDynamicShadows: 0
-  m_UpdateShadowOnLightMovement: 0
-  m_CachedShadowTranslationThreshold: 0.01
-  m_CachedShadowAngularThreshold: 0.5
-  m_BarnDoorAngle: 90
-  m_BarnDoorLength: 0.05
-  m_preserveCachedShadow: 0
-  m_OnDemandShadowRenderOnPlacement: 1
-  m_ShadowCascadeRatios:
-  - 0.05
-  - 0.2
-  - 0.3
-  m_ShadowCascadeBorders:
-  - 0.2
-  - 0.2
-  - 0.2
-  - 0.2
-  m_ShadowAlgorithm: 0
-  m_ShadowVariant: 0
-  m_ShadowPrecision: 0
-  useOldInspector: 0
-  useVolumetric: 1
-  featuresFoldout: 1
-  m_AreaLightEmissiveMeshShadowCastingMode: 0
-  m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
-  m_AreaLightEmissiveMeshLayer: -1
-  m_Version: 11
-  m_ObsoleteShadowResolutionTier: 1
-  m_ObsoleteUseShadowQualitySettings: 0
-  m_ObsoleteCustomShadowResolution: 512
-  m_ObsoleteContactShadows: 0
-  m_PointlightHDType: 0
-  m_SpotLightShape: 0
-  m_AreaLightShape: 0
 --- !u!108 &2015280083
 Light:
   m_ObjectHideFlags: 0
@@ -49051,8 +48957,8 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 130000
+  m_Color: {r: 1, g: 0.5882353, b: 0.24313726, a: 1}
+  m_Intensity: 0.2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -49096,7 +49002,7 @@ Light:
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
   m_ColorTemperature: 6500
-  m_UseColorTemperature: 1
+  m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -49115,8 +49021,28 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!114 &2015280085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015280081}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &2018382753
 GameObject:
   m_ObjectHideFlags: 0
