@@ -15,6 +15,13 @@ MonoBehaviour:
   dialogueName: Luena_Dia7_Recompensa01
   dialogueId: 20
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "Sei que est\xE1 cansada Niara, mas n\xE3o posso te ajudar se n\xE3o
+      continuar."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Por enquanto, n\xE3o temos mais o que tratar."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Mas caso queira sua for\xE7a melhorada, estarei aqui."
     icon: {fileID: 0}
     audio: {fileID: 0}

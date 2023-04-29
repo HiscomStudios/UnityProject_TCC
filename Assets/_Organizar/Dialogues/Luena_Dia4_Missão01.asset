@@ -15,7 +15,14 @@ MonoBehaviour:
   dialogueName: "Luena_Dia4_Miss\xE3o01"
   dialogueId: 10
   dialogueContent:
-  - sentence: "Mate 5 inimigos comuns at\xE9 o final do dia para melhorar o dano
-      de ataque"
+  - sentence: "Voc\xEA evoluiu suas habilidades\u2026 Mas L\xE8nmi tamb\xE9m."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Lamento sua derrota Niara, mas isso s\xF3 significa que voc\xEA precisa
+      melhorar mais ainda."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Quero que treine mais e derrote agora cinco das criaturas malignas
+      de L\xE8nmi na Floresta."
     icon: {fileID: 0}
     audio: {fileID: 0}

@@ -15,6 +15,13 @@ MonoBehaviour:
   dialogueName: Luena_Dia1_Recompensa01
   dialogueId: 2
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "O que est\xE1 fazendo aqui? Eu disse para vir at\xE9 mim quando conclu\xEDsse
+      a tarefa, se n\xE3o terminou \xE9 porque ainda tem trabalho para fazer."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: Volte apenas quando terminar o que eu te pedi.
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Lembre-se, sua for\xE7a ir\xE1 melhorar com isso!"
     icon: {fileID: 0}
     audio: {fileID: 0}

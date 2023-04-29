@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: Adumi_Dia07_Recompensa01
   dialogueId: 23
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "O que est\xE1 fazendo aqui? N\xE3o t\xE1 vendo que eu t\xF4 ocupada?"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "E voc\xEA nem conseguiu ainda buscar o que eu pedi? S\xE9rio, s\xF3
+      venha falar comigo quando tiver o item."
     icon: {fileID: 0}
     audio: {fileID: 0}

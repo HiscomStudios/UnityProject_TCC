@@ -15,6 +15,14 @@ MonoBehaviour:
   dialogueName: "Adumi_Dia05_Miss\xE3o01"
   dialogueId: 13
   dialogueContent:
-  - sentence: "Encontre um trevo de quatro-folhas na floresta e entregue ao Anci\xE3o"
+  - sentence: "At\xE9 que voc\xEA tem chance de vencer essa luta, mas \xE9 claro
+      que \xE9 s\xF3 porque EU estou te ajudando."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: Dito isso, se quiser continuar tendo a minha ajuda, me traga um Trevo
+      de Quatro-Folhas.
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Existe uma \xFAnica folha na Floresta, busque e me traga."
     icon: {fileID: 0}
     audio: {fileID: 0}

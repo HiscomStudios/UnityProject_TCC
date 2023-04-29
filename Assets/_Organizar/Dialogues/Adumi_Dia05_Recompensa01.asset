@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: Adumi_Dia05_Recompensa01
   dialogueId: 14
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: Sinceramente? Sinto muito pela derrota e tudo o mais.
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Mas, realmente n\xE3o somos amigas e se quiser fazer algo de \xFAtil
+      pra compensar o \xFAltimo fracasso, fa\xE7a o que eu pedi e eu poderei te ajudar."
     icon: {fileID: 0}
     audio: {fileID: 0}

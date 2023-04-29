@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: Luena_Dia4_Concluido01
   dialogueId: 11
   dialogueContent:
-  - sentence: "Voce fez a miss\xE3o!"
+  - sentence: "Voc\xEA conseguiu de novo, Niara."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Eu vejo o seu progresso, voc\xEA est\xE1 crescendo. Esta \xE9 a sua
+      recompensa, espero que ajude."
     icon: {fileID: 0}
     audio: {fileID: 0}

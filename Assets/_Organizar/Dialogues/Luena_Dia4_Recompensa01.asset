@@ -15,6 +15,14 @@ MonoBehaviour:
   dialogueName: Luena_Dia4_Recompensa01
   dialogueId: 12
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "Vejo que est\xE1 muito confiante para seu pr\xF3ximo confronto, j\xE1
+      que ainda n\xE3o fez o que eu pedi."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Se for isso, n\xE3o temos mais do que tratar. S\xF3 venha me ver de
+      novo quando terminar seu treino."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Caso cumpra, sua for\xE7a vai melhorar!"
     icon: {fileID: 0}
     audio: {fileID: 0}

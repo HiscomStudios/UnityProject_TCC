@@ -15,6 +15,11 @@ MonoBehaviour:
   dialogueName: Adumi_Dia02_Recompensa01
   dialogueId: 6
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "Olha, Niara, sei que n\xE3o se importa em seguir as regras da vila,
+      mas ao contr\xE1rio de voc\xEA, eu tenho coisas importantes para fazer."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: Volte quando tiver o que eu pedi, porque agora eu tenho mais o que
+      fazer.
     icon: {fileID: 0}
     audio: {fileID: 0}

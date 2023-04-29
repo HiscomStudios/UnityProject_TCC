@@ -15,7 +15,12 @@ MonoBehaviour:
   dialogueName: "Adumi_Dia02_Miss\xE3o01"
   dialogueId: 5
   dialogueContent:
-  - sentence: "Buscar um peda\xE7o de Aloe Vera na floresta at\xE9 o final do dia
-      para aumentar a defesa"
+  - sentence: "\xC9 s\xE9rio que nem o b\xE1sico voc\xEA consegue fazer? Era s\xF3
+      n\xE3o ir enfrentar uma entidade sozinha, mas talvez voc\xEA n\xE3o seja t\xE3o
+      evolu\xEDda como eu."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Que tal dessa vez voc\xEA fazer algo de \xFAtil e me trazer um peda\xE7o
+      Babosa, e quem sabe eu n\xE3o te ajude para sua pr\xF3xima batalha."
     icon: {fileID: 0}
     audio: {fileID: 0}
