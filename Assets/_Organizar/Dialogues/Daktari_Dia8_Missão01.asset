@@ -15,6 +15,11 @@ MonoBehaviour:
   dialogueName: "Daktari_Dia8_Miss\xE3o01"
   dialogueId: 25
   dialogueContent:
-  - sentence: Converse comigo e te darei dicas sobre a batalha do Boss.
+  - sentence: "O final est\xE1 pr\xF3ximo, crian\xE7a. Sei que voc\xEA j\xE1 sofreu
+      perdas irrepar\xE1veis at\xE9 aqui, mas continue firme e ven\xE7a L\xE8nmi."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Se quiser, te darei uma \xFAltima conversa antes da sua pr\xF3xima
+      luta e um \xFAltimo lampejo da minha finita sabedoria."
     icon: {fileID: 0}
     audio: {fileID: 0}

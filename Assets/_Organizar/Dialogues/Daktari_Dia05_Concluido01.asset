@@ -15,6 +15,8 @@ MonoBehaviour:
   dialogueName: Daktari_Dia05_Concluido01
   dialogueId: 18
   dialogueContent:
-  - sentence: "Voce fez a miss\xE3o!"
+  - sentence: "Espero que este amuleto te proteja, crian\xE7a. Use-o com orgulho,
+      mas n\xE3o confie apenas no presente, s\xE3o suas habilidades que mostraram
+      quem voc\xEA \xE9 no campo de batalha."
     icon: {fileID: 0}
     audio: {fileID: 0}

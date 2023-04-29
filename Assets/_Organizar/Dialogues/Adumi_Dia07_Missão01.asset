@@ -15,7 +15,11 @@ MonoBehaviour:
   dialogueName: "Adumi_Dia07_Miss\xE3o01"
   dialogueId: 22
   dialogueContent:
-  - sentence: "Buscar um peda\xE7o de Aloe Vera na floresta at\xE9 o final do dia
-      para aumentar a defesa"
+  - sentence: "Essa ser\xE1 a sua \xFAltima chance de nos salvar\u2026 V\xEA se n\xE3o
+      faz muita besteira dessa vez."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Me traga um peda\xE7o de Babosa e eu te ajudo com minhas incr\xEDveis
+      habilidades superiores."
     icon: {fileID: 0}
     audio: {fileID: 0}

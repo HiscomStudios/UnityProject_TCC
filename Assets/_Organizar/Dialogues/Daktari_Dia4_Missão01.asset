@@ -15,6 +15,13 @@ MonoBehaviour:
   dialogueName: "Daktari_Dia4_Miss\xE3o01"
   dialogueId: 9
   dialogueContent:
-  - sentence: Converse comigo e te darei dicas sobre a batalha do Boss.
+  - sentence: "Ol\xE1, Niara."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Sinto muito pela derrota, mas devemos continuar trabalhando e n\xE3o
+      nos deixar abalar."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Venha comigo, vou te mostrar algo que a Grande M\xE3e me revelou."
     icon: {fileID: 0}
     audio: {fileID: 0}

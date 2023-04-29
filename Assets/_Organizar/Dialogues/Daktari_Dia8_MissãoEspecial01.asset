@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: "Daktari_Dia8_Miss\xE3oEspecial01"
   dialogueId: 26
   dialogueContent:
-  - sentence: Converse comigo e te darei um amuleto.
+  - sentence: Demorou mas finalmente consegui terminar o presente que eu lhe prometi.
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Venha comigo Niara, para que eu possa te entregar um presente aben\xE7oado
+      pela pr\xF3pria Grande M\xE3e."
     icon: {fileID: 0}
     audio: {fileID: 0}

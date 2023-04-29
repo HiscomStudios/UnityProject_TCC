@@ -15,6 +15,11 @@ MonoBehaviour:
   dialogueName: "Daktari_Dia05_Miss\xE3o01"
   dialogueId: 16
   dialogueContent:
-  - sentence: "Encontre um trevo de quatro-folhas na floresta e entregue ao Anci\xE3o"
+  - sentence: "Vejo que seus treinos com Luena est\xE3o trazendo resultados. Mas
+      uma luta n\xE3o \xE9 feita apenas de ataques."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: Busque para mim um Trevo de Quatro-Folhas e eu mostrarei que esse velho
+      ainda tem umas cartas na manga.
     icon: {fileID: 0}
     audio: {fileID: 0}

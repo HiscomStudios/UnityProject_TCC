@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: Daktari_Dia05_Recompensa01
   dialogueId: 17
   dialogueContent:
-  - sentence: "Estou esperando voc\xEA fazer a minha miss\xE3o"
+  - sentence: "Est\xE1 tendo dificuldades para encontrar o que eu pedi? Se precisar
+      de mais tempo, eu entendo."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Mas, assim que conseguir pegar, me traga o mais r\xE1pido poss\xEDvel."
     icon: {fileID: 0}
     audio: {fileID: 0}

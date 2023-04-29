@@ -15,6 +15,10 @@ MonoBehaviour:
   dialogueName: Adumi_Dia02_Concluido01
   dialogueId: 7
   dialogueContent:
-  - sentence: "Voce fez a miss\xE3o!"
+  - sentence: "Pelo menos para isso voc\xEA serve."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Agora\u2026 Como estou me sentindo particularmente bondosa, vou te
+      dar essa recompensa para sua pr\xF3xima luta."
     icon: {fileID: 0}
     audio: {fileID: 0}

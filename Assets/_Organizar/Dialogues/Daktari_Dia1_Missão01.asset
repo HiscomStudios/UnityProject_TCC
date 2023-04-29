@@ -15,6 +15,16 @@ MonoBehaviour:
   dialogueName: "Daktari_Dia1_Miss\xE3o01"
   dialogueId: 4
   dialogueContent:
-  - sentence: Converse comigo e te darei dicas sobre a batalha do Boss.
+  - sentence: "Ou\xE7a crian\xE7a, suas atitudes n\xE3o foram corretas, \xE9 verdade,
+      mas seu cora\xE7\xE3o e a inten\xE7\xE3o foram puras e boas."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Devido a isso, n\xE3o lamente mais o passado, mas aproveite a d\xE1diva
+      do presente para n\xE3o errar mais."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Conhecer o advers\xE1rio \xE9 muito importante, sente comigo e ou\xE7a
+      o que eu sei sobre L\xE8nmi. Dessa forma, saber\xE1 alguns dos seus pontos
+      fracos e fortes."
     icon: {fileID: 0}
     audio: {fileID: 0}
