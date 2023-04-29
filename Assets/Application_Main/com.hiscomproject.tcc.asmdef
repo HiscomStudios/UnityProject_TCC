@@ -1,0 +1,16 @@
+{
+    "name": "com.hiscomproject.tcc",
+    "rootNamespace": "HiscomProject",
+    "references": [
+        "GUID:f57687fb2c802834094b76be4bd698a1"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
