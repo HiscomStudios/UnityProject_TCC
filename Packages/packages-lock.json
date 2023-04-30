@@ -5,11 +5,12 @@
       "depth": 0,
       "source": "git",
       "dependencies": {
-        "com.unity.nuget.newtonsoft-json": "1.1.1",
         "com.unity.textmeshpro": "1.1.1",
-        "com.unity.inputsystem": "1.1.1"
+        "com.unity.inputsystem": "1.1.1",
+        "com.unity.visualscripting": "1.1.1",
+        "com.unity.nuget.newtonsoft-json": "1.1.1"
       },
-      "hash": "54251a5e0df0c4bf20cba6b70a6a6a182f57afb6"
+      "hash": "23630ab0563b85fb3795ee6b200e032c8433736a"
     },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
