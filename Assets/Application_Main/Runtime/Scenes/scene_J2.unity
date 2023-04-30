@@ -31465,7 +31465,7 @@ MonoBehaviour:
     season: 0
     seasonObject: {fileID: 1484937434}
     baseDay:
-      duration: 15
+      duration: 30
       timescale: 0
       hourViews:
       - hourValue: 6
@@ -31511,137 +31511,157 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 0.2
       color: {r: 1, g: 0.5882353, b: 0.24313726, a: 1}
     - name: Sun
       hourView:
         hourValue: 7
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 2.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 8
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 3.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 9
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 4.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 10
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 5.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 11
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 6.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 12
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 7.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 13
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 7
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 14
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 6.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 15
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 6
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 16
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 5.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 17
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 4.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 18
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 5
       color: {r: 0.98039216, g: 0.35686275, b: 0.17254902, a: 1}
     - name: Sun
       hourView:
         hourValue: 19
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 3
       color: {r: 0.59607846, g: 0.29803923, b: 0.21176471, a: 1}
     - name: Sun
       hourView:
         hourValue: 20
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 4
       color: {r: 0.59607846, g: 0.28627452, b: 0.70980394, a: 1}
     - name: Sun
       hourView:
         hourValue: 21
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 4
       color: {r: 0.45490196, g: 0.5411765, b: 0.79607844, a: 1}
     - name: Sun
       hourView:
         hourValue: 22
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 3
       color: {r: 0.3137255, g: 0.41960785, b: 0.7294118, a: 1}
     - name: Sun
       hourView:
         hourValue: 23
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 0.5
       color: {r: 0, g: 0, b: 0, a: 1}
     - name: Sun
       hourView:
         hourValue: 0
         minutesValue: 0
-      reference: {fileID: 2015280083}
+      reference: {fileID: 942281291}
       intensity: 0
       color: {r: 0, g: 0, b: 0, a: 1}
   multipleSeasons: []
-  eventDataViews: []
+  eventDataViews:
+  - name: Day 2
+    id: 2
+    onHourReachedEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1484937434}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    hourView:
+      hourValue: 6
+      minutesValue: 0
   yearsTMP: {fileID: 0}
   monthsTMP: {fileID: 0}
   seasonsTMP: {fileID: 0}
