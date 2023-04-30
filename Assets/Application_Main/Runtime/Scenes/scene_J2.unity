@@ -362,6 +362,52 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8209a6d85a8d874581e25aaa957b02d, type: 3}
+--- !u!1 &10515460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10515461}
+  - component: {fileID: 10515462}
+  m_Layer: 0
+  m_Name: Cursor Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &10515461
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10515460}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1194742890}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &10515462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10515460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa7890f80c7b9e4da162479ff0901dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorIcon: {fileID: 0}
+  cursorLockMode: 1
 --- !u!1 &11077610
 GameObject:
   m_ObjectHideFlags: 0
@@ -5048,7 +5094,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &171242196
 MonoBehaviour:
@@ -6687,7 +6733,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232905694}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.797, y: 0.008, z: -0.019}
+  m_LocalPosition: {x: 0.77, y: 0, z: -0.019}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8872,7 +8918,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &299851448
 Transform:
   m_ObjectHideFlags: 0
@@ -16852,8 +16898,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1832663965
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 298e1b0b3a294f743a82105fa6c23779, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -19926,7 +19972,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &744338823 stripped
 Transform:
@@ -29902,7 +29948,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1136909576}
   m_Layer: 0
-  m_Name: Movent Reference
+  m_Name: _movementReference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31360,6 +31406,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 10515461}
   - {fileID: 2072497159}
   - {fileID: 2069217098}
   - {fileID: 743495365}
@@ -31418,40 +31465,14 @@ MonoBehaviour:
   showHours: 0
   onDayStartedEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1200476067}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
-          com.thehiscomgameengine.openworld
-        m_MethodName: StartDay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   onDayEndedEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1200476067}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
-          com.thehiscomgameengine.openworld
-        m_MethodName: EndDay
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1200476067}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
-          com.thehiscomgameengine.openworld
-        m_MethodName: StartDay
+      - m_Target: {fileID: 1406276882}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.Effects.Runtime.Scripts.Patterns.MVC.Views.FadeUIEffectView,
+          com.thehiscomgameengine.addons.interface
+        m_MethodName: Effect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -31465,8 +31486,8 @@ MonoBehaviour:
     season: 0
     seasonObject: {fileID: 1484937434}
     baseDay:
-      duration: 30
-      timescale: 0
+      duration: 2
+      timescale: 1
       hourViews:
       - hourValue: 6
         minutesValue: 0
@@ -31641,27 +31662,7 @@ MonoBehaviour:
       intensity: 0
       color: {r: 0, g: 0, b: 0, a: 1}
   multipleSeasons: []
-  eventDataViews:
-  - name: Day 2
-    id: 2
-    onHourReachedEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1484937434}
-          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-    hourView:
-      hourValue: 6
-      minutesValue: 0
+  eventDataViews: []
   yearsTMP: {fileID: 0}
   monthsTMP: {fileID: 0}
   seasonsTMP: {fileID: 0}
@@ -31680,7 +31681,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1200751386
 GameObject:
@@ -37121,6 +37122,187 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &1406276878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1818104843}
+    m_Modifications:
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 732709734135464805, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+      propertyPath: m_Name
+      value: pf_FadeCanvasGroup
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+--- !u!224 &1406276879 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+  m_PrefabInstance: {fileID: 1406276878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1406276880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 732709734135464805, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
+  m_PrefabInstance: {fileID: 1406276878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1406276881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406276880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06e0f87a8a04e72b3c3baa4ceb6bcde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToExecuteBeforeEffect:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterEffect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1200476067}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
+          com.thehiscomgameengine.openworld
+        m_MethodName: StartDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  effectInitialDelay: 1
+  effectSpeed: 2
+  preActionExecutionDelay: 0
+  postActionExecutionDelay: 0
+  executeOnStart: 1
+  fadeDirection: 0
+--- !u!114 &1406276882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406276880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06e0f87a8a04e72b3c3baa4ceb6bcde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToExecuteBeforeEffect:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteAfterEffect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1200476067}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.OpenWorld.Runtime.Scripts.Patterns.MMVCC.Controllers.RoutineController,
+          com.thehiscomgameengine.openworld
+        m_MethodName: EndDay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  effectInitialDelay: 0
+  effectSpeed: 2
+  preActionExecutionDelay: 0
+  postActionExecutionDelay: 1
+  executeOnStart: 0
+  fadeDirection: 1
 --- !u!1001 &1407663997
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42396,7 +42578,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1581224902
 GameObject:
@@ -47187,7 +47369,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1802316370
 GameObject:
@@ -47972,6 +48154,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1552111923}
+  - {fileID: 1406276879}
   m_Father: {fileID: 1782158373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -54861,7 +55044,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2071293665
 PrefabInstance:
@@ -54975,7 +55158,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1194742890}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2073984721
 PrefabInstance:
