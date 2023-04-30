@@ -8,6 +8,8 @@ TagManager:
   - Inimigo
   - Collider
   - IA
+  - NPC
+  - Scenario
   layers:
   - Default
   - TransparentFX
