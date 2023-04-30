@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 458228593920851945}
   - component: {fileID: 6350717989610449450}
   - component: {fileID: 1091871956264659262}
-  - component: {fileID: 1087560401955196334}
+  - component: {fileID: 4465024656047720997}
   m_Layer: 20
   m_Name: pf_Bullet
   m_TagString: Bala
@@ -131,7 +131,7 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1087560401955196334
+--- !u!114 &4465024656047720997
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priority: 8
+  priority: 0
   timerToWaitBeforeExecutingAction: 0
   repeatEvent: 0
   executeOnEnable: 0
@@ -171,8 +171,8 @@ MonoBehaviour:
   - Inimigo
   - NPC
   - Scenario
-  executeOnEnter: 0
-  executeOnStay: 1
+  executeOnEnter: 1
+  executeOnStay: 0
   executeOnExit: 0
   eventToExecuteOnEnter:
     m_PersistentCalls:
