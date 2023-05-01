@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Application_Main/Runtime/Scenes/scene_J2.unity
     guid: e64a9a99d5cc20f45b9241d4542fe5e5
+  - enabled: 1
+    path: Assets/Application_Main/Runtime/Scenes/TestScene.unity
+    guid: 83775be9c100e504daa96de22bcf412c
   m_configObjects: {}
