@@ -35,20 +35,25 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Controllers
 
         public void KillRandomNPC()
         {
-            KillNPC(Random.Range(0, _spawnedNPCs.Count));
+            KillNPC(HP_NPCSpawnManager.Instance.sessionNPCs[Random.Range(0, _spawnedNPCs.Count)]);
         }
 
-        public void KillNPC(int npcToKillID)
+        public void KillNPC(string npcID)
         {
-            foreach (var npc in HP_NPCSpawnManager.Instance.sessionNPCs.Where(npc => npc == _spawnedNPCs[npcToKillID].GetID))
+            foreach (var npc in HP_NPCSpawnManager.Instance.sessionNPCs.Where(npc => npc == npcID))
             {
                 HP_NPCSpawnManager.Instance.sessionNPCs.Remove(npc);
                 break;
             }
             
-            _spawnedNPCs[npcToKillID].gameObject.SetActive(false);
+            foreach (var npc in _spawnedNPCs.Where(n => n.GetID == npcID))
+            {
+                if (npc.GetID != npcID) continue;
+                npc.gameObject.SetActive(false);
+                _spawnedNPCs.Remove(npc);
+            }
         }
-        
+
         public void SaveNPCs()
         {
             HP_NPCSpawnManager.Instance.Save();
