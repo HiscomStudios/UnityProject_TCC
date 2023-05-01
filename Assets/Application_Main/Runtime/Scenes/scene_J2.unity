@@ -851,7 +851,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &29328634
 Transform:
   m_ObjectHideFlags: 0
@@ -4393,7 +4393,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 635118037}
   - {fileID: 1120969960}
   - {fileID: 1168414648}
   - {fileID: 1502740509}
@@ -14713,6 +14712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   quests:
   - {fileID: 866219939}
+  - {fileID: 644778285}
+  - {fileID: 1072609622}
 --- !u!1 &537913438
 GameObject:
   m_ObjectHideFlags: 0
@@ -16964,50 +16965,6 @@ Transform:
   m_Father: {fileID: 19861367}
   m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
---- !u!1 &635118036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 635118037}
-  - component: {fileID: 635118038}
-  m_Layer: 0
-  m_Name: Body Actions
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &635118037
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635118036}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 151744111}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &635118038
-MonoBehaviour:
-  m_ObjectHideFlags: 10
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 635118036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &635133767
 GameObject:
   m_ObjectHideFlags: 0
@@ -17332,6 +17289,8 @@ GameObject:
   - component: {fileID: 644778283}
   - component: {fileID: 644778282}
   - component: {fileID: 644778281}
+  - component: {fileID: 644778285}
+  - component: {fileID: 644778284}
   m_Layer: 10
   m_Name: event_Recompensa1
   m_TagString: Untagged
@@ -17435,6 +17394,36 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &644778284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644778279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e60d7bc9bc0706468ca53eac3eacdca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 401
+  questController: {fileID: 534742237}
+--- !u!114 &644778285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644778279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12d71b30a3449039c9ea8bc0cf6c273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 401
+  hybridUpdateRate: 0.1
+  notificationToReceive: RatoMorto
+  amountOfEnemiesToKill: 5
 --- !u!1 &651479912
 GameObject:
   m_ObjectHideFlags: 0
@@ -19235,7 +19224,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &736692025
 GameObject:
@@ -21584,7 +21573,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 816953623}
-  - component: {fileID: 816953625}
   - component: {fileID: 816953624}
   m_Layer: 10
   m_Name: "event_Confirma\xE7\xE3o1"
@@ -21626,7 +21614,7 @@ MonoBehaviour:
   executeOnEnable: 1
   executeOnStart: 0
   eventConditions:
-  - {fileID: 816953625}
+  - {fileID: 644778284}
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
@@ -21643,14 +21631,15 @@ MonoBehaviour:
           m_StringArgument: Luena_Dia4_Concluido01
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1952777924}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.Inventory.Runtime.Scripts.Patterns.MVC.Controllers.InventoryController,
+      - m_Target: {fileID: 1952777925}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
           com.thehiscomgameengine.addons.charactercontrolling
-        m_MethodName: UseObject
-        m_Mode: 1
+        m_MethodName: ModifyStat
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1952777932}
+          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
+            com.thehiscomgameengine.addons.charactercontrolling
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -21696,21 +21685,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &816953625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816953622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c195bac187f2dde428e8915c79853210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryController: {fileID: 1952777924}
-  idsToCheck:
-  - obj_Almas
 --- !u!1001 &823552436
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22748,7 +22722,7 @@ MonoBehaviour:
   id: 101
   hybridUpdateRate: 0.1
   notificationToReceive: RatoMorto
-  amountOfEnemiesToKill: 1
+  amountOfEnemiesToKill: 3
 --- !u!1 &867787273
 GameObject:
   m_ObjectHideFlags: 0
@@ -27864,6 +27838,8 @@ GameObject:
   - component: {fileID: 1072609621}
   - component: {fileID: 1072609620}
   - component: {fileID: 1072609619}
+  - component: {fileID: 1072609622}
+  - component: {fileID: 1072609623}
   m_Layer: 10
   m_Name: event_Recompensa1
   m_TagString: Untagged
@@ -27967,6 +27943,36 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1072609622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072609617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12d71b30a3449039c9ea8bc0cf6c273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 701
+  hybridUpdateRate: 0.1
+  notificationToReceive: RatoMorto
+  amountOfEnemiesToKill: 10
+--- !u!114 &1072609623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072609617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e60d7bc9bc0706468ca53eac3eacdca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 701
+  questController: {fileID: 534742237}
 --- !u!1 &1075941486
 GameObject:
   m_ObjectHideFlags: 0
@@ -28503,9 +28509,9 @@ MonoBehaviour:
           m_StringArgument: "Luena_Dia4_Miss\xE3o01"
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 644778279}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -28515,10 +28521,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 644778279}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 644778285}
+        m_TargetAssemblyTypeName: HiscomEngine.QuestView, com.thehiscomgameengine.core
+        m_MethodName: StartQuest
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -29147,7 +29153,7 @@ Transform:
   - {fileID: 1666953614}
   - {fileID: 1085996579}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1120969961
 MonoBehaviour:
@@ -30458,7 +30464,7 @@ Transform:
   - {fileID: 1382063133}
   - {fileID: 208764410}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1170732763
 GameObject:
@@ -39384,7 +39390,7 @@ Transform:
   m_Children:
   - {fileID: 1834842505}
   m_Father: {fileID: 151744111}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 55, y: 0, z: 0}
 --- !u!4 &1503632138 stripped
 Transform:
@@ -42492,7 +42498,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1595967251}
-  - component: {fileID: 1595967253}
   - component: {fileID: 1595967252}
   m_Layer: 10
   m_Name: "event_Confirma\xE7\xE3o1"
@@ -42534,7 +42539,7 @@ MonoBehaviour:
   executeOnEnable: 1
   executeOnStart: 0
   eventConditions:
-  - {fileID: 1595967253}
+  - {fileID: 1072609623}
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
@@ -42551,14 +42556,15 @@ MonoBehaviour:
           m_StringArgument: Luena_Dia7_Concluido01
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1952777924}
-        m_TargetAssemblyTypeName: HiscomEngine.Addons.Inventory.Runtime.Scripts.Patterns.MVC.Controllers.InventoryController,
+      - m_Target: {fileID: 1952777925}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
           com.thehiscomgameengine.addons.charactercontrolling
-        m_MethodName: UseObject
-        m_Mode: 1
+        m_MethodName: ModifyStat
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1952777931}
+          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
+            com.thehiscomgameengine.addons.charactercontrolling
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -42604,21 +42610,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1595967253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1595967250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c195bac187f2dde428e8915c79853210, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventoryController: {fileID: 1952777924}
-  idsToCheck:
-  - obj_Almas
 --- !u!4 &1600562392 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4676229738415074684, guid: 40f5b3f156ac72c4db22c40c4143b054, type: 3}
@@ -47599,7 +47590,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1818104843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -48586,10 +48577,10 @@ MonoBehaviour:
           m_StringArgument: "Luena_Dia7_Miss\xE3o01"
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: 
-        m_Mode: 6
+      - m_Target: {fileID: 1072609622}
+        m_TargetAssemblyTypeName: HiscomEngine.QuestView, com.thehiscomgameengine.core
+        m_MethodName: StartQuest
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -50884,6 +50875,8 @@ GameObject:
   - component: {fileID: 1952777926}
   - component: {fileID: 1952777929}
   - component: {fileID: 1952777930}
+  - component: {fileID: 1952777932}
+  - component: {fileID: 1952777931}
   m_Layer: 10
   m_Name: obj_Player
   m_TagString: Player
@@ -51153,6 +51146,40 @@ MonoBehaviour:
   statId: 2
   statsController: {fileID: 1952777925}
   valueToCompare: 0
+--- !u!114 &1952777931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952777918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useStatValue: 1
+  targetStatID: 1
+  modifierValue: -10
+  defaultStatID: 0
+  defaultStatsController: {fileID: 0}
+--- !u!114 &1952777932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952777918}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useStatValue: 1
+  targetStatID: 1
+  modifierValue: -5
+  defaultStatID: 0
+  defaultStatsController: {fileID: 0}
 --- !u!4 &1952949372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4676229738415074684, guid: 40f5b3f156ac72c4db22c40c4143b054, type: 3}
@@ -55750,6 +55777,50 @@ Transform:
   m_Father: {fileID: 19861367}
   m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
+--- !u!1 &2133096067
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2133096069}
+  - component: {fileID: 2133096068}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!114 &2133096068
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133096067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2133096069
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133096067}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2135528847
 GameObject:
   m_ObjectHideFlags: 0
