@@ -5231,8 +5231,6 @@ GameObject:
   - component: {fileID: 150193083}
   - component: {fileID: 150193085}
   - component: {fileID: 150193084}
-  - component: {fileID: 150193088}
-  - component: {fileID: 150193087}
   m_Layer: 0
   m_Name: _selfDamageModifier
   m_TagString: Untagged
@@ -5304,40 +5302,6 @@ MonoBehaviour:
   useStatValue: 1
   targetStatID: 2
   modifierValue: -5
-  defaultStatID: 0
-  defaultStatsController: {fileID: 0}
---- !u!114 &150193087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150193081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useStatValue: 1
-  targetStatID: 1
-  modifierValue: 10
-  defaultStatID: 0
-  defaultStatsController: {fileID: 0}
---- !u!114 &150193088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 150193081}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  useStatValue: 1
-  targetStatID: 1
-  modifierValue: 4
   defaultStatID: 0
   defaultStatsController: {fileID: 0}
 --- !u!1001 &150338027
@@ -18269,7 +18233,7 @@ MonoBehaviour:
         m_MethodName: ModifyStat
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 150193088}
+          m_ObjectArgument: {fileID: 975058771}
           m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
             com.thehiscomgameengine.addons.charactercontrolling
           m_IntArgument: 0
@@ -25982,7 +25946,7 @@ MonoBehaviour:
         m_MethodName: ModifyStat
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 150193088}
+          m_ObjectArgument: {fileID: 975058771}
           m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
             com.thehiscomgameengine.addons.charactercontrolling
           m_IntArgument: 0
@@ -35571,6 +35535,91 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971834269}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &975058767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 975058768}
+  - component: {fileID: 975058771}
+  - component: {fileID: 975058770}
+  - component: {fileID: 975058769}
+  m_Layer: 0
+  m_Name: _selfLifeModifier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &975058768
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975058767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1387703880}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &975058769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975058767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useStatValue: 1
+  targetStatID: 1
+  modifierValue: 10
+  defaultStatID: 0
+  defaultStatsController: {fileID: 0}
+--- !u!114 &975058770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975058767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useStatValue: 1
+  targetStatID: 1
+  modifierValue: 5
+  defaultStatID: 0
+  defaultStatsController: {fileID: 0}
+--- !u!114 &975058771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 975058767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45fde0b46b9dbb04088894149d706e8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useStatValue: 1
+  targetStatID: 1
+  modifierValue: 4
+  defaultStatID: 0
+  defaultStatsController: {fileID: 0}
 --- !u!1001 &976007237
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50588,6 +50637,7 @@ Transform:
   m_Children:
   - {fileID: 320135598}
   - {fileID: 150193082}
+  - {fileID: 975058768}
   m_Father: {fileID: 1952777921}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -68202,6 +68252,20 @@ MonoBehaviour:
           m_StringArgument: "so_Dialogue_Dia8DaktariMiss\xE3oEspecial1"
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1952777925}
+        m_TargetAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
+          com.thehiscomgameengine.addons.charactercontrolling
+        m_MethodName: ModifyStat
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 975058769}
+          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
+            com.thehiscomgameengine.addons.charactercontrolling
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1870362650}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -70389,7 +70453,7 @@ MonoBehaviour:
         m_MethodName: ModifyStat
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 150193087}
+          m_ObjectArgument: {fileID: 975058770}
           m_ObjectArgumentAssemblyTypeName: HiscomEngine.Addons.EntitiesControlling.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
             com.thehiscomgameengine.addons.charactercontrolling
           m_IntArgument: 0
