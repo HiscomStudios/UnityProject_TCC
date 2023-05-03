@@ -11288,10 +11288,6 @@ PrefabInstance:
       propertyPath: pathController
       value: 
       objectReference: {fileID: 655453809}
-    - target: {fileID: 4627629617795775880, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
-      propertyPath: pathToFollowID
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Name
       value: pf_Rato
@@ -39809,7 +39805,7 @@ MonoBehaviour:
   movementAnimator: {fileID: 0}
   defaultAnimationClip: {fileID: 0}
   movementAnimationClip: {fileID: 0}
-  movementForce: 50
+  movementForce: 1000
   directionalX: 0
   directionalY: 0
   directionalZ: 0
