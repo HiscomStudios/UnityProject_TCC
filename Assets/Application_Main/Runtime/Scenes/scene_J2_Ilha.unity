@@ -56347,10 +56347,10 @@ MonoBehaviour:
   flagsController: {fileID: 1591446866}
   flagName: _isDialogueStarted
   flagType: 0
-  flagBooleanOperator: 1
+  flagBooleanOperator: 0
   flagFloatOperator: 0
   flagStringOperator: 0
-  flagBooleanValue: 1
+  flagBooleanValue: 0
   flagFloatValue: 0
   flagStringValue: 
 --- !u!1 &1550253303
