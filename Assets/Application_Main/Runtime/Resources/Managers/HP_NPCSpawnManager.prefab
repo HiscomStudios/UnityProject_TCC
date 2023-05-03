@@ -46,11 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 762c4ec6425db7847bf38f8cac05b97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableNPCs:
-  - obj_Luena
-  - obj_Daktari
-  - obj_Adumi
-  sessionNPCs: []
+  availableNpcs: []
+  sessionNpcs: []
 --- !u!114 &2683945977966640344
 MonoBehaviour:
   m_ObjectHideFlags: 0

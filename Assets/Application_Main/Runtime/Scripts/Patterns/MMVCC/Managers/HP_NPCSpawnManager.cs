@@ -1,32 +1,38 @@
-namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
+namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
 {
     using System;
     using System.Collections.Generic;
     using UnityEngine;
     using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Connectors;
     using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers;
-
+    using Views;
+    
     public class HP_NPCSpawnManager : MonoBehaviour
     {
         #region Variables
 
-        #region Private Variables
-        
-        public List<string> availableNPCs;
-        public List<string> sessionNPCs;
+        #region Protected Variables
 
-        private DataController dataController;
-        private DataConnector dataConnector;
+        [SerializeField] protected List<string> availableNpcs, sessionNpcs;
+        protected DataController dataController;
+        protected DataConnector dataConnector;
         
+        #endregion
+
+        #region Public Variables
+
+        public List<string> GetAvailableNpcs => availableNpcs;
+        public List<string> GetSessionNpcs => sessionNpcs;
+
         #endregion
 
         #endregion
 
         #region Methods
 
-        #region Private Methods
+        #region Protected Methods
 
-        private void Awake()
+        protected void Awake()
         {
             dataController = gameObject.GetComponent<DataController>();
             dataConnector = gameObject.GetComponent<DataConnector>();
@@ -49,25 +55,23 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Managers
                 dataController.QueueToLoad(dataConnector);
                 dataController.Load(dataConnector);
             }
-            catch (Exception e) {/* ignored */}
+            catch (Exception) {/* ignored */}
         }
 
         public void OnLoadSuccess()
         {
-            availableNPCs = sessionNPCs;
+            availableNpcs = sessionNpcs;
+            sessionNpcs = new List<string>();
             
-            sessionNPCs = new List<string>();
-            
-            foreach (var availableNPC in availableNPCs)
-                sessionNPCs.Add(availableNPC);
+            foreach (var availableNpc in availableNpcs)
+                sessionNpcs.Add(availableNpc);
         }
-        
         public void OnLoadFail()
         {
-            sessionNPCs = new List<string>();
+            sessionNpcs = new List<string>();
             
-            foreach (var availableNPC in availableNPCs)
-                sessionNPCs.Add(availableNPC);
+            foreach (var availableNpc in availableNpcs)
+                sessionNpcs.Add(availableNpc);
         }
 
         #endregion
