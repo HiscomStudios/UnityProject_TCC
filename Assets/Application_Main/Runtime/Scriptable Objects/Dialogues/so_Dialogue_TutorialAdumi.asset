@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
+  m_Name: so_Dialogue_TutorialAdumi
+  m_EditorClassIdentifier: 
+  dialogueName: so_Dialogue_TutorialAdumi
+  dialogueId: 26
+  dialogueContent:
+  - sentence: "J\xE1 estou ajudando Daktari com os estudos desse mau que assola a
+      ilha."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Melhor voc\xEA se colocar no seu lugar e esperar aqui."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
