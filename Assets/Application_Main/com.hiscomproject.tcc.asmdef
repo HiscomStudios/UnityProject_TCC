@@ -2,7 +2,8 @@
     "name": "com.hiscomproject.tcc",
     "rootNamespace": "HiscomProject",
     "references": [
-        "GUID:f57687fb2c802834094b76be4bd698a1"
+        "GUID:f38b1867a84242b4bb350df59b54ef2d",
+        "GUID:ad4ea8c12b60e734aa197c0c96163f05"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
