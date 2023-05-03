@@ -3350,8 +3350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: obj_Luena
-  npcName: 
-  splashArtSprite: {fileID: 0}
+  npcName: Luena
+  splashArtSprite: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
 --- !u!1001 &84623107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6609,6 +6609,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6648,7 +6656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 148.2
+      value: 148.20001
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6681,7 +6689,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -9600,6 +9608,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -9631,7 +9647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 178.1
+      value: 178.10004
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9664,7 +9680,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
 --- !u!4 &200864364 stripped
@@ -13956,6 +13972,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -13979,7 +14003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Name
-      value: pf_Rato (4)
+      value: pf_Rato
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_RootOrder
@@ -13991,11 +14015,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.5000076
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 158.41
+      value: 158.41003
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -14028,7 +14052,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -16184,6 +16208,7 @@ GameObject:
   - component: {fileID: 358875714}
   - component: {fileID: 358875713}
   - component: {fileID: 358875717}
+  - component: {fileID: 358875718}
   m_Layer: 10
   m_Name: event_Recompensa1
   m_TagString: Untagged
@@ -16324,6 +16349,22 @@ MonoBehaviour:
   flagBooleanValue: 0
   flagFloatValue: 0
   flagStringValue: 
+--- !u!114 &358875718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358875711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f90f5ea9d30a0b4fa2d014340e73611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 701
+  hybridUpdateRate: 0.1
+  notificationToReceive: notification_EnemyRatoDied
+  amountOfEnemiesToKill: 9
 --- !u!1001 &359004837
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16796,6 +16837,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -16819,7 +16868,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Name
-      value: pf_Rato (2)
+      value: pf_Rato
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_RootOrder
@@ -16835,7 +16884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 161.85
+      value: 161.85002
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16868,7 +16917,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -21041,6 +21090,7 @@ GameObject:
   - component: {fileID: 460857176}
   - component: {fileID: 460857174}
   - component: {fileID: 460857175}
+  - component: {fileID: 460857179}
   m_Layer: 10
   m_Name: event_Recompensa1
   m_TagString: Untagged
@@ -21181,6 +21231,22 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &460857179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460857172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f90f5ea9d30a0b4fa2d014340e73611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 101
+  hybridUpdateRate: 0.1
+  notificationToReceive: notification_RatoEnemyDied
+  amountOfEnemiesToKill: 3
 --- !u!1001 &461407055
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24702,9 +24768,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quests:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 460857179}
+  - {fileID: 1111544411}
+  - {fileID: 358875718}
 --- !u!1001 &535773832
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26362,6 +26428,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -26401,7 +26475,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 244.4
+      value: 244.40002
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26434,7 +26508,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -39422,6 +39496,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -39457,11 +39539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.5000038
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 118.5
+      value: 118.500015
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -39494,7 +39576,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -44696,7 +44778,7 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 743495364}
         m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.NavigatorController,
           com.thehiscomgameengine.core
         m_MethodName: LoadSingleScene
@@ -44704,7 +44786,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -45073,7 +45155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugFlagValue: 0
-  flagsController: {fileID: 0}
+  flagsController: {fileID: 1591446866}
   flagName: _isDialogueStarted
   flagType: 0
   flagBooleanOperator: 1
@@ -50315,6 +50397,7 @@ GameObject:
   - component: {fileID: 1111544407}
   - component: {fileID: 1111544406}
   - component: {fileID: 1111544410}
+  - component: {fileID: 1111544411}
   m_Layer: 10
   m_Name: event_Recompensa1
   m_TagString: Untagged
@@ -50455,6 +50538,22 @@ MonoBehaviour:
   flagBooleanValue: 0
   flagFloatValue: 0
   flagStringValue: 
+--- !u!114 &1111544411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1111544404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f90f5ea9d30a0b4fa2d014340e73611, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 401
+  hybridUpdateRate: 0.1
+  notificationToReceive: notification_EnemyRatoDied
+  amountOfEnemiesToKill: 5
 --- !u!1001 &1114310911
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -52895,19 +52994,6 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1581170447}
-        m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.LoggerController,
-          com.thehiscomgameengine.core
-        m_MethodName: LogMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Loaded
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 2069217097}
         m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
           com.thehiscomgameengine.core
@@ -55286,133 +55372,133 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 0.2
       color: {r: 1, g: 0.5882353, b: 0.24313726, a: 1}
     - name: Sun
       hourView:
         hourValue: 7
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 2.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 8
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 3.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 9
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 4.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 10
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 5.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 11
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 6.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 12
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 7.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 13
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 7
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 14
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 6.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 15
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 6
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 16
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 5.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 17
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 4.5
       color: {r: 1, g: 0.9098039, b: 0.7137255, a: 1}
     - name: Sun
       hourView:
         hourValue: 18
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 5
       color: {r: 0.98039216, g: 0.35686275, b: 0.17254902, a: 1}
     - name: Sun
       hourView:
         hourValue: 19
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 3
       color: {r: 0.59607846, g: 0.29803923, b: 0.21176471, a: 1}
     - name: Sun
       hourView:
         hourValue: 20
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 4
       color: {r: 0.59607846, g: 0.28627452, b: 0.70980394, a: 1}
     - name: Sun
       hourView:
         hourValue: 21
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 4
       color: {r: 0.45490196, g: 0.5411765, b: 0.79607844, a: 1}
     - name: Sun
       hourView:
         hourValue: 22
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 3
       color: {r: 0.3137255, g: 0.41960785, b: 0.7294118, a: 1}
     - name: Sun
       hourView:
         hourValue: 23
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 0.5
       color: {r: 0, g: 0, b: 0, a: 1}
     - name: Sun
       hourView:
         hourValue: 0
         minutesValue: 0
-      reference: {fileID: 0}
+      reference: {fileID: 838617879}
       intensity: 0
       color: {r: 0, g: 0, b: 0, a: 1}
   multipleSeasons: []
@@ -56468,7 +56554,7 @@ RectTransform:
   - {fileID: 278558442}
   - {fileID: 501682487}
   m_Father: {fileID: 1818104843}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -57771,6 +57857,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -57790,7 +57884,7 @@ PrefabInstance:
       objectReference: {fileID: 1979570790}
     - target: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Name
-      value: pf_Rato (1)
+      value: pf_Rato
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_RootOrder
@@ -57806,7 +57900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 172.63
+      value: 172.63002
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -57839,7 +57933,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -64612,7 +64706,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 732709734135464804, guid: 21ee10edcc8cf6e41a855a37cb1fb0cd, type: 3}
       propertyPath: m_AnchorMax.x
@@ -65001,8 +65095,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: obj_Daktari
-  npcName: 
-  splashArtSprite: {fileID: 0}
+  npcName: Daktari
+  splashArtSprite: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
 --- !u!1001 &1408636365
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66079,6 +66173,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -66102,7 +66204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Name
-      value: pf_Rato (3)
+      value: pf_Rato
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_RootOrder
@@ -66114,11 +66216,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.5000076
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 174.29
+      value: 174.29002
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -66151,7 +66253,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -75128,6 +75230,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -75167,7 +75277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 156.4
+      value: 156.40001
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -75200,7 +75310,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
@@ -84516,8 +84626,8 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1552111923}
-  - {fileID: 1223203873}
   - {fileID: 1406276879}
+  - {fileID: 1223203873}
   m_Father: {fileID: 1782158373}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -85500,8 +85610,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: obj_Adumi
-  npcName: 
-  splashArtSprite: {fileID: 0}
+  npcName: Adumi
+  splashArtSprite: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
 --- !u!1 &1829354237
 GameObject:
   m_ObjectHideFlags: 0
@@ -86161,6 +86271,14 @@ PrefabInstance:
     - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
+      objectReference: {fileID: 2069217097}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: notification_RatoEnemyDied
       objectReference: {fileID: 0}
     - target: {fileID: 4436555612812620012, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -86196,11 +86314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 2.5000076
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 167.3
+      value: 167.30003
       objectReference: {fileID: 0}
     - target: {fileID: 4627629618404653806, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -86233,7 +86351,7 @@ PrefabInstance:
     - target: {fileID: 4627629619883107636, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: m_Sources.Array.data[0].sourceTransform
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1136909576}
     - target: {fileID: 7359511527524317307, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: eventToExecuteOnEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
