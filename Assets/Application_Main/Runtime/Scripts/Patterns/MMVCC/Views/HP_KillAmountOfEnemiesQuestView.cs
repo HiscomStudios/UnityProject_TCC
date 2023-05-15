@@ -1,8 +1,8 @@
 namespace HiscomProject.Scripts.Patterns.MMVCC.Views
 {
     using UnityEngine;
-    using HiscomEngine;
-    using HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Managers;
+    using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views;
+    using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Managers;
     
     public class HP_KillAmountOfEnemiesQuestView : QuestView
     {
@@ -42,11 +42,11 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Views
         
         protected void AddObservers()
         {
-            NotificationManager.Instance.AddObserver(this, notificationToReceive, _ => KillEnemy());
+            NotificationManager.Instance.AddObserver(notificationToReceive, gameObject, (_, _) => KillEnemy());
         }
         protected void RemoveObservers()
         {
-            NotificationManager.Instance.RemoveObserver(this);
+            NotificationManager.Instance.RemoveObserver(gameObject);
         }
 
         #endregion
