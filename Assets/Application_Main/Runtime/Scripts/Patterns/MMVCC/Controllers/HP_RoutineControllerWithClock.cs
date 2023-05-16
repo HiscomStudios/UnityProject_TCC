@@ -1,3 +1,7 @@
+#if Months
+#if Seasons
+#if Days
+
 namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
 {
     using System.Collections;
@@ -33,3 +37,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         #endregion
     }
 }
+
+#endif
+#endif
+#endif

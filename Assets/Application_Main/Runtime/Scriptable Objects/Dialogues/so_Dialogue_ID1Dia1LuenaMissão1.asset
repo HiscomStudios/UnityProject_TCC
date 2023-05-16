@@ -15,16 +15,19 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia1LuenaMiss\xE3o1"
   dialogueId: 1
   dialogueContent:
-  - sentence: "Voc\xEA foi muito imprudente em ir enfrentar L\xE8nmi sozinha\u2026
+  - speakerId: 
+    sentence: "Voc\xEA foi muito imprudente em ir enfrentar L\xE8nmi sozinha\u2026
       Mas n\xE3o adianta mais lamentar o passado, agora voc\xEA precisa se preparar
       para o que vai enfrentar."
     icon: {fileID: 0}
     audio: {fileID: 0}
-  - sentence: "Como p\xF4de ver, suas habilidades de luta ainda n\xE3o s\xE3o o suficiente
+  - speakerId: 
+    sentence: "Como p\xF4de ver, suas habilidades de luta ainda n\xE3o s\xE3o o suficiente
       para derrotar L\xE8nmi."
     icon: {fileID: 0}
     audio: {fileID: 0}
-  - sentence: "Por isso, quero que mate tr\xEAs criaturas malignas de L\xE8nmi na
+  - speakerId: 
+    sentence: "Por isso, quero que mate tr\xEAs criaturas malignas de L\xE8nmi na
       Floresta. Assim que terminar isso, venha at\xE9 mim."
     icon: {fileID: 0}
     audio: {fileID: 0}
