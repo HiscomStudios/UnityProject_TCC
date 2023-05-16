@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
+  m_Name: so_Dialogue_ID27Dia1Tutorial_Luena1
+  m_EditorClassIdentifier: 
+  dialogueName: so_Dialogue_ID27Dia1Tutorial_Luena1
+  dialogueId: 27
+  dialogueContent:
+  - sentence: "N\xE3o fique irritada em frente ao Templo, Niara. Este local \xE9
+      onde temos nosso maior contato com a Grande M\xE3e, n\xE3o \xE9 local para
+      sua raivinha."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Voc\xEA est\xE1 certa, me desculpe."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Mas voc\xEA sabe como eu fico ansiosa para os nossos treinos, e voc\xEA
+      demorou hoje."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: ...
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "E voc\xEA sabe que eu sinto arrepios s\xF3 de ficar perto deste sino\u2026
+      Lembrar do que ele significa\u2026"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Eu entendo Niara, o sino serve para nos avisar quando algo de ruim
+      acontece em rela\xE7\xE3o a Zile Beni ou a um dos nossos"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Seu pai foi um grande guerreiro e a morte dele sempre ser\xE1 um lembrete
+      da crueldade do mundo fora da prote\xE7\xE3o da Grande M\xE3e"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: ...
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Mas, viemos aqui para melhorar o seu treino e evitar que mais trag\xE9dias
+      como essa aconte\xE7am. Vamos para a arena de treino ver se voc\xEA progrediu
+      em algo"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Hoje n\xF3s vamos finalmente treinar as t\xE9cnicas de ataque, Luena?"
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: "Suas t\xE9cnicas de defesa ainda est\xE3o abaixo do aceit\xE1vel,
+      ent\xE3o continuaremos com o treinamento padr\xE3o. E sem reclama\xE7\xF5es."
+    icon: {fileID: 0}
+    audio: {fileID: 0}
+  - sentence: Agora, treine o movimento que eu te ensinei antes
+    icon: {fileID: 0}
+    audio: {fileID: 0}
