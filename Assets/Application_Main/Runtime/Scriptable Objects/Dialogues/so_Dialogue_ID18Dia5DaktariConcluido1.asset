@@ -15,8 +15,9 @@ MonoBehaviour:
   dialogueName: so_Dialogue_Dia5DaktariConcluido1
   dialogueId: 18
   dialogueContent:
-  - sentence: "Espero que este amuleto te proteja, crian\xE7a. Use-o com orgulho,
+  - speakerId: character_Daktari
+    sentence: "Espero que este amuleto te proteja, crian\xE7a. Use-o com orgulho,
       mas n\xE3o confie apenas no presente, s\xE3o suas habilidades que mostraram
       quem voc\xEA \xE9 no campo de batalha."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

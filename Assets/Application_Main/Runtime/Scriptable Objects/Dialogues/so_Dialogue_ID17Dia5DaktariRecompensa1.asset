@@ -15,10 +15,12 @@ MonoBehaviour:
   dialogueName: so_Dialogue_Dia5DaktariRecompensa1
   dialogueId: 17
   dialogueContent:
-  - sentence: "Est\xE1 tendo dificuldades para encontrar o que eu pedi? Se precisar
+  - speakerId: character_Daktari
+    sentence: "Est\xE1 tendo dificuldades para encontrar o que eu pedi? Se precisar
       de mais tempo, eu entendo."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: "Mas, assim que conseguir pegar, me traga o mais r\xE1pido poss\xEDvel."
-    icon: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Mas, assim que conseguir pegar, me traga o mais r\xE1pido poss\xEDvel."
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

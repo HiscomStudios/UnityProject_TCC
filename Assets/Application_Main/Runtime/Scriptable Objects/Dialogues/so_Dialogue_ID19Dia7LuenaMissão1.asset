@@ -15,11 +15,13 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia7LuenaMiss\xE3o1"
   dialogueId: 19
   dialogueContent:
-  - sentence: "Ser derrotado \xE9 decepcionante Niara, principalmente quando outros
+  - speakerId: character_Luena
+    sentence: "Ser derrotado \xE9 decepcionante Niara, principalmente quando outros
       pagam o pre\xE7o em nosso lugar. Para que isso se encerre na pr\xF3xima batalha,
       voc\xEA precisa focar e aperfei\xE7oar seu ataque."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Mate dez criaturas malignas de L\xE8nmi e eu te ensinarei como melhorar."
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: "Mate dez criaturas malignas de L\xE8nmi e eu te ensinarei como melhorar."
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}

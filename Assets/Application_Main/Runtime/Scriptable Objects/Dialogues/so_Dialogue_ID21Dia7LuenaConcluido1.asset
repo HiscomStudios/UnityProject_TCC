@@ -15,11 +15,13 @@ MonoBehaviour:
   dialogueName: so_Dialogue_Dia7LuenaConcluido1
   dialogueId: 21
   dialogueContent:
-  - sentence: "N\xE3o importa o qu\xE3o dif\xEDcil seja o desafio, voc\xEA sempre
+  - speakerId: character_Luena
+    sentence: "N\xE3o importa o qu\xE3o dif\xEDcil seja o desafio, voc\xEA sempre
       consegue cumpri-lo."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Sempre acreditei em voc\xEA, estou orgulhosa. Pegue sua recompensa
+  - speakerId: character_Luena
+    sentence: "Sempre acreditei em voc\xEA, estou orgulhosa. Pegue sua recompensa
       e v\xE1 cumprir seu destino."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}

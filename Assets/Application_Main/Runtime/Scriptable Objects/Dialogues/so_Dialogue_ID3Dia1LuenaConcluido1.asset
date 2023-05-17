@@ -15,9 +15,11 @@ MonoBehaviour:
   dialogueName: so_Dialogue_Dia1LuenaConcluido1
   dialogueId: 3
   dialogueContent:
-  - sentence: "J\xE1 terminou o que eu pedi?"
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: "J\xE1 terminou o que eu pedi?"
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: Eu sabia que ia conseguir. Aqui uma recompensa pelo seu trabalho duro.
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: Eu sabia que ia conseguir. Aqui uma recompensa pelo seu trabalho duro.
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}

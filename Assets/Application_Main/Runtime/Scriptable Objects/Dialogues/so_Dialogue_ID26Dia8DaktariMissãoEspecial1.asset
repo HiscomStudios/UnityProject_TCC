@@ -15,10 +15,12 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia8DaktariMiss\xE3oEspecial1"
   dialogueId: 26
   dialogueContent:
-  - sentence: Demorou mas finalmente consegui terminar o presente que eu lhe prometi.
-    icon: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: Demorou mas finalmente consegui terminar o presente que eu lhe prometi.
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: "Venha comigo Niara, para que eu possa te entregar um presente aben\xE7oado
+  - speakerId: character_Daktari
+    sentence: "Venha comigo Niara, para que eu possa te entregar um presente aben\xE7oado
       pela pr\xF3pria Grande M\xE3e."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

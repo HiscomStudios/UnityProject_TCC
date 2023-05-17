@@ -15,13 +15,16 @@ MonoBehaviour:
   dialogueName: so_Dialogue_Dia7LuenaRecompensa1
   dialogueId: 20
   dialogueContent:
-  - sentence: "Sei que est\xE1 cansada Niara, mas n\xE3o posso te ajudar se n\xE3o
+  - speakerId: character_Luena
+    sentence: "Sei que est\xE1 cansada Niara, mas n\xE3o posso te ajudar se n\xE3o
       continuar."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Por enquanto, n\xE3o temos mais o que tratar."
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: "Por enquanto, n\xE3o temos mais o que tratar."
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Mas caso queira sua for\xE7a melhorada, estarei aqui."
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: "Mas caso queira sua for\xE7a melhorada, estarei aqui."
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}

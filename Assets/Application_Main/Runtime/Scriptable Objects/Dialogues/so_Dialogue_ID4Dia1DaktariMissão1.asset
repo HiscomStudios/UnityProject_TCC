@@ -15,16 +15,19 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia1DaktariMiss\xE3o1"
   dialogueId: 4
   dialogueContent:
-  - sentence: "Ou\xE7a crian\xE7a, suas atitudes n\xE3o foram corretas, \xE9 verdade,
+  - speakerId: character_Daktari
+    sentence: "Ou\xE7a crian\xE7a, suas atitudes n\xE3o foram corretas, \xE9 verdade,
       mas seu cora\xE7\xE3o e a inten\xE7\xE3o foram puras e boas."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: "Devido a isso, n\xE3o lamente mais o passado, mas aproveite a d\xE1diva
+  - speakerId: character_Daktari
+    sentence: "Devido a isso, n\xE3o lamente mais o passado, mas aproveite a d\xE1diva
       do presente para n\xE3o errar mais."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: "Conhecer o advers\xE1rio \xE9 muito importante, sente comigo e ou\xE7a
+  - speakerId: character_Daktari
+    sentence: "Conhecer o advers\xE1rio \xE9 muito importante, sente comigo e ou\xE7a
       o que eu sei sobre L\xE8nmi. Dessa forma, saber\xE1 alguns dos seus pontos
       fracos e fortes."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

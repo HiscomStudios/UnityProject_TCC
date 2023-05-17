@@ -15,11 +15,13 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia8DaktariMiss\xE3o1"
   dialogueId: 25
   dialogueContent:
-  - sentence: "O final est\xE1 pr\xF3ximo, crian\xE7a. Sei que voc\xEA j\xE1 sofreu
+  - speakerId: character_Daktari
+    sentence: "O final est\xE1 pr\xF3ximo, crian\xE7a. Sei que voc\xEA j\xE1 sofreu
       perdas irrepar\xE1veis at\xE9 aqui, mas continue firme e ven\xE7a L\xE8nmi."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: "Se quiser, te darei uma \xFAltima conversa antes da sua pr\xF3xima
+  - speakerId: character_Daktari
+    sentence: "Se quiser, te darei uma \xFAltima conversa antes da sua pr\xF3xima
       luta e um \xFAltimo lampejo da minha finita sabedoria."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

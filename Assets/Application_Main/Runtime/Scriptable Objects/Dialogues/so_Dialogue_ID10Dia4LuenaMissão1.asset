@@ -15,14 +15,17 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia4LuenaMiss\xE3o1"
   dialogueId: 10
   dialogueContent:
-  - sentence: "Voc\xEA evoluiu suas habilidades\u2026 Mas L\xE8nmi tamb\xE9m."
-    icon: {fileID: 0}
+  - speakerId: character_Luena
+    sentence: "Voc\xEA evoluiu suas habilidades\u2026 Mas L\xE8nmi tamb\xE9m."
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Lamento sua derrota Niara, mas isso s\xF3 significa que voc\xEA precisa
+  - speakerId: character_Luena
+    sentence: "Lamento sua derrota Niara, mas isso s\xF3 significa que voc\xEA precisa
       melhorar mais ainda."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}
-  - sentence: "Quero que treine mais e derrote agora cinco das criaturas malignas
+  - speakerId: character_Luena
+    sentence: "Quero que treine mais e derrote agora cinco das criaturas malignas
       de L\xE8nmi na Floresta."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
     audio: {fileID: 0}

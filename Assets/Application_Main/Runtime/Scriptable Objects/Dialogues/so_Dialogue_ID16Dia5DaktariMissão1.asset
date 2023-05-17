@@ -15,11 +15,13 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia5DaktariMiss\xE3o1"
   dialogueId: 16
   dialogueContent:
-  - sentence: "Vejo que seus treinos com Luena est\xE3o trazendo resultados. Mas
+  - speakerId: character_Daktari
+    sentence: "Vejo que seus treinos com Luena est\xE3o trazendo resultados. Mas
       uma luta n\xE3o \xE9 feita apenas de ataques."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: Busque para mim um Trevo de Quatro-Folhas e eu mostrarei que esse velho
+  - speakerId: character_Daktari
+    sentence: Busque para mim um Trevo de Quatro-Folhas e eu mostrarei que esse velho
       ainda tem umas cartas na manga.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}

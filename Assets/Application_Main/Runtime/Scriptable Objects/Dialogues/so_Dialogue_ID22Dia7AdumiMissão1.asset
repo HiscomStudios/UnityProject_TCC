@@ -15,11 +15,13 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia7AdumiMiss\xE3o1"
   dialogueId: 22
   dialogueContent:
-  - sentence: "Essa ser\xE1 a sua \xFAltima chance de nos salvar\u2026 V\xEA se n\xE3o
+  - speakerId: character_Adumi
+    sentence: "Essa ser\xE1 a sua \xFAltima chance de nos salvar\u2026 V\xEA se n\xE3o
       faz muita besteira dessa vez."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
     audio: {fileID: 0}
-  - sentence: "Me traga um peda\xE7o de Babosa e eu te ajudo com minhas incr\xEDveis
+  - speakerId: character_Adumi
+    sentence: "Me traga um peda\xE7o de Babosa e eu te ajudo com minhas incr\xEDveis
       habilidades superiores."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
     audio: {fileID: 0}

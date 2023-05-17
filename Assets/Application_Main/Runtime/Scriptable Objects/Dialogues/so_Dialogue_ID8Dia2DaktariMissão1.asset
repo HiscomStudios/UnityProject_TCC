@@ -15,12 +15,14 @@ MonoBehaviour:
   dialogueName: "so_Dialogue_Dia2DaktariMiss\xE3o1"
   dialogueId: 8
   dialogueContent:
-  - sentence: "Desde a nossa \xFAltima conversa, tenho estudado mais os documentos
+  - speakerId: character_Daktari
+    sentence: "Desde a nossa \xFAltima conversa, tenho estudado mais os documentos
       e registros que a Grande M\xE3e nos d\xE1. E acho que encontrei algo que pode
       te interessar."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
-  - sentence: Vamos conversar dentro da cabana Niara, o que eu tenho para lhe mostrar
+  - speakerId: character_Daktari
+    sentence: Vamos conversar dentro da cabana Niara, o que eu tenho para lhe mostrar
       pode te ajudar.
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
     audio: {fileID: 0}
