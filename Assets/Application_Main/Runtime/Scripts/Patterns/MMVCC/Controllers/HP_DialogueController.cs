@@ -13,7 +13,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         [SerializeField] protected GameObject dialogueBoxGameObject, characterIconGameObject;
         [SerializeField] protected RectTransform dialogueBoxAnimationStartPositionRT, dialogueBoxAnimationEndPositionRT, characterIconAnimationStartPositionRT, characterIconAnimationEndPositionRT;
         
-        DialogueContentView previousDialogueContent;
+        protected int boxTween, characterIconTween;
+        protected DialogueContentView previousDialogueContent;
         
         #endregion
 
@@ -51,19 +52,22 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             var currentDialogueContent = currentDialogue.GetDialogueContent[currentDialogueContentId];
             if (previousDialogueContent == null || previousDialogueContent.GetSpeakerId != currentDialogueContent.GetSpeakerId)
             {
-                LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
+                LeanTween.cancel(boxTween);
+                LeanTween.cancel(characterIconTween);
+                
+                boxTween = LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
                 {
                     LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationEndPositionRT, 1f).setEaseOutBack().setOnComplete(() =>
                     {
                         base.UpdateInterface();
                         currentDialogueContentId++;
                     });
-                });
+                }).id;
             
-                LeanTween.move(characterIconGameObject, characterIconAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
+                characterIconTween = LeanTween.move(characterIconGameObject, characterIconAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
                 {
                     LeanTween.move(characterIconGameObject, characterIconAnimationEndPositionRT, 1f).setEaseOutBack();
-                });
+                }).id;
 
                 return;
             }
