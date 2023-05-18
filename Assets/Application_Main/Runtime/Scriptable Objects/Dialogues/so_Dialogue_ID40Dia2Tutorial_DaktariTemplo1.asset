@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
+  m_Name: so_Dialogue_ID40Dia2Tutorial_DaktariTemplo1
+  m_EditorClassIdentifier: 
+  dialogueName: so_Dialogue_ID40Dia2Tutorial_DaktariTemplo1
+  dialogueId: 40
+  dialogueContent:
+  - speakerId: character_Daktari
+    sentence: "Esse som\u2026 Eu posso sentir\u2026 Tem alguma coisa atacando o Templo
+      da Deusa\u2026 Posso sentir que algo afetou o local sagrado da Grande M\xE3e."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Niara, voc\xEA precisa ver o que est\xE1 acontecendo e ajudar Luena
+      e os outros guerreiros a proteger os nossos irm\xE3os e amigos."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Eu ficarei aqui e junto de Adumi, come\xE7aremos a fazer uma prote\xE7\xE3o
+      com amuletos e encantamentos que a Grande M\xE3e me deu."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Niara
+    sentence: "Preciso ir r\xE1pido, mam\xE3e disse que iria estar l\xE1 no Templo.
+      Por favor Grande M\xE3e, que nada aconte\xE7a com ela."
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
+    audio: {fileID: 0}

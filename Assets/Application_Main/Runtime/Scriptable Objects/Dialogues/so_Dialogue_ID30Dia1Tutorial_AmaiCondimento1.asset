@@ -17,57 +17,54 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Amai
     sentence: "Filha! Como voc\xEA est\xE1?"
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Mal te vi essa manh\xE3 antes de voc\xEA ir se encontrar com a general
       Luena."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
-    sentence: "Oi m\xE3e! Desculpa n\xE3o ter ido ver a senhora antes do treino Mas
-      estava ansiosa para ele, achei que finalmente ir\xEDamos passar para o ataque. "
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    sentence: "Oi m\xE3e! Desculpa n\xE3o ter ido ver a senhora antes do treino.
+      Mas estava ansiosa para ele, achei que finalmente ir\xEDamos passar para o
+      ataque. "
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: Mas continuamos na defesa.
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Quer dizer que a poderosa e r\xEDgida general n\xE3o quer treinar
       minha beb\xEA na arte de atacar o inimigo?"
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: Deixe comigo querida, posso ser uma simples cozinheira, mas vou defender
       minha filhotinha.
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "N\xE3o precisa m\xE3e, mas agrade\xE7o que esteja disposta a brigar
       com uma general por mim. Ali\xE1s, quer ajuda na cozinha da vila?"
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: Estou livre agora.
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
-    audio: {fileID: 0}
-  - speakerId: character_Niara
-    sentence: Estou livre agora.
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Vou aceitar a ajuda ent\xE3o, pode por favor ir ver com a Adumi sobre
       um tempero que eu pedi para ela? \xC9 para o almo\xE7o de hoje."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: E por favor, diga a ela que eu achei o seu novo vestido amarelo muito
       lindo.
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Tudo bem m\xE3e, vou procur\xE1-la e pedir o condimento. Mas n\xE3o
-      sei se elogiar uma adolescente \xE9 uma boa ideia "
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+      sei se elogiar uma adolescente \xE9 uma boa ideia."
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}

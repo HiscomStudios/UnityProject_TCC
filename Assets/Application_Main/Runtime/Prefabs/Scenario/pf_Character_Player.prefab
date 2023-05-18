@@ -13,9 +13,7 @@ GameObject:
   - component: {fileID: 6162100394029922197}
   - component: {fileID: 6162100394029922196}
   - component: {fileID: 6162100394029922203}
-  - component: {fileID: 6162100394029922202}
   - component: {fileID: 6162100394029922207}
-  - component: {fileID: 6162100394029922201}
   - component: {fileID: 6162100394029922200}
   m_Layer: 10
   m_Name: pf_Character_Player
@@ -108,29 +106,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputViews: []
---- !u!114 &6162100394029922202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6162100394029922206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64e00f9e4935c734caf5d71a30f7fd1a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hybridUpdateRate: 0.01
-  canControlWithScroll: 1
-  canDestroySlotsAfterUse: 0
-  inventorySlotsView:
-  - slotName: Slot 1
-    slotId: 1
-  - slotName: Slot 2
-    slotId: 2
-  - slotName: Slot 3
-    slotId: 3
-  playerHand: {fileID: 6162100395620731832}
 --- !u!114 &6162100394029922207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,44 +128,6 @@ MonoBehaviour:
   - statName: Vida
     statID: 2
     statAmount: 100
---- !u!114 &6162100394029922201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6162100394029922206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 0
-  timerToWaitBeforeExecutingAction: 0.1
-  repeatEvent: 1
-  executeOnEnable: 0
-  executeOnStart: 1
-  eventConditions:
-  - {fileID: 6162100394029922200}
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: HiscomEngine.Core.Runtime.Scripts.Patterns.MMVCC.Controllers.NavigatorController,
-          com.thehiscomgameengine.core
-        m_MethodName: LoadSingleScene
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &6162100394029922200
 MonoBehaviour:
   m_ObjectHideFlags: 0

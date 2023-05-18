@@ -7,7 +7,7 @@ namespace HiscomProject.Editor.Scripts
 {
     using UnityEditor;
     using UnityEngine;
-    using HiscomEngine.Addons.OpenWorld.Editor.Scripts;
+    using HiscomEngine.Editor.Scripts;
     using Runtime.Scripts.Patterns.MMVCC.Controllers;
 
     [CustomEditor(typeof(HP_RoutineControllerWithClock)), CanEditMultipleObjects]
