@@ -26,7 +26,6 @@ namespace HiscomProject.Editor.Scripts
         {
             base.Setup();
             SetupDialogueBoxGameObject();
-            SetupCharacterIconGameObject();
         }
         protected override void Show()
         {
@@ -34,7 +33,6 @@ namespace HiscomProject.Editor.Scripts
             
             EditorGUILayout.LabelField(new GUIContent("Animation Settings", "Settings related to animations"), EditorStyles.boldLabel);
             ShowDialogueBoxGameObject();
-            ShowCharacterIconGameObject();
         }
         
         protected virtual void SetupDialogueBoxGameObject()
@@ -49,21 +47,6 @@ namespace HiscomProject.Editor.Scripts
             EditorGUILayout.PropertyField(dialogueBoxGameObject, new GUIContent("Dialogue Box: ", "The dialogue box that will be animated."), true);
             EditorGUILayout.PropertyField(dialogueBoxAnimationStartPositionRT, new GUIContent("Dialogue Box Animation Start Position: ", "The start position of the dialogue box animation."), true);
             EditorGUILayout.PropertyField(dialogueBoxAnimationEndPositionRT, new GUIContent("Dialogue Box Animation End Position: ", "The end position of the dialogue box animation."), true);
-            EditorGUI.indentLevel--;
-        }
-        
-        protected virtual void SetupCharacterIconGameObject()
-        {
-            characterIconGameObject = serializedObject.FindProperty("characterIconGameObject");
-            characterIconAnimationStartPositionRT = serializedObject.FindProperty("characterIconAnimationStartPositionRT");
-            characterIconAnimationEndPositionRT = serializedObject.FindProperty("characterIconAnimationEndPositionRT");
-        }
-        protected virtual void ShowCharacterIconGameObject()
-        {
-            EditorGUI.indentLevel++;
-            EditorGUILayout.PropertyField(characterIconGameObject, new GUIContent("Character Icon: ", "The character icon that will be animated."), true);
-            EditorGUILayout.PropertyField(characterIconAnimationStartPositionRT, new GUIContent("Character Icon Animation Start Position: ", "The start position of the character icon animation."), true);
-            EditorGUILayout.PropertyField(characterIconAnimationEndPositionRT, new GUIContent("Character Icon Animation End Position: ", "The end position of the character icon animation."), true);
             EditorGUI.indentLevel--;
         }
 

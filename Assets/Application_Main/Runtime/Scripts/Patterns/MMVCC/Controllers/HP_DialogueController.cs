@@ -5,9 +5,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.Internal;
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Models;
     using HiscomEngine.Runtime.Scripts.Structures.Enums;
-    using HiscomEngine.Runtime.Scripts.Structures.Extensions;
-    
-    public class HP_DialogueController : DialogueController
+
+    public class HP_DialogueController : DialogueTypewriterController
     {
         #region Variables
 
@@ -29,103 +28,70 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
 
         protected void Start()
         {
-            LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, 0);
+            LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, 0f);
         }
 
         protected override void UpdateDialogue()
-        {
-            var currentDialogueContent = currentDialogue.GetDialogueContent;
-            
-            if (currentDialogueContentId == currentDialogueContent.Length)
-            {
-                LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
-                {
-                    EndDialogue();
-                });
-                
-                return;
-            }
-
-            UpdateInterface();
-        }
-        protected override void UpdateInterface()
         {
             bool IsCurrentDialogueNull()
             {
                 return Identifier.IdentifyIncident(() => currentDialogue == null, IncidentType.Error, "", gameObject);
             }
-            bool IsSubtitleTMPNull()
-            {
-                return Identifier.IdentifyIncident(() => subtitleTMP == null, IncidentType.Warning, "", gameObject);
-            }
-            bool IsIconIMGNull()
-            {
-                return Identifier.IdentifyIncident(() => iconIMG == null, IncidentType.Warning, "", gameObject);
-            }
-            bool IsDubbingAudioSourceNull()
-            {
-                return Identifier.IdentifyIncident(() => dubbingAudioSource == null, IncidentType.Warning, "", gameObject);
-            }
-            
             if (IsCurrentDialogueNull()) return;
-            var currentDialogueContent = currentDialogue.GetDialogueContent[currentDialogueContentId];
-
-            if (!IsSubtitleTMPNull())
-            {
-                var subtitleTmpGameObject = subtitleTMP.gameObject;
-                subtitleTmpGameObject.SetActive(false);
-                subtitleTMP.text = "";
-            }
-
-            if (previousDialogueContent == null || previousDialogueContent.GetSpeakerId != currentDialogueContent.GetSpeakerId)
-            {
-                LeanTween.cancel(boxTween);
-                dialogueBoxGameObject.SetActive(true);
-                previousDialogueContent = currentDialogueContent;
-
-                boxTween = LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
-                {
-                    if (!IsIconIMGNull())
-                    {
-                        var iconImgGameObject = iconIMG.gameObject;
-                        iconImgGameObject.SetActive(true);
-                        iconIMG.sprite = currentDialogueContent.GetIcon;
-                    }
-                    
-                    LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationEndPositionRT, 1f).setEaseOutBack().setOnComplete(() =>
-                    {
-                        if (!IsSubtitleTMPNull())
-                        {
-                            var subtitleTmpGameObject = subtitleTMP.gameObject;
-                            subtitleTmpGameObject.SetActive(true);
-                            subtitleTMP.Typewrite(currentDialogueContent.GetSentence, 1f);
-                        }
-                        if (!IsDubbingAudioSourceNull())
-                        {
-                            var dubbingAudioSourceGameObject = dubbingAudioSource.gameObject;
-                            dubbingAudioSourceGameObject.SetActive(true);
-                            dubbingAudioSource.clip = currentDialogueContent.GetAudio;
-                        }
-                        currentDialogueContentId++;
-                    });
-                }).id;
-
-                return;
-            }
             
-            if (!IsSubtitleTMPNull())
+            var currentDialogueContent = currentDialogue.GetDialogueContent;
+            LeanTween.cancel(typewriterId);
+            
+            if (isTyping)
             {
-                var subtitleTmpGameObject = subtitleTMP.gameObject;
-                subtitleTmpGameObject.SetActive(true);
-                subtitleTMP.Typewrite(currentDialogueContent.GetSentence, 1f);
+                subtitleTMP.text = previousDialogueContent.GetSentence;
+                isTyping = false;
             }
-            if (!IsDubbingAudioSourceNull())
+            else
             {
-                var dubbingAudioSourceGameObject = dubbingAudioSource.gameObject;
-                dubbingAudioSourceGameObject.SetActive(true);
-                dubbingAudioSource.clip = currentDialogueContent.GetAudio;
+                if (currentDialogueContentId == currentDialogueContent.Length)
+                {
+                    LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
+                    {
+                        previousDialogueContent = null;
+                        EndDialogue();
+                    });
+                    return;
+                }
+                
+                UpdateInterface();
             }
+        }
+        protected override void UpdateInterface()
+        {
+            var currentDialogueContent = currentDialogue.GetDialogueContent[currentDialogueContentId];
+            dialogueBoxGameObject.SetActive(true);
+            
+            switch (previousDialogueContent == null || previousDialogueContent.GetSpeakerId != currentDialogueContent.GetSpeakerId)
+            {
+                case true:
+                    LeanTween.cancel(boxTween);
+                    boxTween = LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
+                    {
+                        subtitleTMP.text = "";
+                        UpdateIcon(currentDialogueContent);
+                        
+                        LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationEndPositionRT, 1f).setEaseOutBack().setOnComplete(() =>
+                        {
+                            UpdateSubtitle(currentDialogueContent);
+                            UpdateDubbing(currentDialogueContent);
+                        });
+                    }).id;
+                    break;
+                
+                case false:
+                    UpdateSubtitle(currentDialogueContent);
+                    UpdateDubbing(currentDialogueContent);
+                    break;
+            }    
+                
             currentDialogueContentId++;
+            previousDialogueContent = currentDialogueContent;
         }
 
         #endregion
