@@ -19,15 +19,15 @@ MonoBehaviour:
     sentence: "Voc\xEA foi muito imprudente em ir enfrentar L\xE8nmi sozinha\u2026
       Mas n\xE3o adianta mais lamentar o passado, agora voc\xEA precisa se preparar
       para o que vai enfrentar."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Como p\xF4de ver, suas habilidades de luta ainda n\xE3o s\xE3o o suficiente
       para derrotar L\xE8nmi."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Por isso, quero que mate tr\xEAs criaturas malignas de L\xE8nmi na
       Floresta. Assim que terminar isso, venha at\xE9 mim."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}

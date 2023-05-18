@@ -17,31 +17,31 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Lenmi
     sentence: "\xC9 s\xF3 isso que aquela entidade fraca tem?"
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "Tremam de medo perante L\xE8nmi, aquele que foi ignorado pela Grande
       M\xE3e quando era humano e sofreu nas m\xE3os de senhores de escravos."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "Um escravo que sobreviveu com a pr\xF3pria ajuda at\xE9 sucumbir aos
       abusos dos seus \u201Cdonos\u201D."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "EU CULTIVEI MEU \xD3DIO CONTRA AQUELA QUE DEVERIA ME PROTEGER, MAS
       QUE ME DEU AS COSTAS QUANDO EU PEDI AJUDA."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "EU. QUE QUANDO MORRI, TINHA TANTO \xD3DIO EM MEU CORA\xC7\xC3O QUE
       JUREI ME VINGAR DELA."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "E HOJE \xC9 O DIA, FINALMENTE MATAREI TODOS QUE A GRANDE M\xC3E PROTEGEU
       E QUEIMAREI CADA CANTO DE ZILE BENI, AT\xC9 QUE ELA N\xC3O SEJA MAIS UMA ILHA
       ABEN\xC7OADA."
-    icon: {fileID: 0}
+    icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}

@@ -17,29 +17,29 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Niara
     sentence: "Oi Adumi, vim buscar um tempero que minha m\xE3e pediu para voc\xEA."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Adumi
     sentence: "Ah, \xE9 voc\xEA quem veio pegar o pedido da Amai?"
-    icon: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
+    icon: {fileID: 21300000, guid: 80da9a7bc122d394aab277096ba4860f, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Adumi
     sentence: "Que pena, preferiria mil vezes ter que caminhar at\xE9 a cozinha da
       vila e entregar pessoalmente a ela."
-    icon: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
+    icon: {fileID: 21300000, guid: 80da9a7bc122d394aab277096ba4860f, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Da pr\xF3xima vez \xE9 s\xF3 ir at\xE9 l\xE1 ent\xE3o, j\xE1 que eu
       tamb\xE9m preferiria qualquer outra coisa em vez de ver essa sua carinha nojenta."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "E pelo amor da Grande M\xE3e, me d\xE1 logo esse tempero para eu sair
       daqui."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Adumi
     sentence: "Juro que nem sei como voc\xEAs s\xE3o m\xE3e e filha, ela \xE9 uma
       das melhores pessoas dessa vila e voc\xEA \xE9\u2026 Voc\xEA."
-    icon: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
+    icon: {fileID: 21300000, guid: 80da9a7bc122d394aab277096ba4860f, type: 3}
     audio: {fileID: 0}

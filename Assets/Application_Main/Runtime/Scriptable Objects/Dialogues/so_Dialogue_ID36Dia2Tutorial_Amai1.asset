@@ -17,39 +17,39 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Amai
     sentence: Bom dia, filha!
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Dormiu bem? Desculpa n\xE3o conseguir te acompanhar hoje na primeira
       refei\xE7\xE3o, acabei ocupada com a organiza\xE7\xE3o do festival para a Grande
       M\xE3e."
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Bom dia, m\xE3e. Dormi bem sim e a senhora?"
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "N\xE3o se preocupe em rela\xE7\xE3o a primeira refei\xE7\xE3o, teremos
       muitas refei\xE7\xF5es para fazermos juntas ainda."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: Verdade querida, ainda vamos ter muito tempo juntas.
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Ah! Quase me esqueci. O anci\xE3o Daktari queria falar com voc\xEA
       e est\xE1 te aguardando em sua tenda."
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Assim que terminar de falar com ele, venha me encontrar no Templo
       da Deusa, estarei l\xE1 ajudando na organiza\xE7\xE3o do festival."
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
-    sentence: "Okay m\xE3e, vou l\xE1 conversar com ele e j\xE1 j\xE1 te encontro
+    sentence: "Okay, m\xE3e, vou l\xE1 conversar com ele e j\xE1 j\xE1 te encontro
       para ajudar na organiza\xE7\xE3o."
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}

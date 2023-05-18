@@ -18,9 +18,9 @@ MonoBehaviour:
   - speakerId: character_Niara
     sentence: "Luena e os soldados est\xE3o ocupados protegendo os idosos e as crian\xE7as\u2026
       N\xE3o tem mais ningu\xE9m aqui para derrotar L\xE8nmi\u2026"
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Tem que ser eu, esse \xE9 o grande prop\xF3sito ao qual estou destinada."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}

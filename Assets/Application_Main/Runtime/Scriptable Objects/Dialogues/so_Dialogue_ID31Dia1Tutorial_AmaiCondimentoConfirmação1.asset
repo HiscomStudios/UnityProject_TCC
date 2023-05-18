@@ -17,10 +17,10 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Amai
     sentence: "J\xE1 buscou o que te pedi, filha?"
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "A Adumi est\xE1 usando um vestido novo amarelo. Pe\xE7a a ela o condimento
       para o almo\xE7o, por favor."
-    icon: {fileID: 21300000, guid: dc0997bd3d63f4747abe33208be81a3c, type: 3}
+    icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}

@@ -16,28 +16,23 @@ MonoBehaviour:
   dialogueId: 38
   dialogueContent:
   - speakerId: character_Niara
-    sentence: "Obrigada de verdade anci\xE3o Daktari, obrigada por interceder por
+    sentence: "Obrigada de verdade, anci\xE3o Daktari, obrigada por interceder por
       mim e por minha m\xE3e, obrigada por recuperar este objeto t\xE3o especial
       para minha fam\xEDlia."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Daktari
     sentence: "N\xE3o me agrade\xE7a, agrade\xE7a a Grande M\xE3e que viu a sinceridade
       e amor no seu pedido e nas ora\xE7\xF5es da sua m\xE3e."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Daktari
     sentence: "Agora, est\xE1 pronta para finalmente aprender com Luena t\xE9cnicas
       de batalha e ataques contra os inimigos."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Daktari
     sentence: "Claro que s\xF3 depois do nosso festival, vamos celebrar nossa Grande
       M\xE3e antes de pensar em atacar os outros."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
-    audio: {fileID: 0}
-  - speakerId: character_Daktari
-    sentence: "Claro que s\xF3 depois do nosso festival, vamos celebrar nossa Grande
-      M\xE3e antes de pensar em atacar os outros."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
