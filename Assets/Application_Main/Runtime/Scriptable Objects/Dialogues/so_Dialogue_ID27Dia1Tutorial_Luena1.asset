@@ -19,56 +19,56 @@ MonoBehaviour:
     sentence: "N\xE3o fique irritada em frente ao Templo, Niara. Este local \xE9
       onde temos nosso maior contato com a Grande M\xE3e, n\xE3o \xE9 local para
       sua raivinha."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Voc\xEA est\xE1 certa, me desculpe."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Mas voc\xEA sabe como eu fico ansiosa para os nossos treinos, e voc\xEA
       demorou hoje."
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: ...
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Eu ainda sinto arrepios s\xF3 de ficar perto deste sino\u2026 Lembrar
       do que ele significa\u2026"
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Eu entendo Niara, o sino serve para nos avisar quando algo de ruim
       acontece em rela\xE7\xE3o a Zile Beni ou a um dos nossos."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Seu pai foi um grande guerreiro e a morte dele sempre ser\xE1 um lembrete
       da crueldade do mundo fora da prote\xE7\xE3o da Grande M\xE3e."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: ...
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Mas, viemos aqui para melhorar o seu treino e evitar que mais trag\xE9dias
       como essa aconte\xE7am. Vamos para a arena de treino ver se voc\xEA progrediu
       em algo."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
     sentence: "Hoje n\xF3s vamos finalmente treinar as t\xE9cnicas de ataque, Luena?"
-    icon: {fileID: 21300000, guid: dc1fbd296c812f64aacb7fff58dbf283, type: 3}
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Suas t\xE9cnicas de defesa ainda est\xE3o abaixo do aceit\xE1vel,
       ent\xE3o continuaremos com o treinamento padr\xE3o. E sem reclama\xE7\xF5es."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: Agora, treine o movimento que eu te ensinei antes.
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
