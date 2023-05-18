@@ -4,15 +4,15 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Views
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views;
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Managers;
     
-    public class HP_KillAmountOfEnemiesQuestView : QuestView
+    public class HP_ChangeAmountOfValue : QuestView
     {
         #region Variables
 
         #region Protected Variables
 
         [SerializeField] protected string notificationToReceive;
-        [SerializeField] protected int amountOfEnemiesToKill;
-        protected int killedEnemies;
+        [SerializeField] protected int amountToDo;
+        protected int amountDone;
 
         #endregion
 
@@ -22,14 +22,9 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Views
 
         #region Protected Methods
 
-        protected void Awake()
-        {
-            AddObservers();
-        }
-        
         protected override bool CheckQuestStatus()
         {
-            if (killedEnemies >= amountOfEnemiesToKill)
+            if (amountDone >= amountToDo)
             {
                 IsCompleted = true;
                 RemoveObservers();
@@ -40,26 +35,32 @@ namespace HiscomProject.Scripts.Patterns.MMVCC.Views
             return false;
         }
         
-        protected void AddObservers()
+        protected virtual void AddObservers()
         {
-            NotificationManager.Instance.AddObserver(notificationToReceive, gameObject, (_, _) => KillEnemy());
+            NotificationManager.Instance.AddObserver(notificationToReceive, gameObject, (_, _) => IncrementAmount());
         }
-        protected void RemoveObservers()
+        protected virtual void RemoveObservers()
         {
             NotificationManager.Instance.RemoveObserver(gameObject);
         }
 
+        protected virtual void IncrementAmount()
+        {
+            amountDone++;
+        }
+        
         #endregion
 
         #region Public Methods
 
-        public void KillEnemy()
+        public override void StartQuest()
         {
-            killedEnemies++;
+            base.StartQuest();
+            AddObservers();
         }
 
         #endregion
-
+        
         #endregion
     }
 }
