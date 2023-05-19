@@ -76,8 +76,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         {
             var audioCanvasGroupGameObject = audioCanvasGroup.gameObject;
             var controlsCanvasGroupGameObject = controlsCanvasGroup.gameObject;
-            LeanTween.alphaCanvas(audioCanvasGroup, 0, 0);
-            LeanTween.alphaCanvas(controlsCanvasGroup, 0, 0);
+            LeanTween.alphaCanvas(audioCanvasGroup, 0, 0).setIgnoreTimeScale(true);
+            LeanTween.alphaCanvas(controlsCanvasGroup, 0, 0).setIgnoreTimeScale(true);
             audioCanvasGroupGameObject.SetActive(false);
             controlsCanvasGroupGameObject.SetActive(false);
         }
@@ -102,14 +102,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             var controlsCanvasGroupGameObject = controlsCanvasGroup.gameObject;
             controlsCanvasGroupGameObject.SetActive(true);
             
-            LeanTween.alphaCanvas(controlsCanvasGroup, 0, .25f).setOnComplete(() =>
+            LeanTween.alphaCanvas(controlsCanvasGroup, 0, .25f).setIgnoreTimeScale(true).setOnComplete(() =>
             {
                 var audioCanvasGroupGameObject = audioCanvasGroup.gameObject;
-                LeanTween.alphaCanvas(audioCanvasGroup, 0, 0);
+                LeanTween.alphaCanvas(audioCanvasGroup, 0, 0).setIgnoreTimeScale(true);
                 audioCanvasGroupGameObject.SetActive(true);
                 controlsCanvasGroupGameObject.SetActive(false);
                 
-                LeanTween.alphaCanvas(audioCanvasGroup, 1, .25f).setOnComplete(() => isAnimating = false);
+                LeanTween.alphaCanvas(audioCanvasGroup, 1, .25f).setIgnoreTimeScale(true).setOnComplete(() => isAnimating = false);
             });
         }
         public virtual void OnMainVolumeSliderValueChanged(float value)
@@ -134,14 +134,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             var audioCanvasGroupGameObject = audioCanvasGroup.gameObject;
             audioCanvasGroupGameObject.SetActive(true);
             
-            LeanTween.alphaCanvas(audioCanvasGroup, 0, .25f).setOnComplete(() =>
+            LeanTween.alphaCanvas(audioCanvasGroup, 0, .25f).setIgnoreTimeScale(true).setOnComplete(() =>
             {
                 var controlsCanvasGroupGameObject = controlsCanvasGroup.gameObject;
-                LeanTween.alphaCanvas(controlsCanvasGroup, 0, 0);
+                LeanTween.alphaCanvas(controlsCanvasGroup, 0, 0).setIgnoreTimeScale(true);
                 controlsCanvasGroupGameObject.SetActive(true);
                 audioCanvasGroupGameObject.SetActive(false);
                 
-                LeanTween.alphaCanvas(controlsCanvasGroup, 1, .25f).setOnComplete(() => isAnimating = false);
+                LeanTween.alphaCanvas(controlsCanvasGroup, 1, .25f).setIgnoreTimeScale(true).setOnComplete(() => isAnimating = false);
             });
         }
         public virtual void OnMouseSensibilitySliderValueChanged(float value)
@@ -151,15 +151,15 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         
         public virtual void OnBackButtonPressed()
         {
-            LeanTween.move(settingsPNL, new Vector2(-Screen.width - 500, 0), 0.5f).setEase(LeanTweenType.easeInOutExpo).setOnComplete(() =>
+            LeanTween.move(settingsPNL, new Vector2(-Screen.width - 500, 0), 0.5f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true).setOnComplete(() =>
             {
                 Setup();
                 
                 settingsPNL.gameObject.SetActive(false);
-                LeanTween.move(mainMenuPNL, new Vector2(-Screen.width - 500, 0), 0f);
+                LeanTween.move(mainMenuPNL, new Vector2(-Screen.width - 500, 0), 0f).setIgnoreTimeScale(true);
                 mainMenuPNL.gameObject.SetActive(true);
 
-                LeanTween.move(mainMenuPNL, new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo);
+                LeanTween.move(mainMenuPNL, new Vector2(0, 0), 0.55f).setIgnoreTimeScale(true).setEase(LeanTweenType.easeInOutExpo);
             });
         }
 

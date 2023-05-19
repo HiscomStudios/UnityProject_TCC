@@ -1,4 +1,6 @@
-﻿namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
+﻿using System;
+
+namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
 {
     using Toolbox.Runtime.Scripts;
     using UnityEngine;
@@ -8,18 +10,36 @@
     [AddComponentMenu("Scripts/Hiscom Project/Patterns/MMVCC/Controllers/HP Pause Menu Controller")]
     public class HP_PauseMenuController : MonoBehaviour
     {
+        protected enum PauseMode
+        {
+            Unpaused,
+            Paused
+        }
+
         #region Variables
 
         #region Protected Variables
 
-        [SerializeField] protected HP_PauseMenuController mainMenuPNL;
+        [SerializeField] protected RectTransform pausePNL;
+        [SerializeField] protected HP_PauseMenuController pauseMenuPNL;
         [SerializeField] protected HP_SettingsMenuController settingsPNL;
+        protected PauseMode pauseMode;
 
         #endregion
 
         #endregion
         
         #region Methods
+
+        #region Protected Methods
+
+        protected void Start()
+        {
+            pauseMode = PauseMode.Unpaused;
+            LeanTween.move(pausePNL, new Vector2(-Screen.width - 500, 0), 0).setIgnoreTimeScale(true);
+        }
+
+        #endregion
 
         #region Public Methods
 
@@ -28,7 +48,21 @@
         /// </summary>
         public void OnPauseButtonPressed()
         {
-            Time.timeScale = Time.timeScale == 0 ? 1 : 0;
+            switch (pauseMode)
+            {
+                case PauseMode.Unpaused:
+                    pauseMode = PauseMode.Paused;
+                    Time.timeScale = 0;
+                    LeanTween.move(pausePNL, new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true);
+                    break;
+                case PauseMode.Paused:
+                    pauseMode = PauseMode.Unpaused;
+                    LeanTween.move(pausePNL, new Vector2(-Screen.width - 500, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true);
+                    Time.timeScale = 1;
+                    break;
+                default:
+                    throw new ArgumentOutOfRangeException();
+            }
         }
         
         /// <summary>
@@ -36,13 +70,13 @@
         /// </summary>
         public void OnSettingsButtonPressed()
         {
-            LeanTween.move(mainMenuPNL.GetComponent<RectTransform>(), new Vector2(-Screen.width - 500, 0), 0.5f).setEase(LeanTweenType.easeInOutExpo).setOnComplete(() =>
+            LeanTween.move(pauseMenuPNL.GetComponent<RectTransform>(), new Vector2(-Screen.width - 500, 0), 0.5f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true).setOnComplete(() =>
             {
-                mainMenuPNL.gameObject.SetActive(false);
-                LeanTween.move(settingsPNL.GetComponent<RectTransform>(), new Vector2(-Screen.width - 500, 0), 0f);
+                pauseMenuPNL.gameObject.SetActive(false);
+                LeanTween.move(settingsPNL.GetComponent<RectTransform>(), new Vector2(-Screen.width - 500, 0), 0f).setIgnoreTimeScale(true);
                 settingsPNL.gameObject.SetActive(true);
 
-                LeanTween.move(settingsPNL.GetComponent<RectTransform>(), new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setOnComplete(() =>
+                LeanTween.move(settingsPNL.GetComponent<RectTransform>(), new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true).setOnComplete(() =>
                 {
                     settingsPNL.OnMenuOpened();
                 });
