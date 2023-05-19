@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
   m_Name: so_Dialogue_ID32Dia1Tutorial_AmaiHorta1
   m_EditorClassIdentifier: 
-  dialogueName: so_Dialogue_ID32Dia1Tutorial_AmaiConcluido1
+  dialogueName: so_Dialogue_ID32Dia1Tutorial_AmaiHorta1
   dialogueId: 32
   dialogueContent:
   - speakerId: character_Amai

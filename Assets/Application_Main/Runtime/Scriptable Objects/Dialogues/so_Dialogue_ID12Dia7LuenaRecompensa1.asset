@@ -18,14 +18,14 @@ MonoBehaviour:
   - speakerId: character_Luena
     sentence: "Vejo que est\xE1 muito confiante para seu pr\xF3ximo confronto, j\xE1
       que ainda n\xE3o fez o que eu pedi."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Se for isso, n\xE3o temos mais do que tratar. S\xF3 venha me ver de
       novo quando terminar seu treino."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Caso cumpra, sua for\xE7a vai melhorar!"
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
