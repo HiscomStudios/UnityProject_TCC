@@ -17,10 +17,10 @@ MonoBehaviour:
   dialogueContent:
   - speakerId: character_Luena
     sentence: "Voc\xEA conseguiu de novo, Niara."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Eu vejo o seu progresso, voc\xEA est\xE1 crescendo. Esta \xE9 a sua
       recompensa, espero que ajude."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}

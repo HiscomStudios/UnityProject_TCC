@@ -18,10 +18,16 @@ MonoBehaviour:
   - speakerId: character_Daktari
     sentence: "Vejo que seus treinos com Luena est\xE3o trazendo resultados. Mas
       uma luta n\xE3o \xE9 feita apenas de ataques."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Daktari
-    sentence: Busque para mim um Trevo de Quatro-Folhas e eu mostrarei que esse velho
-      ainda tem umas cartas na manga.
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    sentence: "Eu posso faz\xEA-la um amuleto de for\xE7a e prote\xE7\xE3o com a
+      ben\xE7\xE3o da Grande M\xE3e, mas ele n\xE3o ficaria pronto para essa luta."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Se estiver interesse no amuleto, busque para mim o \xFAnico Trevo
+      de Quatro-Folhas da ilha e eu mostrarei que esse velho ainda tem umas cartas
+      na manga."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}

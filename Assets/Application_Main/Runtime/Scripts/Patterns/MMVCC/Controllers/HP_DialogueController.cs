@@ -16,6 +16,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         [SerializeField] protected RectTransform dialogueBoxAnimationStartPositionRT, dialogueBoxAnimationEndPositionRT;
         
         protected int boxTween;
+        protected bool isAnimating;
         protected DialogueContentView previousDialogueContent;
         
         #endregion
@@ -40,6 +41,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             if (IsCurrentDialogueNull()) return;
             
             var currentDialogueContent = currentDialogue.GetDialogueContent;
+            if (isAnimating) return;
             LeanTween.cancel(typewriterId);
             
             if (isTyping)
@@ -51,8 +53,10 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             {
                 if (currentDialogueContentId == currentDialogueContent.Length)
                 {
+                    isAnimating = true;
                     LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
                     {
+                        isAnimating = false;
                         previousDialogueContent = null;
                         EndDialogue();
                     });
@@ -71,6 +75,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             {
                 case true:
                     LeanTween.cancel(boxTween);
+                    isAnimating = true;
                     boxTween = LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationStartPositionRT, .5f).setEaseOutBack().setOnComplete(() =>
                     {
                         subtitleTMP.text = "";
@@ -78,6 +83,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
                         
                         LeanTween.move(dialogueBoxGameObject, dialogueBoxAnimationEndPositionRT, 1f).setEaseOutBack().setOnComplete(() =>
                         {
+                            isAnimating = false;
                             UpdateSubtitle(currentDialogueContent);
                             UpdateDubbing(currentDialogueContent);
                         });

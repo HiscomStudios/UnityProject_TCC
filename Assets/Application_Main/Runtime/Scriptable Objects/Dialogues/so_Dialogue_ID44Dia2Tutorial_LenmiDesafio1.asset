@@ -22,9 +22,8 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
-    sentence: "Voc\xEA ainda n\xE3o entendeu a dor de n\xE3o ter ningu\xE9m, de se
-      sentir impotente e n\xE3o ter ningu\xE9m para te ajudar. Ent\xE3o, te darei
-      essa ajuda."
+    sentence: "Voc\xEA ainda n\xE3o entendeu a dor de estar sozinho, de se sentir
+      impotente e n\xE3o ter ningu\xE9m para te ajudar. Ent\xE3o, te darei essa ajuda."
     icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi
@@ -40,7 +39,11 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
-    sentence: "N\xE3o vou escolher algu\xE9m para morrer em meu lugar."
+    sentence: O-oque? Como assim?
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Niara
+    sentence: "N\xE3o posso escolher algu\xE9m para morrer em meu lugar..."
     icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
