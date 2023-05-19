@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8003402c88d43e4f8e72f47834bdce6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: obj_Adumi
+  id: Character_Adumi
   npcName: Adumi
   splashArtSprite: {fileID: 21300000, guid: e2ba892397773454794e138956bb5b01, type: 3}
 --- !u!136 &8854608802117020652

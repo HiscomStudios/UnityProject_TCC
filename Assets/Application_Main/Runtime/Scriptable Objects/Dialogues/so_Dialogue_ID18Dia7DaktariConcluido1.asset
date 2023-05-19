@@ -16,8 +16,8 @@ MonoBehaviour:
   dialogueId: 18
   dialogueContent:
   - speakerId: character_Daktari
-    sentence: "Espero que este amuleto te proteja, crian\xE7a. Use-o com orgulho,
-      mas n\xE3o confie apenas no presente, s\xE3o suas habilidades que mostraram
-      quem voc\xEA \xE9 no campo de batalha."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    sentence: "Obrigado por me trazer isso, Niara. Apenas confie em mim e em algum
+      tempo eu te darei um presente especial e aben\xE7oado pela pr\xF3pria Grande
+      M\xE3e."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}

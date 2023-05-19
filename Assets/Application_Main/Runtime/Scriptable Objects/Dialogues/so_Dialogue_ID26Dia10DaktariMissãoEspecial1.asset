@@ -10,17 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
-  m_Name: "so_Dialogue_ID26Dia9DaktariMiss\xE3oEspecial1"
+  m_Name: "so_Dialogue_ID26Dia10DaktariMiss\xE3oEspecial1"
   m_EditorClassIdentifier: 
-  dialogueName: "so_Dialogue_ID26Dia9DaktariMiss\xE3oEspecial1"
+  dialogueName: "so_Dialogue_ID26Dia10DaktariMiss\xE3oEspecial1"
   dialogueId: 26
   dialogueContent:
   - speakerId: character_Daktari
     sentence: Demorou mas finalmente consegui terminar o presente que eu lhe prometi.
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Daktari
-    sentence: "Venha comigo Niara, para que eu possa te entregar um presente aben\xE7oado
-      pela pr\xF3pria Grande M\xE3e."
-    icon: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+    sentence: "Espero que este amuleto te proteja, crian\xE7a. Use-o com orgulho,
+      mas n\xE3o confie apenas no presente, s\xE3o suas habilidades que mostraram
+      quem voc\xEA \xE9 no campo de batalha."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
