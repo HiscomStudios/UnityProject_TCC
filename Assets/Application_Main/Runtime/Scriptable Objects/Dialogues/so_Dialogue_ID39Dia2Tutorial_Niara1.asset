@@ -10,8 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 524271193aa441aa84eba3efd64f23d5, type: 3}
-  m_Name: so_Dialogue_ID39_OPEN
+  m_Name: so_Dialogue_ID39Dia2Tutorial_Niara1
   m_EditorClassIdentifier: 
-  dialogueName: so_Dialogue_ID39_OPEN
+  dialogueName: so_Dialogue_ID39Dia2Tutorial_Niara1
   dialogueId: 39
-  dialogueContent: []
+  dialogueContent:
+  - speakerId: character_Niara
+    sentence: "Preciso ir r\xE1pido, mam\xE3e disse que iria estar l\xE1 no Templo.
+      Por favor Grande M\xE3e, que nada aconte\xE7a com ela."
+    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
+    audio: {fileID: 0}

@@ -30,8 +30,3 @@ MonoBehaviour:
       com amuletos e encantamentos que a Grande M\xE3e me deu."
     icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
-  - speakerId: character_Niara
-    sentence: "Preciso ir r\xE1pido, mam\xE3e disse que iria estar l\xE1 no Templo.
-      Por favor Grande M\xE3e, que nada aconte\xE7a com ela."
-    icon: {fileID: 21300000, guid: 721763a55c032a845b25359d34d83369, type: 3}
-    audio: {fileID: 0}

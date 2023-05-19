@@ -18,13 +18,13 @@ MonoBehaviour:
   - speakerId: character_Luena
     sentence: "O que est\xE1 fazendo aqui? Eu disse para vir at\xE9 mim quando conclu\xEDsse
       a tarefa, se n\xE3o terminou \xE9 porque ainda tem trabalho para fazer."
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: Volte apenas quando terminar o que eu te pedi.
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
     sentence: "Lembre-se, sua for\xE7a ir\xE1 melhorar com isso!"
-    icon: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
+    icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
