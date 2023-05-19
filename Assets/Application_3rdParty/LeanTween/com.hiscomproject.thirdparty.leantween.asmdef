@@ -1,0 +1,14 @@
+{
+    "name": "com.hiscomproject.3rdParty.leantween",
+    "rootNamespace": "LeanTween",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
