@@ -1,10 +1,10 @@
-﻿using System;
-
-namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
+﻿namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
 {
     using Toolbox.Runtime.Scripts;
     using UnityEngine;
     using UnityEngine.SceneManagement;
+    using System;
+    using UnityEngine.Events;
     using Scenes = Models.HP_Constants.Scenes;
     
     [AddComponentMenu("Scripts/Hiscom Project/Patterns/MMVCC/Controllers/HP Pause Menu Controller")]
@@ -23,6 +23,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         [SerializeField] protected RectTransform pausePNL;
         [SerializeField] protected HP_PauseMenuController pauseMenuPNL;
         [SerializeField] protected HP_SettingsMenuController settingsPNL;
+        [SerializeField] protected UnityEvent eventToExecuteOnPause, eventToExecuteOnUnpause;
         protected PauseMode pauseMode;
 
         #endregion
@@ -53,11 +54,17 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
                 case PauseMode.Unpaused:
                     pauseMode = PauseMode.Paused;
                     Time.timeScale = 0;
-                    LeanTween.move(pausePNL, new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true);
+                    LeanTween.move(pausePNL, new Vector2(0, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true).setOnComplete(() =>
+                    {
+                        eventToExecuteOnPause?.Invoke();
+                    });
                     break;
                 case PauseMode.Paused:
                     pauseMode = PauseMode.Unpaused;
-                    LeanTween.move(pausePNL, new Vector2(-Screen.width - 500, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true);
+                    LeanTween.move(pausePNL, new Vector2(-Screen.width - 500, 0), 0.55f).setEase(LeanTweenType.easeInOutExpo).setIgnoreTimeScale(true).setOnComplete(() =>
+                    {
+                        eventToExecuteOnUnpause?.Invoke();
+                    });
                     Time.timeScale = 1;
                     break;
                 default:
