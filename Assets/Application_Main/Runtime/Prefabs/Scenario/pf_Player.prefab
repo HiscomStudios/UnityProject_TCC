@@ -1508,9 +1508,12 @@ MonoBehaviour:
   statsView:
   - statName: Life
     statID: 1
-    statAmount: 10
-  - statName: Damage
+    statAmount: 5
+  - statName: Shield
     statID: 2
+    statAmount: 1
+  - statName: Damage
+    statID: 3
     statAmount: -2
 --- !u!1 &7457568618087068618
 GameObject:

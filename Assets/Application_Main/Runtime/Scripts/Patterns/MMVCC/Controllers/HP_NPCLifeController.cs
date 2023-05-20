@@ -35,11 +35,6 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             }
         }
 
-        public void KillRandomNPC()
-        {
-            KillNPC(spawnedNpcs[Random.Range(0, spawnedNpcs.Count)].GetID);
-        }
-
         public void KillNPC(string id)
         {
             HP_NPCSpawnManager.Instance.GetSessionNpcs.Remove(id);

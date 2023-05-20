@@ -36,12 +36,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         {
             instantiatedLifeItems = new List<HP_StatInterfaceItemView>();
             var lifeStat = statsController.GetStat(lifeStatID);
+            if (lifeStat == null) return;
             lifeStat.OnStatAmountChanged += ShowLife;
         }
         protected virtual void SetupShield()
         {
             instantiatedShieldItems = new List<HP_StatInterfaceItemView>();
             var shieldStat = statsController.GetStat(shieldStatID);
+            if (shieldStat == null) return;
             shieldStat.OnStatAmountChanged += ShowShield;
         }
         protected virtual void ShowLife(float value)
@@ -89,17 +91,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
                         if (instantiatedShieldItems[i].GetItemState != HP_StatInterfaceItemView.ItemState.Full) continue;
                         biggestFullItem = instantiatedShieldItems[i];
                     }
-                    if (biggestFullItem != null) biggestFullItem.Disable();
-                    break;
-                
-                case var a when a > instantiatedShieldItems.Count(shieldItem => shieldItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
-                    HP_StatInterfaceItemView smallestEmptyItem = null;
-                    for (var i = instantiatedShieldItems.Count - 1; i > 0; i--)
-                    {
-                        if (instantiatedShieldItems[i].GetItemState != HP_StatInterfaceItemView.ItemState.Empty) continue;
-                        smallestEmptyItem = instantiatedShieldItems[i];
-                    }
-                    if (smallestEmptyItem != null) smallestEmptyItem.Enable();
+                    if (biggestFullItem != null) Destroy(biggestFullItem);
                     break;
             }
             

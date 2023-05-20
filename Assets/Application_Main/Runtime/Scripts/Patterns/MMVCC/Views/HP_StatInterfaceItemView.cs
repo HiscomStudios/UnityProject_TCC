@@ -32,12 +32,21 @@
 
         #region Methods
 
+        #region Protected Methods
+
+        protected virtual void Start()
+        {
+            Enable();
+        }
+
+        #endregion
+        
         #region Public Methods
 
         /// <summary>
         /// Enables the item.
         /// </summary>
-        public void Enable()
+        public virtual void Enable()
         {
             itemState = ItemState.Full;
             statIMG.sprite = fullSprite;
@@ -46,7 +55,7 @@
         /// <summary>
         /// Disables the item.
         /// </summary>
-        public void Disable()
+        public virtual void Disable()
         {
             itemState = ItemState.Empty;
             statIMG.sprite = emptySprite;

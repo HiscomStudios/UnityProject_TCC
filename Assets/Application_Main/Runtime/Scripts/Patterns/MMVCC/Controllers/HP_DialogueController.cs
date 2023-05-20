@@ -42,10 +42,10 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             
             var currentDialogueContent = currentDialogue.GetDialogueContent;
             if (isAnimating) return;
-            LeanTween.cancel(typewriterId);
-            
+      
             if (isTyping)
             {
+                LeanTween.cancel(typewriterId);
                 subtitleTMP.text = previousDialogueContent.GetSentence;
                 isTyping = false;
             }

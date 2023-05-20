@@ -12,7 +12,6 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         [SerializeField] protected HP_NPCLifeController npcLifeController;
         [SerializeField] protected HP_NPCCardView npcCardPrefab;
         [SerializeField] protected RectTransform contentRT;
-
         protected HP_NPCCardView selectedNpcCard;
 
         #endregion
