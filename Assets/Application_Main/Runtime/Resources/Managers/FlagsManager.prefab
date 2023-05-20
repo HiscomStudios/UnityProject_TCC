@@ -50,3 +50,8 @@ MonoBehaviour:
     currentBooleanValue: 0
     currentFloatValue: 0
     currentStringValue: 
+  - flagName: gamePaused
+    flagType: 0
+    currentBooleanValue: 0
+    currentFloatValue: 0
+    currentStringValue: 
