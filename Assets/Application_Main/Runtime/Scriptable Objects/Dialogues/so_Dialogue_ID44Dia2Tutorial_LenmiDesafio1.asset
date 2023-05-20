@@ -23,7 +23,7 @@ MonoBehaviour:
     audio: {fileID: 0}
   - speakerId: character_Lenmi
     sentence: "Voc\xEA ainda n\xE3o entendeu a dor de estar sozinho, de se sentir
-      impotente e n\xE3o ter ningu\xE9m para te ajudar. Ent\xE3o, te darei essa ajuda."
+      imponente e n\xE3o ter ningu\xE9m para te ajudar. Ent\xE3o, te darei essa ajuda."
     icon: {fileID: 21300000, guid: dbbf184a46f44ec4aa9a3c27aebb6a79, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Lenmi

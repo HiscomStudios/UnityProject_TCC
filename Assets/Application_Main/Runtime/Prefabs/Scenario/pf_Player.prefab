@@ -497,6 +497,7 @@ MonoBehaviour:
   hasMovementAnimation: 0
   movementConditions:
   - {fileID: 7457568616912957321}
+  - {fileID: 0}
   eventToExecuteBeforeMovement:
     m_PersistentCalls:
       m_Calls: []
@@ -525,7 +526,7 @@ MonoBehaviour:
   movementAnimator: {fileID: 0}
   defaultAnimationClip: {fileID: 0}
   movementAnimationClip: {fileID: 0}
-  movementForce: 1000
+  movementForce: 1200
   directionalX: 0
   directionalY: 0
   directionalZ: 0
@@ -1085,9 +1086,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerView: {fileID: 7457568618085108361}
-  hasMovementConditions: 0
+  hasMovementConditions: 1
   hasMovementAnimation: 0
-  movementConditions: []
+  movementConditions:
+  - {fileID: 0}
   eventToExecuteBeforeMovement:
     m_PersistentCalls:
       m_Calls: []

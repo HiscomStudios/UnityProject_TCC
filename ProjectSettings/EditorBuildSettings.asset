@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MainMenuScene.unity
+    path: Assets/_Organizar/MainMenuScene.unity
     guid: f2c6e59198764264799c1d866f26549a
+  - enabled: 1
+    path: Assets/Application_Main/Runtime/Scenes/scene_Ilha.unity
+    guid: b66d90144ef5bfe4dbf3fdb722813a4a
   m_configObjects: {}

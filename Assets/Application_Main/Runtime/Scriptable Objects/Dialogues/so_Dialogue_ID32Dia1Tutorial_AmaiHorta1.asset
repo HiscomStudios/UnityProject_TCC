@@ -21,7 +21,7 @@ MonoBehaviour:
     audio: {fileID: 0}
   - speakerId: character_Amai
     sentence: "Agora, se n\xE3o for pedir muito pode ir at\xE9 a horta da vila e
-      pegar pra mim as cenouras que os cuidadores separaram pra mim?"
+      pegar pra mim uma cesta que os cuidadores separaram pra mim?"
     icon: {fileID: 21300000, guid: 8e12b4a2578b75f428aeb101fbdd5984, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Niara
