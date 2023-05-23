@@ -1,0 +1,1093 @@
+fileFormatVersion: 2
+guid: d82ddddf9e2b281468b1049860e30575
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 1
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daktari_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240bee69fb6623446b713df584bedb37
+      internalID: -456247965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f307b02f15857d849bd5f136ccd13998
+      internalID: -576931413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e52f647eb68e4388e4d5adaf46a1b
+      internalID: -838083801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f71bd85d4648264b8f289641ffdd276
+      internalID: -1633780432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee25c090c20de2649866f6b22a7e2a99
+      internalID: -1279274211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5786590abfae9304ba9dff4f8a7f6791
+      internalID: -585922115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe71e40236c7d846b2cee63766d664e
+      internalID: -2114814459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3150ef68f1853ef4b844ff6ba4411b33
+      internalID: 1616496941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2489a24cc3e3bbd4ab3bbd7df0f0ec75
+      internalID: 8225163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1608
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a82160c2190a5469d622e685f84835
+      internalID: 1742433604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b477ed12db7a532489ddabd0ecddc795
+      internalID: -1531702684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa479e5d9f3959c4e96645f747754d26
+      internalID: -2021545304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b65cc1da7735a847b089c3c596609b3
+      internalID: 731533604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d76bf5d0c4ade14299976207504ac8a
+      internalID: 1801010900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f8b3c39f4ae0f48aa21b48fb162076
+      internalID: 707878121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4687cc76c7175ad47bbf25873b890930
+      internalID: 536253376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553a54172e977c243b79bdb1cb463f3b
+      internalID: 1768611816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4425bdf75d6884fa091427a7e8720b
+      internalID: 526023965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e4158bed4a09044b83270eaa11e70d
+      internalID: 1154859655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1206
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9578a78a9948f7341a0b763a7a502e06
+      internalID: -389576498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2771fcb3d2d1bb145badf17616f69da3
+      internalID: 504323415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7875809a798826e4db2989ce042e40dd
+      internalID: 682149037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be95dc4d1eb8044cbe1b9cb30d12004
+      internalID: 1284094211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2db23f2a854ef44a6e6627aaa93389
+      internalID: -828023519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fe7c8d324732e47a27c2b8468ed5be
+      internalID: -1783849923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4456ed23c21ce04db673cf09c5a7474
+      internalID: -823117099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e0a636223a2de458487c2c330c8c1c
+      internalID: 937425362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f062d25ecd8a864c93621e9ce531261
+      internalID: -396954658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034087dab121ad74fbe5b7bf320b07fc
+      internalID: 1970331443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 804
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7731cb45ef5eaa942af2fbe2243c1091
+      internalID: 1864367221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b714898cc60b5b4584c8d27bfe2bb3e
+      internalID: -695027082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec609db41466fd49b7f405b64c075e1
+      internalID: -2118672756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a778b179f8c0b3a4e85a88d80c67e1e3
+      internalID: 576876779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d17242709f3e7149b43ee372baba297
+      internalID: -41764611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e59d9e35042cf49b33a2dfbf3dce67
+      internalID: 393634549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7bbd7974e280d245acf304a9b699fca
+      internalID: -1203362704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ee5238330f7143ae3f4c705450b0a
+      internalID: 523951921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9201306dab047e54587d3d1df18920a2
+      internalID: -1021799887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d10126ac652a6c468e225f3e501c250
+      internalID: -1593044836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 402
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2ae172870aaec44bab839ffe3ed3d1
+      internalID: -1544299939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01cff0400740be4f816c6ac8e8cf32c
+      internalID: -603185799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 0
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c1be64dad3f684eabf300307c5f01c
+      internalID: -2057699067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daktari_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 0
+        width: 213
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8963d921ea5154298967ad2e112b6b
+      internalID: -2015874499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      daktari_spritesheet_0: -456247965
+      daktari_spritesheet_1: -576931413
+      daktari_spritesheet_10: -1531702684
+      daktari_spritesheet_11: -2021545304
+      daktari_spritesheet_12: 731533604
+      daktari_spritesheet_13: 1801010900
+      daktari_spritesheet_14: 707878121
+      daktari_spritesheet_15: 536253376
+      daktari_spritesheet_16: 1768611816
+      daktari_spritesheet_17: 526023965
+      daktari_spritesheet_18: 1154859655
+      daktari_spritesheet_19: -389576498
+      daktari_spritesheet_2: -838083801
+      daktari_spritesheet_20: 504323415
+      daktari_spritesheet_21: 682149037
+      daktari_spritesheet_22: 1284094211
+      daktari_spritesheet_23: -828023519
+      daktari_spritesheet_24: -1783849923
+      daktari_spritesheet_25: -823117099
+      daktari_spritesheet_26: 937425362
+      daktari_spritesheet_27: -396954658
+      daktari_spritesheet_28: 1970331443
+      daktari_spritesheet_29: 1864367221
+      daktari_spritesheet_3: -1633780432
+      daktari_spritesheet_30: -695027082
+      daktari_spritesheet_31: -2118672756
+      daktari_spritesheet_32: 576876779
+      daktari_spritesheet_33: -41764611
+      daktari_spritesheet_34: 393634549
+      daktari_spritesheet_35: -1203362704
+      daktari_spritesheet_36: 523951921
+      daktari_spritesheet_37: -1021799887
+      daktari_spritesheet_38: -1593044836
+      daktari_spritesheet_39: -1544299939
+      daktari_spritesheet_4: -1279274211
+      daktari_spritesheet_40: -603185799
+      daktari_spritesheet_41: -2057699067
+      daktari_spritesheet_42: -2015874499
+      daktari_spritesheet_5: -585922115
+      daktari_spritesheet_6: -2114814459
+      daktari_spritesheet_7: 1616496941
+      daktari_spritesheet_8: 8225163
+      daktari_spritesheet_9: 1742433604
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

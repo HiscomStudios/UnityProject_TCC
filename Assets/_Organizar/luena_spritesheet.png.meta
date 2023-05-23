@@ -1,0 +1,1181 @@
+fileFormatVersion: 2
+guid: 7dfb0dc9624ff6a45b1730b40088fa5c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 1
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: luena_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d76bf74ef21f5d4e88932f78138d498
+      internalID: -1749410214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbd4bccb81f510f4cb9806e40c93d6af
+      internalID: 161042237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc5fc8dfb66826498053b0f17512bda
+      internalID: -1019330430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d572bc85e271143b16928dc796596a
+      internalID: -1189747293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eec5a74ed5c7984eaa5c7e1e005b530
+      internalID: 1602375816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90af33d2f76a3134d840a42be7f0a4e9
+      internalID: -1902149699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0fc5f1d1a38724ea65ecec0ea90de3
+      internalID: -1735474251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42cd8f8cd3ef4249b0970a568570283
+      internalID: -53120656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1726708f18c5eb2428ae7aa5ced78f94
+      internalID: 1663993434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc7dc922d26db34fbbdc8379079635e
+      internalID: -392688017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea52c75d46a15364686b31bad6fd8b49
+      internalID: -1102507919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fc5d6af0eca1d4483292d3f27f682b
+      internalID: 1539987038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 1866
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c32ec4aede6bbc547b56550dd3de37db
+      internalID: 837528239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a77937553cbbac49b8167206504c4e8
+      internalID: 1400920978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55873370d02cc484397d0ea86ac92259
+      internalID: -481473131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8296fe2a7615e4e8bff7dbb0071e97
+      internalID: 1581249149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c007a8af544194f960e5ee787296e2
+      internalID: 941364876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33bbdeb45db5fac40912fbdc6afb4a91
+      internalID: 577823076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9773408af4104bf4cb5b9da50ee17413
+      internalID: 1235541798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb661fd87eeefd64bbed95601e4527de
+      internalID: 2051178002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e233573743d7b294e9284848bbdb0dae
+      internalID: 1651309231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95734b00011e554b8a1f805d092c3fb
+      internalID: -2004734885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40be16e6698cbc7439b79c2a22b8a12e
+      internalID: -399990217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcc95715aae819a44bffbe2e50f22385
+      internalID: -1757565784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27df069ac6726a1418fd1d8daadeffa8
+      internalID: -1537624311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 1244
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d3d83dfcc361c4f917d995bbd27138
+      internalID: -297445492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f1f322843966745a4518cf29c21bf0
+      internalID: 542815454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26728ed04c72a043b4f4278db8171ff
+      internalID: 482054835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca090696cb81bcd47aeb7f7a27c052e6
+      internalID: 400136841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6c326bdf505ac47b7b97498ffdc076
+      internalID: 1919230118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf86978e7f4cab44aca43ce2ceb5340
+      internalID: -1944338190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b4a95c54eec8846864ed8b94f8a3ae
+      internalID: -623282336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042a6fc7e3ae5cb40957b991d20aee1b
+      internalID: -783524781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb13e480c71193438eef887a45c8ee4
+      internalID: 1037991550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b1da6532c2c94fb7669d512c3e8d1
+      internalID: 377670129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e69ce8012d44cc4a8372c907fcf5bd4
+      internalID: 1798096373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2030
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d52130503a8fa4d8f6834918db0a71
+      internalID: -2090210972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd55384c7eb6d34ebdadbdb47623be2
+      internalID: -385525718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2436
+        y: 622
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ffd31c6544f2294c84e91a6ee538bc4
+      internalID: -287234633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b47f12e25697e94789af62017abc574
+      internalID: -2120701618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb50d0590ba845746b61b7b6e937c8e0
+      internalID: 556148547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd5483ad2c93a849a5cd29f0c2405ad
+      internalID: 658609899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a63471387e9804ab3b4a3438744764
+      internalID: 2053964545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df12e7a0bd9e1d244b4a9de8846b2d17
+      internalID: 684577310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086a8112426a14f42a48e7ac7512ce3a
+      internalID: -529049559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd5306e9472a5d499eb3faa0a5ac5ca
+      internalID: -804376154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: luena_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 0
+        width: 203
+        height: 622
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d6f3626d005f24e824c06b7ac4a076
+      internalID: -1043760895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      luena_spritesheet_0: -1749410214
+      luena_spritesheet_1: 161042237
+      luena_spritesheet_10: -1102507919
+      luena_spritesheet_11: 1539987038
+      luena_spritesheet_12: 837528239
+      luena_spritesheet_13: 1400920978
+      luena_spritesheet_14: -481473131
+      luena_spritesheet_15: 1581249149
+      luena_spritesheet_16: 941364876
+      luena_spritesheet_17: 577823076
+      luena_spritesheet_18: 1235541798
+      luena_spritesheet_19: 2051178002
+      luena_spritesheet_2: -1019330430
+      luena_spritesheet_20: 1651309231
+      luena_spritesheet_21: -2004734885
+      luena_spritesheet_22: -399990217
+      luena_spritesheet_23: -1757565784
+      luena_spritesheet_24: -1537624311
+      luena_spritesheet_25: -297445492
+      luena_spritesheet_26: 542815454
+      luena_spritesheet_27: 482054835
+      luena_spritesheet_28: 400136841
+      luena_spritesheet_29: 1919230118
+      luena_spritesheet_3: -1189747293
+      luena_spritesheet_30: -1944338190
+      luena_spritesheet_31: -623282336
+      luena_spritesheet_32: -783524781
+      luena_spritesheet_33: 1037991550
+      luena_spritesheet_34: 377670129
+      luena_spritesheet_35: 1798096373
+      luena_spritesheet_36: -2090210972
+      luena_spritesheet_37: -385525718
+      luena_spritesheet_38: -287234633
+      luena_spritesheet_39: -2120701618
+      luena_spritesheet_4: 1602375816
+      luena_spritesheet_40: 556148547
+      luena_spritesheet_41: 658609899
+      luena_spritesheet_42: 2053964545
+      luena_spritesheet_43: 684577310
+      luena_spritesheet_44: -529049559
+      luena_spritesheet_45: -804376154
+      luena_spritesheet_46: -1043760895
+      luena_spritesheet_5: -1902149699
+      luena_spritesheet_6: -1735474251
+      luena_spritesheet_7: -53120656
+      luena_spritesheet_8: 1663993434
+      luena_spritesheet_9: -392688017
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

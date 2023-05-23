@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 namespace HiscomProject.Editor.Scripts
 {
     using UnityEditor;
@@ -55,3 +57,5 @@ namespace HiscomProject.Editor.Scripts
         #endregion
     }
 }
+
+#endif
