@@ -5,6 +5,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
     using UnityEngine;
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors;
     using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers;
+    using Views.Internal;
     
     public class HP_NPCSpawnManager : MonoBehaviour
     {
@@ -12,16 +13,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
 
         #region Protected Variables
 
-        [SerializeField] protected List<string> availableNpcs, sessionNpcs;
-        protected DataController dataController;
-        protected DataConnector dataConnector;
-        
+        [SerializeField] protected List<HP_NPCView> availableNpcs, sessionNpcs;
+
         #endregion
 
         #region Public Variables
 
-        public List<string> GetAvailableNpcs => availableNpcs;
-        public List<string> GetSessionNpcs => sessionNpcs;
+        public List<HP_NPCView> GetAvailableNpcs => availableNpcs;
+        public List<HP_NPCView> GetSessionNpcs => sessionNpcs;
 
         #endregion
 
@@ -31,43 +30,26 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
 
         #region Protected Methods
 
-        protected void Awake()
+        protected virtual void Awake()
         {
-            dataController = gameObject.GetComponent<DataController>();
-            dataConnector = gameObject.GetComponent<DataConnector>();
+            instance = this;
         }
 
         #endregion
 
         #region Public Methods
 
-        public void Save()
-        {
-            dataController.QueueToSave(dataConnector);
-            dataController.Save();
-        }
-
-        public void Load()
-        {
-            try
-            {
-                dataController.QueueToLoad(dataConnector);
-                dataController.Load(dataConnector);
-            }
-            catch (Exception) {/* ignored */}
-        }
-
-        public void OnLoadSuccess()
+        public virtual void OnLoadSuccess()
         {
             availableNpcs = sessionNpcs;
-            sessionNpcs = new List<string>();
+            sessionNpcs = new List<HP_NPCView>();
             
             foreach (var availableNpc in availableNpcs)
                 sessionNpcs.Add(availableNpc);
         }
-        public void OnLoadFail()
+        public virtual void OnLoadFail()
         {
-            sessionNpcs = new List<string>();
+            sessionNpcs = new List<HP_NPCView>();
             
             foreach (var availableNpc in availableNpcs)
                 sessionNpcs.Add(availableNpc);
@@ -79,19 +61,20 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
         
         #region Singleton
         
-        private static HP_NPCSpawnManager _instance;
+        protected static HP_NPCSpawnManager instance;
         public static HP_NPCSpawnManager Instance
         {
             get
             {
-                if (_instance != null) return _instance;
+                if (instance != null) return instance;
 
                 var go = Instantiate(Resources.Load("Managers/HP_NPCSpawnManager") as GameObject);
                 go.name = "@HP_NPCSpawnManager";
-                _instance = go.GetComponent<HP_NPCSpawnManager>();
+                instance = go.GetComponent<HP_NPCSpawnManager>();
+                instance.OnLoadFail();
 
                 DontDestroyOnLoad(go); 
-                return _instance;
+                return instance;
             }
         }
 

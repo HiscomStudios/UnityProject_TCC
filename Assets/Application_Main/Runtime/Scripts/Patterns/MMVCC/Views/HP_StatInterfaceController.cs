@@ -48,59 +48,59 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
         }
         protected virtual void ShowLife(float value)
         {
-            switch ((int) value)
-            {
-                case var a when a < instantiatedLifeItems.Count(lifeItem => lifeItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
-                    HP_StatInterfaceItemView biggestFullItem = null;
-                    for (var i = 0; i < instantiatedLifeItems.Count; i++)
-                    {
-                        if (instantiatedLifeItems[i].GetItemState != HP_StatInterfaceItemView.ItemState.Full) continue;
-                        biggestFullItem = instantiatedLifeItems[i];
-                    }
-                    if (biggestFullItem != null) biggestFullItem.Disable();
-                    break;
-                
-                case var a when a > instantiatedLifeItems.Count(lifeItem => lifeItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
-                    HP_StatInterfaceItemView smallestEmptyItem = null;
-                    for (var i = instantiatedLifeItems.Count - 1; i > 0; i--)
-                    {
-                        if (instantiatedLifeItems[i].GetItemState != HP_StatInterfaceItemView.ItemState.Empty) continue;
-                        smallestEmptyItem = instantiatedLifeItems[i];
-                    }
-                    if (smallestEmptyItem != null) smallestEmptyItem.Enable();
-                    break;
-            }
+            var difference = Mathf.Abs((int) value - instantiatedLifeItems.Count);
 
-            if (value > instantiatedLifeItems.Count)
+            for (int i = 0; i < difference; i++)
             {
-                var difference = (int) value - instantiatedLifeItems.Count;
-                for (var i = 0; i < difference; i++)
+                switch (value)
                 {
-                    instantiatedLifeItems.Add(Instantiate(lifeItemPrefab, lifeContainer));
+                    case var _ when value > instantiatedLifeItems.Count:
+                        instantiatedLifeItems.Add(Instantiate(lifeItemPrefab, lifeContainer));
+                        break;
+                
+                    case var _ when value < instantiatedLifeItems.Count(lifeItem => lifeItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
+                        HP_StatInterfaceItemView biggestFullItem = null;
+                        for (var j = 0; j < instantiatedLifeItems.Count; j++)
+                        {
+                            if (instantiatedLifeItems[j].GetItemState != HP_StatInterfaceItemView.ItemState.Full) continue;
+                            biggestFullItem = instantiatedLifeItems[j];
+                        }
+                        if (biggestFullItem != null) biggestFullItem.Disable();
+                        break;
+                
+                    case var _ when value > instantiatedLifeItems.Count(lifeItem => lifeItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
+                        HP_StatInterfaceItemView smallestEmptyItem = null;
+                        for (var j = instantiatedLifeItems.Count - 1; j > 0; j--)
+                        {
+                            if (instantiatedLifeItems[j].GetItemState != HP_StatInterfaceItemView.ItemState.Empty) continue;
+                            smallestEmptyItem = instantiatedLifeItems[j];
+                        }
+                        if (smallestEmptyItem != null) smallestEmptyItem.Enable();
+                        break;
                 }
             }
         }
         protected virtual void ShowShield(float value)
         {
-            switch ((int) value)
+            var difference = Mathf.Abs((int) value - instantiatedShieldItems.Count);
+
+            for (int i = 0; i < difference; i++)
             {
-                case var a when a < instantiatedShieldItems.Count(shieldItem => shieldItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
-                    HP_StatInterfaceItemView biggestFullItem = null;
-                    for (var i = 0; i < instantiatedShieldItems.Count; i++)
-                    {
-                        if (instantiatedShieldItems[i].GetItemState != HP_StatInterfaceItemView.ItemState.Full) continue;
-                        biggestFullItem = instantiatedShieldItems[i];
-                    }
-                    if (biggestFullItem != null) Destroy(biggestFullItem);
-                    break;
-            }
-            
-            if (value > instantiatedShieldItems.Count)
-            {
-                var difference = (int) value - instantiatedShieldItems.Count;
-                for (var i = 0; i < difference; i++)
+                switch (value)
                 {
-                    instantiatedShieldItems.Add(Instantiate(shieldItemPrefab, shieldContainer));
+                    case var _ when value > instantiatedShieldItems.Count:
+                        instantiatedShieldItems.Add(Instantiate(shieldItemPrefab, shieldContainer));
+                        break;
+                
+                    case var _ when value < instantiatedShieldItems.Count(lifeItem => lifeItem.GetItemState == HP_StatInterfaceItemView.ItemState.Full):
+                        HP_StatInterfaceItemView biggestFullItem = null;
+                        for (var j = 0; j < instantiatedShieldItems.Count; j++)
+                        {
+                            if (instantiatedShieldItems[j].GetItemState != HP_StatInterfaceItemView.ItemState.Full) continue;
+                            biggestFullItem = instantiatedShieldItems[j];
+                        }
+                        if (biggestFullItem != null) Destroy(biggestFullItem.gameObject);
+                        break;
                 }
             }
         }

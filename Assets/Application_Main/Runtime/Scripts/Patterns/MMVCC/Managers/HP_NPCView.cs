@@ -1,9 +1,10 @@
-namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
+namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views.Internal
 {
+    using System;
     using UnityEngine;
-    using Managers;
-    
-    public class HP_NPCView : MonoBehaviour
+
+    [Serializable]
+    public class HP_NPCView
     {
         #region Variables
 
@@ -19,19 +20,6 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         public string GetID => id;
         public string GetNpcName => npcName;
         public Sprite GetSplashArtSprite => splashArtSprite;
-
-        #endregion
-
-        #endregion
-
-        #region Methods
-
-        #region Protected Methods
-
-        protected void Awake()
-        {
-            HP_NPCSpawnManager.Instance.GetAvailableNpcs.Add(id);
-        }
 
         #endregion
 

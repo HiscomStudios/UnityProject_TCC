@@ -1,59 +1,35 @@
 namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
 {
     using System.Linq;
-    using System.Collections.Generic;
     using UnityEngine;
     using Managers;
-    using Views;
+    using Connectors;
 
     public class HP_NPCLifeController : MonoBehaviour
     {
-        #region Variables
+        #region Methods
 
-        #region Protected Variables
-        
-        protected List<HP_NPCView> spawnedNpcs = new();
+        #region Public Methods
 
-        #endregion
-
-        #region Public Variables
-
-        public List<HP_NPCView> GetSpawnedNpcs => spawnedNpcs;
-
-        #endregion
-
-        #endregion
-
-        public void SpawnNPC()
+        public void OnLoadSuccess()
         {
-            foreach (var npc in FindObjectsOfType<HP_NPCView>())
+            foreach (var npc in FindObjectsOfType<HP_NPCConnector>())
             {
                 npc.gameObject.SetActive(false);
-                if (!HP_NPCSpawnManager.Instance.GetAvailableNpcs.Contains(npc.GetID)) continue;
+                if (!HP_NPCSpawnManager.Instance.GetAvailableNpcs.Any(spawnedNPC => spawnedNPC.GetID == npc.GetID)) continue;
                 npc.gameObject.SetActive(true);
-                spawnedNpcs.Add(npc);
             }
         }
-
-        public void KillNPC(string id)
+        public void OnLoadFail()
         {
-            HP_NPCSpawnManager.Instance.GetSessionNpcs.Remove(id);
-            foreach (var npc in spawnedNpcs.Where(npc => npc.GetID == id))
+            foreach (var npc in FindObjectsOfType<HP_NPCConnector>())
             {
-                npc.gameObject.SetActive(false);
-                spawnedNpcs.Remove(npc);
-                break;
+                npc.gameObject.SetActive(true);
             }
         }
 
-        public void SaveNPCs()
-        {
-            HP_NPCSpawnManager.Instance.Save();
-        }
-        
-        public void LoadNPCs()
-        {
-            HP_NPCSpawnManager.Instance.Load();
-        }
+        #endregion
+
+        #endregion
     }
 }
