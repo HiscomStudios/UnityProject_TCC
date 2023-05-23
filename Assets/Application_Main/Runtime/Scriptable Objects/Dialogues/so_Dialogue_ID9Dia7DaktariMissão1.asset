@@ -28,3 +28,20 @@ MonoBehaviour:
     sentence: "Venha comigo, vou te mostrar algo que a Grande M\xE3e me revelou."
     icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Venha comigo, vou te mostrar algo que a Grande M\xE3e me revelou."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Na vida passada, L\xE8nmi nasceu livre, mas foi escravizado por senhores
+      de terras. Ele nunca aceitou essa vida, por isso tentou fugir muitas vezes
+      e foi punido por isso... muitas vezes."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "As corretes que o prendiam se tornaram um s\xEDmbolo e com elas as
+      utiliza para atacar e causa dor \xE0queles que atingir. Por isso, voc\xEA deve
+      ficar o mais longe poss\xEDvel das correntes, desvie e NUNCA as toque. Em hip\xF3tese
+      alguma."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}

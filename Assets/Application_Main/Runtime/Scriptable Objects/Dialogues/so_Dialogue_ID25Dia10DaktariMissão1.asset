@@ -25,3 +25,24 @@ MonoBehaviour:
       luta e um \xFAltimo lampejo da minha finita sabedoria."
     icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "L\xE8nmi \xE9 uma entidade maligna, o que significa que ele tem for\xE7as
+      obscuras ao seu lado."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "L\xE8nmi \xE9 uma entidade maligna, o que significa que ele tem for\xE7as
+      obscuras ao seu lado."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Entretanto, a Grande M\xE3e \xE9 vida e luz a qual sempre estar\xE1
+      ao seu lado. Lenmi tentar\xE1 te esconder nas trevas, mas n\xE3o tenha medo,
+      mantenha dist\xE2ncia e o ataque se puder."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Se atente aos avisos antes dele atacar, dessa forma, ele revela sua
+      posi\xE7\xE3o no escuro."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
