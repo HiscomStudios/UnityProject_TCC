@@ -45,13 +45,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   availableNpcs:
-  - id: 
+  - id: Character_Luena
     npcName: Luena
     splashArtSprite: {fileID: 0}
-  - id: 
+  - id: Character_Daktari
     npcName: Daktari
     splashArtSprite: {fileID: 0}
-  - id: 
+  - id: Character_Adumi
     npcName: Adumi
     splashArtSprite: {fileID: 0}
   sessionNpcs: []

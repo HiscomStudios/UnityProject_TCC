@@ -40,6 +40,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         }
         protected override void Attack()
         {
+            animator.Play(animationClip.name);
             StartCoroutine(SpawnChain());
         }
         

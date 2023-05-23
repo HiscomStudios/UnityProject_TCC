@@ -1,0 +1,1863 @@
+fileFormatVersion: 2
+guid: 4b1ba179f07c73241a5dd3838e8c10e0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 1
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708248a2c712b544bac114fb21f045d0
+      internalID: -276286974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ab1e08c100d8e49af0e8cf8b5aa5fc
+      internalID: 1632973776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed6de56429e26642855b7344f18b715
+      internalID: 1955025536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd3bf770a6111408deb00c2f1b508e
+      internalID: -2184102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c73038b49016f4cbac03188839975b
+      internalID: -1698628733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460440bd473de5a4cbdf86c6b90f30c6
+      internalID: 672459575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5965ab565c3a7b749b6ffbfa2eb0481c
+      internalID: -177223109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c8d0db64032ae408a0fee739e2e74a
+      internalID: 968341809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbcb378456d634f488ab883674debe21
+      internalID: -1681235243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3048abe5eb850e49ba0dfdd9d45c2b8
+      internalID: -125568030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 7063
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa005db27938764a9294cec34064d63
+      internalID: 1117032428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f01b739bca78fe4ca6ed785e51c94de
+      internalID: 1177874978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a92673cbcca226c4b99779356f3d6c14
+      internalID: -1740719601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522252dde6b40b24e8d14b45460b49bb
+      internalID: 610318221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe3d4b774da24f40a30dba7d2d65174
+      internalID: -917995754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b658a320f1ecd4b4683685d9c02052f6
+      internalID: -1912328398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6efe7160f5349143b56052842c11828
+      internalID: 1734630288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed7dc9b83fe4a741bec50d24a124553
+      internalID: 1933260191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59629da19ebf5ba4bb05024e61159d6c
+      internalID: -171158191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74c3eff407eaa94dbaa092cb42aa811
+      internalID: -1858780692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb963547ee5388a43be7946108783dc0
+      internalID: -1562062667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 6054
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862dd7ab0549d344284a2fccac7bd2b2
+      internalID: -1152287816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63e1dd5157a53b42a284a53f001e5b3
+      internalID: -2012881123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c18e693a294364faa9ebdfb537078c
+      internalID: 727327868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699cc09baa0470548a812efdd1df3098
+      internalID: -996830591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8673d2d6943d34469bc06e9239064cc
+      internalID: -118138664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26528318f4a33c14581e4c23efd495b9
+      internalID: -1244820902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf63e6acc87bb147b41a29173e0624c
+      internalID: -111446761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de02802e1efa5d4f8fcb74de1aa006e
+      internalID: 620830257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d4a65210706b441b52f1e03f4ccc39
+      internalID: 686238325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6cd428ec1afba41ab40da2f79451a4
+      internalID: -2018797760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb48b6a299213304bb625edac6542b13
+      internalID: 765181821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 5045
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967c4d149ca0c9e44b290f286bd5bb50
+      internalID: -1391739058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92b522ebe1c7e24f9f6498bc4cdfe79
+      internalID: -280847693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6023dff357580bc4c94e03e2116a7b3e
+      internalID: 907247382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca4ba596531ae47b2800a06cf7ae29
+      internalID: -1472647850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 045f23a68d62d454d819b7adb51fa189
+      internalID: -34744470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d24b0571bf94a847bc314f420830a98
+      internalID: 288520205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9920c3f48e5de459248c57ebbcd734
+      internalID: -1056388171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de9a21dab34e7a45bce2700db6ce550
+      internalID: 674201994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed86f4e0c26651746a548b09a86a43c4
+      internalID: -60056450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361c6cfa428a7be4d9ffdb67ee283ce4
+      internalID: -2009254276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1e4f26c3a1d24478d6416f9c43e0c0
+      internalID: 1277053899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 4036
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb2a2790b4cdecb4c983031b43b11bbd
+      internalID: -1493584657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14548ac52b8cd954a8e9d16d969ffb78
+      internalID: 1848986572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db385ba05b0aae448b512721733f3ab1
+      internalID: 944147971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57665fa9deba74a409f4f7de4fc43732
+      internalID: -504048968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73a3794db334c6e4d8c807963b0193e9
+      internalID: -43944150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7546ded01463c43409ef3432b6d6e0ea
+      internalID: -366965791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e634149cc19d0f47ab7a0578659071a
+      internalID: 1007431274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ef59393c04d9f4cb7e572dbeacf1f1
+      internalID: -438236296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbb382b7a33f8364a9d9b732b6c1be8f
+      internalID: 1093140178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba74f2dfc6355640af8dde8cc161128
+      internalID: -766594865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df80b837c666ca34f9ccdc2d90064410
+      internalID: -1272219169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 3027
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93026e0184629041b9b0af1ee0e986c
+      internalID: 1438186981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac98503b2ec8024180edb4cac2f4cba
+      internalID: -709791159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8022b9f0b58df4ca3cd1642a2ab3ed
+      internalID: -1415796800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091929f9a4f3a3447a0636484f146f69
+      internalID: -623960315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1823c73d39b1e4489797631e95f134a
+      internalID: -1431117854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf3c1bed711c744a64bc208f5c7702
+      internalID: 1683302856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8928410465dcc46bf809b218cd52d6
+      internalID: 1679668533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba0d2873888123418b2dd37786a68e6
+      internalID: -140819652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414ab108f3118db488daad285dc1755c
+      internalID: -1828844578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faeb817e032dbdc44861e0a041341483
+      internalID: 1335450371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92cb386a0ac7f84bab7cf68aafba932
+      internalID: -2028803432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 2018
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62cdc0d461430da458caeb55d951b35e
+      internalID: -1799655580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ebfe650d5c959c47bd99e6a7a5721d4
+      internalID: 458767549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62558377026882f49972fd91c6fa0249
+      internalID: -1107109169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 1516
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eaa1705338d1f44c8e8cbce84eba96e
+      internalID: 2102388653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8183b777f81ba488e5d1a5aff1aa8e
+      internalID: -1137989340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 3032
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f17cd9a17af964a8daff0fefb2816f
+      internalID: 254881208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4b427e5c154fd428ce81d966164ec5
+      internalID: 164196152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 4548
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3450b70a5f35c7748947510abcc62a86
+      internalID: -936056319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 5306
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d697d1454a61f744f967ee33fa1cdf67
+      internalID: 1227117681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 6064
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ab415914b6e3e4ba8c0239623d11c7
+      internalID: -1007507677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 6822
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dd9a40a04945e46933bd512624450e
+      internalID: -1940658419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 7580
+        y: 1009
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e932df9242016469976bb0b116f7db
+      internalID: -993355757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss_invocar_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 758
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3470f602324cd4584b7263c1d213a8
+      internalID: -930846964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: e5654bf80aaca9441ac74bad281b1c81
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      boss_invocar_spritesheet_0: -276286974
+      boss_invocar_spritesheet_1: 1632973776
+      boss_invocar_spritesheet_10: 1117032428
+      boss_invocar_spritesheet_11: 1177874978
+      boss_invocar_spritesheet_12: -1740719601
+      boss_invocar_spritesheet_13: 610318221
+      boss_invocar_spritesheet_14: -917995754
+      boss_invocar_spritesheet_15: -1912328398
+      boss_invocar_spritesheet_16: 1734630288
+      boss_invocar_spritesheet_17: 1933260191
+      boss_invocar_spritesheet_18: -171158191
+      boss_invocar_spritesheet_19: -1858780692
+      boss_invocar_spritesheet_2: 1955025536
+      boss_invocar_spritesheet_20: -1562062667
+      boss_invocar_spritesheet_21: -1152287816
+      boss_invocar_spritesheet_22: -2012881123
+      boss_invocar_spritesheet_23: 727327868
+      boss_invocar_spritesheet_24: -996830591
+      boss_invocar_spritesheet_25: -118138664
+      boss_invocar_spritesheet_26: -1244820902
+      boss_invocar_spritesheet_27: -111446761
+      boss_invocar_spritesheet_28: 620830257
+      boss_invocar_spritesheet_29: 686238325
+      boss_invocar_spritesheet_3: -2184102
+      boss_invocar_spritesheet_30: -2018797760
+      boss_invocar_spritesheet_31: 765181821
+      boss_invocar_spritesheet_32: -1391739058
+      boss_invocar_spritesheet_33: -280847693
+      boss_invocar_spritesheet_34: 907247382
+      boss_invocar_spritesheet_35: -1472647850
+      boss_invocar_spritesheet_36: -34744470
+      boss_invocar_spritesheet_37: 288520205
+      boss_invocar_spritesheet_38: -1056388171
+      boss_invocar_spritesheet_39: 674201994
+      boss_invocar_spritesheet_4: -1698628733
+      boss_invocar_spritesheet_40: -60056450
+      boss_invocar_spritesheet_41: -2009254276
+      boss_invocar_spritesheet_42: 1277053899
+      boss_invocar_spritesheet_43: -1493584657
+      boss_invocar_spritesheet_44: 1848986572
+      boss_invocar_spritesheet_45: 944147971
+      boss_invocar_spritesheet_46: -504048968
+      boss_invocar_spritesheet_47: -43944150
+      boss_invocar_spritesheet_48: -366965791
+      boss_invocar_spritesheet_49: 1007431274
+      boss_invocar_spritesheet_5: 672459575
+      boss_invocar_spritesheet_50: -438236296
+      boss_invocar_spritesheet_51: 1093140178
+      boss_invocar_spritesheet_52: -766594865
+      boss_invocar_spritesheet_53: -1272219169
+      boss_invocar_spritesheet_54: 1438186981
+      boss_invocar_spritesheet_55: -709791159
+      boss_invocar_spritesheet_56: -1415796800
+      boss_invocar_spritesheet_57: -623960315
+      boss_invocar_spritesheet_58: -1431117854
+      boss_invocar_spritesheet_59: 1683302856
+      boss_invocar_spritesheet_6: -177223109
+      boss_invocar_spritesheet_60: 1679668533
+      boss_invocar_spritesheet_61: -140819652
+      boss_invocar_spritesheet_62: -1828844578
+      boss_invocar_spritesheet_63: 1335450371
+      boss_invocar_spritesheet_64: -2028803432
+      boss_invocar_spritesheet_65: -1799655580
+      boss_invocar_spritesheet_66: 458767549
+      boss_invocar_spritesheet_67: -1107109169
+      boss_invocar_spritesheet_68: 2102388653
+      boss_invocar_spritesheet_69: -1137989340
+      boss_invocar_spritesheet_7: 968341809
+      boss_invocar_spritesheet_70: 254881208
+      boss_invocar_spritesheet_71: 164196152
+      boss_invocar_spritesheet_72: -936056319
+      boss_invocar_spritesheet_73: 1227117681
+      boss_invocar_spritesheet_74: -1007507677
+      boss_invocar_spritesheet_75: -1940658419
+      boss_invocar_spritesheet_76: -993355757
+      boss_invocar_spritesheet_77: -930846964
+      boss_invocar_spritesheet_8: -1681235243
+      boss_invocar_spritesheet_9: -125568030
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

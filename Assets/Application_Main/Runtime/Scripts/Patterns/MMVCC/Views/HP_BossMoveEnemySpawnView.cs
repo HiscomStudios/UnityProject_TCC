@@ -55,6 +55,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         }
         protected override void Attack()
         {
+            animator.Play(animationClip.name);
+            
             LeanTween.value(0, 1, cooldownBetweenHordes).setOnComplete(() =>
             {
                 StartCoroutine(SpawnEnemies());

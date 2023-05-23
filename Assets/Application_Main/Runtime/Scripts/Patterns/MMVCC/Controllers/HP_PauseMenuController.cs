@@ -95,6 +95,7 @@
         /// </summary>
         public void OnQuitButtonPressed()
         {
+            Time.timeScale = 1;
             Navigator.Navigate(Scenes.MainMenuScene, LoadSceneMode.Single);
         }
 

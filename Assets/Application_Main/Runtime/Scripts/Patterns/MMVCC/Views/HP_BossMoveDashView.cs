@@ -82,6 +82,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
        }
        protected override void Attack()
        {
+           animator.Play(animationClip.name);
+           
            bool BossLightIsNull()
            {
                return Identifier.IdentifyIncident(() => bossLight == null, IncidentType.Warning, "", gameObject);
