@@ -10,8 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6956052105889000532}
   - component: {fileID: 6956052105889000539}
-  - component: {fileID: 2683945977966640344}
-  - component: {fileID: -2593616985420752188}
   m_Layer: 0
   m_Name: HP_NPCSpawnManager
   m_TagString: Untagged
@@ -46,74 +44,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 762c4ec6425db7847bf38f8cac05b97c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableNpcs: []
+  availableNpcs:
+  - id: 
+    npcName: Luena
+    splashArtSprite: {fileID: 0}
+  - id: 
+    npcName: Daktari
+    splashArtSprite: {fileID: 0}
+  - id: 
+    npcName: Adumi
+    splashArtSprite: {fileID: 0}
   sessionNpcs: []
---- !u!114 &2683945977966640344
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6956052105889000533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  saveFileSet: NPC
-  dataRulesToUse: {fileID: 11400000, guid: 2d4771a13fceced498ad3fa60257e474, type: 2}
-  dataFileAction: 0
-  dataFileType: 0
-  componentsValues:
-  - {fileID: 6956052105889000539}
-  stringValue: 
-  eventToExecuteOnSaveSuccess:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteOnSaveFailure:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteOnLoadSuccess:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6956052105889000539}
-        m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Managers.HP_NPCSpawnManager,
-          Assembly-CSharp
-        m_MethodName: OnLoadSuccess
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteOnLoadFailure:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6956052105889000539}
-        m_TargetAssemblyTypeName: HiscomProject.Scripts.Patterns.MMVCC.Managers.HP_NPCSpawnManager,
-          Assembly-CSharp
-        m_MethodName: OnLoadFail
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &-2593616985420752188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6956052105889000533}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ef2c14a1ae75804bb79a42da4a9bc76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

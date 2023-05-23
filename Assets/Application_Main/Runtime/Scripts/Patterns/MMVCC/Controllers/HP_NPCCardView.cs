@@ -3,8 +3,10 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
     using UnityEngine;
     using UnityEngine.UI;
     using TMPro;
+    using FancyCarouselView.Runtime.Scripts;
+    using Internal;
     
-    public class HP_NPCCardView : MonoBehaviour
+    public class HP_NPCCardView : CarouselCell<HP_NPCView, HP_NPCCardView>
     {
         #region Variables
 
@@ -30,15 +32,27 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         #region Methods
 
-        #region Public Methods
+        #region Protected Methods
 
-        public void Setup(HP_NPCView npc)
+        protected override void Refresh(HP_NPCView npc)
         {
             npcId = npc.GetID;
             npcName = npc.GetNpcName;
             
             npcSplashArtIMG.sprite = npc.GetSplashArtSprite;
             npcNameTMP.text = npc.GetNpcName;
+        }
+
+        #endregion
+
+        #region Public Methods
+
+        public void OnCardButtonPressed()
+        {
+        }
+        protected virtual void SelectNpc(HP_NPCCardView npcCard)
+        {
+            //selectedNpcCard = npcCard;
         }
 
         #endregion
