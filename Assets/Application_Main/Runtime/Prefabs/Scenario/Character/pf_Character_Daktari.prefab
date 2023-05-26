@@ -488,6 +488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1577591154041264511}
   - component: {fileID: 1577591154041264508}
+  - component: {fileID: 8974012916949891743}
   m_Layer: 10
   m_Name: pf_Character_Daktari
   m_TagString: NPC
@@ -525,8 +526,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Character_Daktari
-  npcName: Daktari
-  splashArtSprite: {fileID: 21300000, guid: 7ceced71a7c3a3c41baad70460dadace, type: 3}
+--- !u!95 &8974012916949891743
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577591154041264510}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3d62c811468760b45bb3e831ceff26d4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1577591154092040659
 GameObject:
   m_ObjectHideFlags: 0
