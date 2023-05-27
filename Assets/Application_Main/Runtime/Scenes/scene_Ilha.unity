@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: 7e6cc4c08fa947144b0292b4d614e2f2, type: 2}
+--- !u!114 &11574221 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1237370967}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &12436083
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,7 +669,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &34616845
 Transform:
   m_ObjectHideFlags: 0
@@ -683,6 +694,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 475108130}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1060470486}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -976,6 +1029,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214488313}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 391136892}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -1469,7 +1564,7 @@ Transform:
   m_Children:
   - {fileID: 52184434}
   - {fileID: 1997657331}
-  - {fileID: 117619949}
+  - {fileID: 743383465}
   m_Father: {fileID: 1334924835}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1829,6 +1924,17 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &67672798 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 621410983}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &71795465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3020,50 +3126,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &117619948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 117619949}
-  - component: {fileID: 117619950}
-  m_Layer: 0
-  m_Name: Enemies
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 2147483647
-  m_IsActive: 1
---- !u!4 &117619949
-Transform:
-  m_ObjectHideFlags: 8
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117619948}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 50932448}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &117619950
-MonoBehaviour:
-  m_ObjectHideFlags: 10
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 117619948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &120852570
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3252,6 +3314,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 971806501}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1761034825}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -5394,6 +5498,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &182965470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1586881919}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &183187047
 GameObject:
   m_ObjectHideFlags: 0
@@ -5735,6 +5850,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 585413711}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 865473790}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -9499,6 +9656,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &307571323 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1611199235}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &308496475
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10648,6 +10816,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3088226127010181144, guid: 733e0479e1ddb8e41bd4f0cb582a7a31, type: 3}
   m_PrefabInstance: {fileID: 333188515}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &342332505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1067920312}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &346641039
 GameObject:
   m_ObjectHideFlags: 0
@@ -11545,6 +11724,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3797372556348216868, guid: 26f9441bc6aaeaf4db29d60bd30b13be, type: 3}
   m_PrefabInstance: {fileID: 384922165}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &391136892 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 44288147}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &396124226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11800,6 +11990,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 585413711}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 652269048}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -15101,6 +15333,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 199097735}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 544666065}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -16506,6 +16780,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 952557634977231548, guid: eb4ae90a29f6fe7419780de9114a5744, type: 3}
   m_PrefabInstance: {fileID: 542777635}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &544666065 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 484969660}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &544945219
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17054,6 +17339,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 299567408}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1080216884}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -17551,6 +17878,17 @@ MonoBehaviour:
   postActionExecutionDelay: 0
   executeOnStart: 0
   fadeDirection: 1
+--- !u!114 &571104391 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1483337726}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &571127092
 GameObject:
   m_ObjectHideFlags: 0
@@ -18607,6 +18945,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 299567408}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1169850322}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -19327,6 +19707,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 475108130}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 67672798}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -20143,6 +20565,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 971806501}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1272276023}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -20386,6 +20850,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &652269048 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 396625620}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &653838562
@@ -22142,6 +22617,17 @@ Transform:
   m_Father: {fileID: 1219374985}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &694665741 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 2103888349}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &696749355
 GameObject:
   m_ObjectHideFlags: 0
@@ -23583,7 +24069,7 @@ Transform:
   - {fileID: 299567408}
   - {fileID: 199097735}
   - {fileID: 971806501}
-  m_Father: {fileID: 1334924835}
+  m_Father: {fileID: 50932448}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &743383466
@@ -26476,6 +26962,17 @@ Transform:
   m_Father: {fileID: 882927085}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &865473790 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 190817251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &866521450
 GameObject:
   m_ObjectHideFlags: 0
@@ -32642,6 +33139,17 @@ MonoBehaviour:
   eventToExecuteIfConditionFalse:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1060470486 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 37651950}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1062360208
 GameObject:
   m_ObjectHideFlags: 0
@@ -33277,6 +33785,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 660087963}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 342332505}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -33850,6 +34400,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1080216884 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 560949960}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1080562305
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36804,6 +37365,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 290952927289784338, guid: 4255d98ca4c3d004d80917c607d600e6, type: 3}
+--- !u!114 &1169850322 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 599491471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1169946120
 GameObject:
   m_ObjectHideFlags: 0
@@ -39245,6 +39817,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214488313}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11574221}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -40303,6 +40917,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1271733247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1272276023 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 650342198}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
@@ -42977,7 +43602,6 @@ Transform:
   m_Children:
   - {fileID: 50932448}
   - {fileID: 1759543472}
-  - {fileID: 743383465}
   m_Father: {fileID: 1219374985}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -44414,6 +45038,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 797130645068614719, guid: 175acf711f92ce04f9188495ddb8016f, type: 3}
   m_PrefabInstance: {fileID: 1379556330}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1381361357 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 2137712296}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1382535780
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45483,6 +46118,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1424040970979829632, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
   m_PrefabInstance: {fileID: 252792074}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1417230946 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1427193727}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1422632758
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -45552,6 +46198,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 660087963}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1417230946}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -46893,6 +47581,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64e00f9e4935c734caf5d71a30f7fd1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1463820060 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 1741984913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1465414451
 GameObject:
   m_ObjectHideFlags: 0
@@ -47154,6 +47853,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 585413711}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 571104391}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -50746,6 +51487,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1214488313}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 182965470}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -52178,6 +52961,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 299567408}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 307571323}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -56169,6 +56994,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 199097735}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1463820060}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -57144,6 +58011,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1761034825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 664599137213416383, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+  m_PrefabInstance: {fileID: 121164765}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1771255200
@@ -67736,6 +68614,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 660087963}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 694665741}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 
@@ -69239,6 +70159,48 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 475108130}
     m_Modifications:
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 245278400}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1381361357}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PostNotification
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
+        com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: ratCount
+      objectReference: {fileID: 0}
+    - target: {fileID: 320062976699709568, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: RatoMorto
+      objectReference: {fileID: 0}
     - target: {fileID: 713117819139716224, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
       propertyPath: defaultStatsController
       value: 

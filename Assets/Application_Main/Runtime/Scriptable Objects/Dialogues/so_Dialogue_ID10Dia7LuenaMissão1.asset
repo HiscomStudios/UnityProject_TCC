@@ -25,7 +25,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
-    sentence: "Quero que treine mais e derrote agora cinco das criaturas malignas
+    sentence: "Quero que treine mais e derrote agora CINCO das criaturas malignas
       de L\xE8nmi na Floresta."
     icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}

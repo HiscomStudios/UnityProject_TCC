@@ -27,7 +27,7 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
   - speakerId: character_Luena
-    sentence: "Por isso, quero que mate tr\xEAs criaturas malignas de L\xE8nmi na
+    sentence: "Por isso, quero que mate TR\xCAS criaturas malignas de L\xE8nmi na
       Floresta. Assim que terminar isso, venha at\xE9 mim."
     icon: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
     audio: {fileID: 0}
