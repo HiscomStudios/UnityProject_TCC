@@ -1,4 +1,4 @@
+#define Days
 public enum Days
 {
-	Day,
 }

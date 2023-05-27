@@ -618,8 +618,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Character_Luena
-  npcName: Luena
-  splashArtSprite: {fileID: 21300000, guid: 699df214ccc914e419a09078ccd20b91, type: 3}
 --- !u!1 &6849167035495757972
 GameObject:
   m_ObjectHideFlags: 0
