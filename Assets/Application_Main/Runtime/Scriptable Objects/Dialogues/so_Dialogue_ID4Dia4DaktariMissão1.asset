@@ -39,8 +39,11 @@ MonoBehaviour:
   - speakerId: character_Daktari
     sentence: "Elas se tornam monstros quase imbat\xEDveis, mais r\xE1pidas e fortes,
       se multiplicam e extinguem a vida \xE0 sua volta. Ent\xE3o tome cuidado com
-      a hordas, tente enfrentar poucos de cada vez. Voc\xEA at\xE9 pode derrotar
-      facilmente uma \xFAnica, mas n\xE3o se deixe enganar, porque juntas fazem a
-      for\xE7a."
+      a hordas, tente enfrentar poucos de cada vez."
+    icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
+    audio: {fileID: 0}
+  - speakerId: character_Daktari
+    sentence: "Voc\xEA at\xE9 pode derrotar facilmente uma \xFAnica, mas n\xE3o se
+      deixe enganar, porque juntas fazem a for\xE7a."
     icon: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
     audio: {fileID: 0}
