@@ -329,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   priority: 0
   timerToWaitBeforeExecutingAction: 0.1
-  repeatEvent: 1
+  repeatEvent: 0
   executeOnEnable: 0
   executeOnStart: 1
   eventConditions:
