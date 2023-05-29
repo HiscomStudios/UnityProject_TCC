@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 242b2ef02f4349b38a0d59cf7415a33f, type: 3}
-  m_Name: so_DataConnector_Day
+  m_Name: so_DataConnector_Mechanics
   m_EditorClassIdentifier: 
   saveLocation: 0
-  saveFolder: 
+  saveFolder: Mechanics/
   fileType: .save

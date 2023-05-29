@@ -55,3 +55,8 @@ MonoBehaviour:
     currentBooleanValue: 0
     currentFloatValue: 0
     currentStringValue: 
+  - flagName: takingDamage
+    flagType: 0
+    currentBooleanValue: 0
+    currentFloatValue: 0
+    currentStringValue: 
