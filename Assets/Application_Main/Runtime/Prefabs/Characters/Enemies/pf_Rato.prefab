@@ -170,7 +170,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 812744033259626981}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab8a3bc234632e34f8139995415730af, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.095
@@ -265,7 +265,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1331850789648008176}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab8a3bc234632e34f8139995415730af, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.095
@@ -432,17 +432,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 664599137213416383}
-        m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.GameObjectExtrasView,
-          com.thehiscomgameengine.main
-        m_MethodName: Destroy
-        m_Mode: 1
+      - m_Target: {fileID: 4796722845547372729}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: Play
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: RatoMorto
+          m_StringArgument: anmtn_Character_RatoDie
           m_BoolArgument: 0
         m_CallState: 2
   eventToExecuteIfConditionFalse:
@@ -595,7 +594,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2914770063384159720}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab8a3bc234632e34f8139995415730af, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.095
@@ -650,7 +649,8 @@ MonoBehaviour:
   nodePriority: 1
   agentSpeed: 8
   agentStoppingDistance: 2
-  nodeAnimationClip: {fileID: 0}
+  defaultNodeAnimationClip: {fileID: 7400000, guid: 02c3df138c59ba247a64d05c0d51e96a, type: 2}
+  nodeAnimationClip: {fileID: 7400000, guid: 4314ce7a8b781d5489aaf1baaf2915fb, type: 2}
   aiAgentView: {fileID: 4627629618404653800}
   pathController: {fileID: 0}
   pathToFollowID: 0
@@ -703,7 +703,8 @@ MonoBehaviour:
   nodePriority: 2
   agentSpeed: 100
   agentStoppingDistance: 0
-  nodeAnimationClip: {fileID: 0}
+  defaultNodeAnimationClip: {fileID: 7400000, guid: 02c3df138c59ba247a64d05c0d51e96a, type: 2}
+  nodeAnimationClip: {fileID: 7400000, guid: 4314ce7a8b781d5489aaf1baaf2915fb, type: 2}
   aiAgentView: {fileID: 4627629618404653800}
   PO_notification: PO_notification
 --- !u!1 &4627629618059963611
@@ -884,6 +885,7 @@ GameObject:
   - component: {fileID: 3980226611959105859}
   - component: {fileID: 5793991547765019780}
   - component: {fileID: 8933362661982277558}
+  - component: {fileID: 4796722845547372729}
   m_Layer: 11
   m_Name: pf_Rato
   m_TagString: Enemy
@@ -936,12 +938,12 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 1
   m_Speed: 3.5
-  m_Acceleration: 8
+  m_Acceleration: 35
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 75
   m_StoppingDistance: 2
   m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 0
+  m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 2
   m_BaseOffset: 1
@@ -963,7 +965,7 @@ MonoBehaviour:
   runningStateNotification: Running
   successStateNotification: Sucess
   failureStateNotification: Failure
-  agentAnimator: {fileID: 0}
+  agentAnimator: {fileID: 4796722845547372729}
   allowedNotificationSenders:
   - {fileID: 4627629618404653793}
   - {fileID: 4627629617829454395}
@@ -1128,6 +1130,27 @@ MonoBehaviour:
   eventToExecuteOnExit:
     m_PersistentCalls:
       m_Calls: []
+--- !u!95 &4796722845547372729
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627629618404653793}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9abf84e6409ff3b4d9125c20fafd5f08, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &4627629618743407524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,7 +1264,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4627629619883107638}
-  m_LocalRotation: {x: 0.21643949, y: -0, z: -0, w: 0.976296}
+  m_LocalRotation: {x: 0.21643934, y: 0, z: 0, w: 0.97629607}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1260,7 +1283,7 @@ ParentConstraint:
   m_Enabled: 1
   m_Weight: 1
   m_TranslationAtRest: {x: 0, y: 0, z: 0}
-  m_RotationAtRest: {x: 24.99998, y: 0, z: 0}
+  m_RotationAtRest: {x: 24.999964, y: 0, z: 0}
   m_TranslationOffsets:
   - {x: 0, y: 0, z: 0}
   m_RotationOffsets:
@@ -1712,7 +1735,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7782292859732557765}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ab8a3bc234632e34f8139995415730af, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.095

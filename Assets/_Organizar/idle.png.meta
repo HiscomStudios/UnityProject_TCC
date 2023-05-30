@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a488c4397fa8afb4c8a34f2f82ed1945
+guid: 9306f714a98e6e34b96f59a46ff09145
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -129,526 +129,442 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Niara_andando_spritesheet_0
+      name: idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7609f119397ad42498d1fc9805e3baa0
+      internalID: 1847867741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_1
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 880
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783f8a1ac476b954baaa864990c364ad
+      internalID: -1411506167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_2
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 880
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2711bd192c99964392bbcc3c40b948c
+      internalID: -9308000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_3
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 880
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d91499f00061e4b89003fb1e1172e6
+      internalID: -454602830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_4
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 880
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b90cf64e0ba79429c5d7e156f98c8d
+      internalID: -2142793804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 660
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e796510f639a4ae41be91d070531f036
+      internalID: 1910450173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_6
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 660
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4668bb6ccd49af448b6c9d60bf5bb86
+      internalID: -637968070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_7
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 660
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9f25d835da1f746a1a54beab454cf7
+      internalID: -523506325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_8
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 660
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b39480a3c7b3247b5e02969d5854e1
+      internalID: -2097061212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_9
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 660
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33acef10e359534ea94100f98d81c5b
+      internalID: -1489196724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83eac12d726919459528256eeae0659
+      internalID: -340218563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_11
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 440
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c96f0ff4a20e9794d9d8e84365b23cf5
+      internalID: -140932703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_12
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 440
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfe73b60b6abdb4193a5233b8aea357
+      internalID: -325120009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_13
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 440
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dae990dc065d174698864dd163ddde7
+      internalID: -325630034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_14
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 440
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652bddd260a104f489e29cc5eb7355b2
+      internalID: -294186530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bb3f322eceef045bdf8d00d29abc92
+      internalID: -890091372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_16
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 220
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb143909fe6d9a429c31a51ce5b163c
+      internalID: 1987663892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_17
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 220
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0683b7d1a5d4cf34b9d8d8f1f9b67bdd
+      internalID: 2134721226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_18
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 220
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebfc16a8bc5f6945b03d197b509b131
+      internalID: -1664929231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_19
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 220
+        width: 236
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2defb5ca4061d674fa190c825e32b3ae
+      internalID: 561194304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: idle_20
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 354
-        height: 480
+        width: 236
+        height: 220
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2aeece3286a10d545a2a9421f6fd8784
-      internalID: 1699989164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_1
-      rect:
-        serializedVersion: 2
-        x: 354
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5700a7bd06b65004694af6d7a7ecaed3
-      internalID: 1298653365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_2
-      rect:
-        serializedVersion: 2
-        x: 708
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc3e290bc69969a449ab88e01e62d734
-      internalID: -1157345194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_3
-      rect:
-        serializedVersion: 2
-        x: 1062
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 319a12d7ee86b394982183b83b9e04c5
-      internalID: 273067247
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_4
-      rect:
-        serializedVersion: 2
-        x: 1416
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94d1e8b14352255498f83ac7fb6aa9dc
-      internalID: -212880501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_5
-      rect:
-        serializedVersion: 2
-        x: 1770
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a0c2180fb229ee84a92f73b83c50b3a9
-      internalID: 443057920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 2124
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9e49baca626f07478b4aa7925f608e2
-      internalID: -1238515614
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_7
-      rect:
-        serializedVersion: 2
-        x: 2478
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47fe415e9e701854ea4797d098804b78
-      internalID: -780641582
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_8
-      rect:
-        serializedVersion: 2
-        x: 2832
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4b70928acc4a664fb2de638fefd7a98
-      internalID: -259745299
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_9
-      rect:
-        serializedVersion: 2
-        x: 3186
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9bbd59ceb1f0d7469cf23342799d2e7
-      internalID: 118606590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_10
-      rect:
-        serializedVersion: 2
-        x: 3540
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08333de035006a34a8d099ea6d6ea373
-      internalID: -1548179249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_11
-      rect:
-        serializedVersion: 2
-        x: 3894
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40c35f7d922a9024db31eea7b92f00ad
-      internalID: -1796120849
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_12
-      rect:
-        serializedVersion: 2
-        x: 4248
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 855136db5a8eb9c418221b0045b5b292
-      internalID: 919865484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_13
-      rect:
-        serializedVersion: 2
-        x: 4602
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b5aa1ada350a1d741aef5ba203dfc065
-      internalID: -968740119
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_14
-      rect:
-        serializedVersion: 2
-        x: 4956
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5d9e90f96c6a575438cd753f0304e698
-      internalID: -2125546568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_15
-      rect:
-        serializedVersion: 2
-        x: 5310
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d25ba07dd3818a4a8834707ef2dbf31
-      internalID: 657641331
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_16
-      rect:
-        serializedVersion: 2
-        x: 5664
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28776c084ce14cd47a7d3d9323d28d10
-      internalID: -480614561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_17
-      rect:
-        serializedVersion: 2
-        x: 6018
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6caf7ac8cd1da4c4db739a4aa3ca67d9
-      internalID: 997311889
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_18
-      rect:
-        serializedVersion: 2
-        x: 6372
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3357b2ecbd3994244a4c6978c8c8532a
-      internalID: -843626732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_19
-      rect:
-        serializedVersion: 2
-        x: 6726
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c38468b709ee8f47bd57a64374de51d
-      internalID: -2089537684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_20
-      rect:
-        serializedVersion: 2
-        x: 7080
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70a19e2f50b8e554a87111c20e0d1458
-      internalID: -1749036868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_21
-      rect:
-        serializedVersion: 2
-        x: 7434
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d0958568efd5024d90c728f210497fb
-      internalID: 820104383
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_22
-      rect:
-        serializedVersion: 2
-        x: 7788
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec3c3d3db0cf2694e8d4ea583ca2ba1d
-      internalID: -1502730712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_23
-      rect:
-        serializedVersion: 2
-        x: 8142
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6efc52763bc2ee14fbc45b014f0945c5
-      internalID: 1825122170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Niara_andando_spritesheet_24
-      rect:
-        serializedVersion: 2
-        x: 8496
-        y: 0
-        width: 354
-        height: 480
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9d32b546c53fc341aa3fd51516927b4
-      internalID: -1587538312
+      spriteID: 3dd82406783cb664ea93f1bfe4a67f35
+      internalID: -237798008
       vertices: []
       indices: 
       edges: []
@@ -656,7 +572,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 76380429e0eaf8d4eac768af45a2f54b
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -664,31 +580,27 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Niara_andando_spritesheet_0: 1699989164
-      Niara_andando_spritesheet_1: 1298653365
-      Niara_andando_spritesheet_10: -1548179249
-      Niara_andando_spritesheet_11: -1796120849
-      Niara_andando_spritesheet_12: 919865484
-      Niara_andando_spritesheet_13: -968740119
-      Niara_andando_spritesheet_14: -2125546568
-      Niara_andando_spritesheet_15: 657641331
-      Niara_andando_spritesheet_16: -480614561
-      Niara_andando_spritesheet_17: 997311889
-      Niara_andando_spritesheet_18: -843626732
-      Niara_andando_spritesheet_19: -2089537684
-      Niara_andando_spritesheet_2: -1157345194
-      Niara_andando_spritesheet_20: -1749036868
-      Niara_andando_spritesheet_21: 820104383
-      Niara_andando_spritesheet_22: -1502730712
-      Niara_andando_spritesheet_23: 1825122170
-      Niara_andando_spritesheet_24: -1587538312
-      Niara_andando_spritesheet_3: 273067247
-      Niara_andando_spritesheet_4: -212880501
-      Niara_andando_spritesheet_5: 443057920
-      Niara_andando_spritesheet_6: -1238515614
-      Niara_andando_spritesheet_7: -780641582
-      Niara_andando_spritesheet_8: -259745299
-      Niara_andando_spritesheet_9: 118606590
+      idle_0: 1847867741
+      idle_1: -1411506167
+      idle_10: -340218563
+      idle_11: -140932703
+      idle_12: -325120009
+      idle_13: -325630034
+      idle_14: -294186530
+      idle_15: -890091372
+      idle_16: 1987663892
+      idle_17: 2134721226
+      idle_18: -1664929231
+      idle_19: 561194304
+      idle_2: -9308000
+      idle_20: -237798008
+      idle_3: -454602830
+      idle_4: -2142793804
+      idle_5: 1910450173
+      idle_6: -637968070
+      idle_7: -523506325
+      idle_8: -2097061212
+      idle_9: -1489196724
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
