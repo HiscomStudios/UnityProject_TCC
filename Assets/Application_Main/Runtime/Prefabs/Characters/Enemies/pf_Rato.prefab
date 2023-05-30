@@ -350,19 +350,6 @@ MonoBehaviour:
           m_StringArgument: RatoMorto
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.NotificationController,
-          com.thehiscomgameengine.main
-        m_MethodName: PostNotification
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: ratCount
-          m_BoolArgument: 0
-        m_CallState: 2
   eventToExecuteIfConditionFalse:
     m_PersistentCalls:
       m_Calls: []
@@ -546,12 +533,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4627629618059963608}
-  - component: {fileID: 3585626255894290675}
-  - component: {fileID: 8514927475081998085}
-  - component: {fileID: 8985747955209932952}
   m_Layer: 11
   m_Name: _colliders
-  m_TagString: Inimigo
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -573,149 +557,6 @@ Transform:
   m_Father: {fileID: 4627629618404653806}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!136 &3585626255894290675
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4627629618059963611}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 1.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8514927475081998085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4627629618059963611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 2
-  timerToWaitBeforeExecutingAction: 0
-  repeatEvent: 0
-  executeOnEnable: 0
-  executeOnStart: 0
-  eventConditions:
-  - {fileID: 0}
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
-          com.thehiscomgameengine.main
-        m_MethodName: ModifyStat
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 548903571000879797}
-          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
-            com.thehiscomgameengine.main
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 8912976013935267437}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
-  tagsToCollide:
-  - Player
-  executeOnEnter: 0
-  executeOnStay: 1
-  executeOnExit: 0
-  eventToExecuteOnEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteOnStay:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteOnExit:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &8985747955209932952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4627629618059963611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 0
-  timerToWaitBeforeExecutingAction: 0
-  repeatEvent: 0
-  executeOnEnable: 0
-  executeOnStart: 0
-  eventConditions: []
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
-  tagsToCollide:
-  - Bullet
-  executeOnEnter: 1
-  executeOnStay: 0
-  executeOnExit: 0
-  eventToExecuteOnEnter:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4627629618404653804}
-        m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
-          com.thehiscomgameengine.main
-        m_MethodName: ModifyStat
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 713117819139716224}
-          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
-            com.thehiscomgameengine.main
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteOnStay:
-    m_PersistentCalls:
-      m_Calls: []
-  eventToExecuteOnExit:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &4627629618254361709
 GameObject:
   m_ObjectHideFlags: 0
@@ -726,6 +567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4627629618254361706}
   - component: {fileID: 7107071771811996814}
+  - component: {fileID: 3394279581002156543}
   m_Layer: 11
   m_Name: sprt_Character_Rato
   m_TagString: Untagged
@@ -800,6 +642,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3394279581002156543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627629618254361709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 913901573c15ba24f84dff1eded56f5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4627629618302815530
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,9 +699,12 @@ GameObject:
   - component: {fileID: 4627629618404653800}
   - component: {fileID: 4627629618404653804}
   - component: {fileID: 664599137213416383}
+  - component: {fileID: 3980226611959105859}
+  - component: {fileID: 5793991547765019780}
+  - component: {fileID: 8933362661982277558}
   m_Layer: 11
   m_Name: pf_Rato
-  m_TagString: Inimigo
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -956,6 +813,123 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affcd7d468fa24744af8a8b085481a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3980226611959105859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627629618404653793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  timerToWaitBeforeExecutingAction: 0
+  repeatEvent: 0
+  executeOnEnable: 0
+  executeOnStart: 0
+  eventConditions: []
+  eventToExecuteIfConditionTrue:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  tagsToCollide:
+  - Bullet
+  executeOnEnter: 1
+  executeOnStay: 0
+  executeOnExit: 0
+  eventToExecuteOnEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4627629618404653804}
+        m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.StatsController,
+          com.thehiscomgameengine.main
+        m_MethodName: ModifyStat
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 713117819139716224}
+          m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.StatModifierView,
+            com.thehiscomgameengine.main
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventToExecuteOnStay:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnExit:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!136 &5793991547765019780
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627629618404653793}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8933362661982277558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4627629618404653793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69857ebedbb272f49bfbd50b9c8a5e26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 6
+  timerToWaitBeforeExecutingAction: 0
+  repeatEvent: 0
+  executeOnEnable: 0
+  executeOnStart: 0
+  eventConditions:
+  - {fileID: 0}
+  eventToExecuteIfConditionTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  tagsToCollide:
+  - Player
+  executeOnEnter: 0
+  executeOnStay: 1
+  executeOnExit: 0
+  eventToExecuteOnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnStay:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &4627629618743407524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,86 +1377,6 @@ Transform:
   m_Father: {fileID: 3397467725150362864}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8912976013935267437
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5592280823643350903}
-  - component: {fileID: 6358784564072914578}
-  m_Layer: 11
-  m_Name: event_Cooldown
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5592280823643350903
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8912976013935267437}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1376934020656274594}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6358784564072914578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8912976013935267437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  priority: 10
-  timerToWaitBeforeExecutingAction: 5
-  repeatEvent: 0
-  executeOnEnable: 1
-  executeOnStart: 0
-  eventConditions: []
-  eventToExecuteIfConditionTrue:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: UnityEngine.Behaviour, UnityEngine
-        m_MethodName: set_enabled
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 8912976013935267437}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  eventToExecuteIfConditionFalse:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &9201161318265519862
 GameObject:
   m_ObjectHideFlags: 0
@@ -1514,7 +1408,6 @@ Transform:
   m_Children:
   - {fileID: 4627629618743407525}
   - {fileID: 7229324317218383186}
-  - {fileID: 5592280823643350903}
   m_Father: {fileID: 3583256819838792276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
