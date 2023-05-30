@@ -33,7 +33,10 @@
 
         public void Spawn()
         {
-            var chainInstance = Object.Instantiate(chainPrefab, spawnPosition.position, Quaternion.identity);
+            var chainInstance = Object.Instantiate(chainPrefab, spawnPosition);
+            chainInstance.GetChainParent.localPosition = Vector3.zero;
+            chainInstance.GetChainParent.localEulerAngles = Vector3.zero;
+            
             chainInstance.GetChainParent.localScale = new Vector3(0, 1, 1);
 
             LeanTween.scaleX(chainInstance.GetChainParent.gameObject, maxChainDistance, animationSpeed).setDelay(appearanceDelay).setOnUpdate(value =>
