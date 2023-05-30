@@ -168,7 +168,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   tagsToCollide:
-  - Inimigo
+  - Bullet
   - NPC
   - Scenario
   executeOnEnter: 1

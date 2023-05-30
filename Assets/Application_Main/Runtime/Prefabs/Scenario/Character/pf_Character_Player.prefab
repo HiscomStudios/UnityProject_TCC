@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 9188723375497671202}
   - component: {fileID: 440048700547566045}
   m_Layer: 0
-  m_Name: event_Die
+  m_Name: event_DiePlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
