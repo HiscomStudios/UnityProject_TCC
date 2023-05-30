@@ -55,7 +55,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         }
         protected override void Attack()
         {
-            animator.Play(animationClip.name);
+            base.Attack();
             
             LeanTween.value(0, 1, cooldownBetweenHordes).setOnComplete(() =>
             {

@@ -2,6 +2,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 {
     using System.Collections;
     using UnityEngine;
+    using Connectors;
     using Internal;
 
     public class HP_BossMoveChainsView : HP_BossMovesetView
@@ -10,7 +11,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         #region Protected Variables
         
-        [SerializeField] protected HP_ChainView[] chains;
+        [SerializeField] protected HP_ChainConnector[] chains;
         protected GameObject chainsInstance;
     
         #endregion
@@ -23,6 +24,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         protected virtual void OnEnable()
         {
+            Debug.Log("OnEnable");
             Attack();
         }
         protected virtual void OnDisable()
@@ -32,6 +34,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         protected IEnumerator SpawnChain()
         {
+            Debug.Log("SpawnChain");
+            
             foreach (var chain in chains)
             {
                 chain.Spawn();
@@ -40,8 +44,8 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         }
         protected override void Attack()
         {
-            animator.Play(animationClip.name);
             StartCoroutine(SpawnChain());
+            base.Attack();
         }
         
         #endregion
