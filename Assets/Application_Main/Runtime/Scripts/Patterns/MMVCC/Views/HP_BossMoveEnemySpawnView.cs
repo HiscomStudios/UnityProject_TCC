@@ -4,7 +4,9 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
     using System.Collections.Generic;
     using UnityEngine;
     using Internal;
-
+    using HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Models;
+    using HiscomEngine.Runtime.Scripts.Structures.Enums;
+    
     public class HP_BossMoveEnemySpawnView : HP_BossMovesetView
     {
         #region Variables
@@ -55,13 +57,30 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         }
         protected override void Attack()
         {
-            base.Attack();
+            bool IsAnimatorNull()
+            {
+                return Identifier.IdentifyIncident(() => animator == null, IncidentType.Warning, "", gameObject);
+            }   
+            
+            bool IsAnimationClipNull()
+            {
+                return Identifier.IdentifyIncident(() => movementAnimationClip == null, IncidentType.Warning, "", gameObject);
+            }
+            if (!IsAnimatorNull() && !IsAnimationClipNull())
+                animator.Play(movementAnimationClip.name);
             
             LeanTween.value(0, 1, cooldownBetweenHordes).setOnComplete(() =>
             {
                 StartCoroutine(SpawnEnemies());
                 LeanTween.value(0, 1, enemyPerSpawner * spawnPositions.Length).setOnComplete(Attack);
             });
+            
+            bool IsDefaultAnimationClipNull()
+            {
+                return Identifier.IdentifyIncident(() => defaultAnimationClip == null, IncidentType.Warning, "", gameObject);
+            }
+            if (!IsAnimatorNull() && !IsDefaultAnimationClipNull())
+                animator.Play(defaultAnimationClip.name);
         }
         
         #endregion

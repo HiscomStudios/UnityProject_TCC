@@ -66,29 +66,38 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
            do
            {
                yield return new WaitForSeconds(0.01f);
-           } while (rigidbody3d.velocity.magnitude > 0.1f);
-
-           var direction = playerReference.transform.position - rigidbody3d.transform.position;
-           direction.Normalize();
-           rigidbody3d.AddForce(-direction * dashForce / 2, ForceMode.Impulse);
+           } while (rigidbody3d.velocity.magnitude > 5f);
+           rigidbody3d.Halt();
+           
+           bool IsAnimatorNull()
+           {
+               return Identifier.IdentifyIncident(() => animator == null, IncidentType.Warning, "", gameObject);
+           }
+           bool IsDefaultAnimationClipNull()
+           {
+               return Identifier.IdentifyIncident(() => defaultAnimationClip == null, IncidentType.Warning, "", gameObject);
+           }
+           if (!IsAnimatorNull() && !IsDefaultAnimationClipNull())
+               animator.Play(defaultAnimationClip.name);
 
            do
            {
                yield return new WaitForSeconds(0.01f);
            } while (rigidbody3d.velocity.magnitude > 0.1f);
-
-           rigidbody3d.Halt();
+           
            Attack();
        }
        protected override void Attack()
        {
-           animator.Play(animationClip.name);
-           
+           bool IsAnimatorNull()
+           {
+               return Identifier.IdentifyIncident(() => animator == null, IncidentType.Warning, "", gameObject);
+           }
            bool BossLightIsNull()
            {
                return Identifier.IdentifyIncident(() => bossLight == null, IncidentType.Warning, "", gameObject);
            }
-           
+
            LeanTween.value(0, 1, cooldownBetweenDashes).setOnComplete(() =>
            {
                if (!BossLightIsNull()) 
@@ -103,10 +112,21 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
                {
                    if (!BossLightIsNull()) 
                        bossLight.intensity = 0;
+
+                   bool IsMovementAnimationClipNull()
+                   {
+                       return Identifier.IdentifyIncident(() => movementAnimationClip == null, IncidentType.Warning, "", gameObject);
+                   }
+                   if (!IsAnimatorNull() && !IsMovementAnimationClipNull())
+                       animator.Play(movementAnimationClip.name);
                    
                    var direction = playerReference.transform.position - rigidbody3d.transform.position;
                    direction.Normalize();
-                   rigidbody3d.AddForce(direction * dashForce, ForceMode.Impulse);
+
+                   LeanTween.value(0, 1, 0.09f).setOnComplete(() =>
+                   {
+                       rigidbody3d.AddForce(direction * dashForce, ForceMode.Impulse);
+                   });
                    StartCoroutine(RestartAttack());
                });
            });

@@ -24,8 +24,8 @@ TagManager:
   - 
   - Entities
   - Enemies
-  - 
-  - 
+  - Scenario
+  - Objects
   - 
   - 
   - 
@@ -33,7 +33,7 @@ TagManager:
   - 
   - 
   - _bullet
-  - 
+  - _chain
   - 
   - 
   - 

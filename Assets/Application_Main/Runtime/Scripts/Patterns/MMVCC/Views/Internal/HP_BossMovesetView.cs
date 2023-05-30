@@ -11,7 +11,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views.Internal
         #region Protected Variables
 
         [SerializeField] protected Animator animator;
-        [SerializeField] protected AnimationClip animationClip;
+        [SerializeField] protected AnimationClip defaultAnimationClip, movementAnimationClip;
 
         #endregion
 
@@ -21,20 +21,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views.Internal
 
         #region Protected Methods
 
-        protected virtual void Attack()
-        {
-            bool IsAnimatorNull()
-            {
-                return Identifier.IdentifyIncident(() => animator == null, IncidentType.Warning, "", gameObject);
-            }
-            bool IsAnimationClipNull()
-            {
-                return Identifier.IdentifyIncident(() => animationClip == null, IncidentType.Warning, "", gameObject);
-            }
-            
-            if (!IsAnimatorNull() && !IsAnimationClipNull())
-                animator.Play(animationClip.name);
-        }
+        protected abstract void Attack();
 
         #endregion
 

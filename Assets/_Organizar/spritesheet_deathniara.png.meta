@@ -1,0 +1,1357 @@
+fileFormatVersion: 2
+guid: 221f5b34ef1301c4eac043f8747f0410
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 1
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spritesheet_deathniara_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6d6d8dba3254042ac73c4cadb2c8e7
+      internalID: 1652091073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_1
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dc1db2db6cc454989593ea374a7e66
+      internalID: 513394356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_2
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28555f7efffc564488d301703f134164
+      internalID: 853835366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_3
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6347b4694d9544db54e0929681df1e
+      internalID: -1703300505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_4
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18d8aaff750f06c4c8d2bab271680589
+      internalID: -1003857519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_5
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09e4c3e3a62c3b45bc34fade84064e0
+      internalID: -1956769925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_6
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4087931613897e541986fa45b9ea5195
+      internalID: 1515731851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_7
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ca89edb8355fd4e9239f8f0aad2744
+      internalID: 927664174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_8
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 2850
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828f040fe3f2743439254408a01973d9
+      internalID: -1682835773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a97f698bd87f540af089a5edd91997
+      internalID: 1222351305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4715ec2eab3484ba139babcb807a59
+      internalID: -1068392411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_11
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feac11ac731a13847908ae2a744922d5
+      internalID: 1396444976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_12
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d329885711eec9d458dfbfa70b9e912a
+      internalID: 977316793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_13
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5228450ae42f642897cc1c4bc232c9
+      internalID: 853557155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_14
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1861ce2ee3f4984ab52061b10c66827
+      internalID: -222591482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_15
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c057f7b7a7dc4c04380166719bff3b28
+      internalID: 2037446768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_16
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac5ef2d01fa5ee42a4837846510db33
+      internalID: 592674477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_17
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 2375
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c20eecc7924039489d5345a8bb14e42
+      internalID: -198994025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5fe82b61394054faa4fe623bf13770
+      internalID: -636760902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_19
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c65e6252049a2448e7925c599b55c2
+      internalID: 1907226090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_20
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71526fb68915bc94db9aa7f589d7047d
+      internalID: -1874165446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_21
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5cc5ae699c07a48860f4655e39291a
+      internalID: -486763457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_22
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d6c484b56239341942bae47507107b
+      internalID: -567998677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_23
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ebf1af5604230469abcc1334600ece
+      internalID: 758093987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_24
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948066d35f1d4ce48ada08c91afb7e88
+      internalID: 877859561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_25
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71408992bb30b64bb3b41eb0176f066
+      internalID: -1623400477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_26
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1900
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30a0ebaa367e7f418e2e64809fc1839
+      internalID: -1089338087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68a60e4406322d4b9e0f7bf85fa0e02
+      internalID: 1239186488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_28
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 130ab6dce8d57d94ba602130e5034218
+      internalID: -357387118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_29
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea824f6680e322244a48505d4d130060
+      internalID: 1880143022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_30
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00cca84174f34e248936bdc0f2991a0d
+      internalID: -583471096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_31
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d834ff36096bf2438ef78e86c1042fc
+      internalID: 1436722026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_32
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a3b9c7b2f66bbe4eb557e9384d362d6
+      internalID: 181913227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_33
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a7f56ae3203ee42a1458cba34570b5
+      internalID: 964482863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_34
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b18bbc5b9609e44b65169172649c20
+      internalID: 1262928910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_35
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 1425
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39eb884108bcb5647a8d55c14e4a32ce
+      internalID: -482598184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec5c635c73a06642af684884d4f2997
+      internalID: 389479330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a86ea9b6ab1b34bbe0e84d74c49963
+      internalID: -750804491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_38
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f94cdbd6f1e01f438e6cea4d8dd846a
+      internalID: -531989800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_39
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468e050a68671224ba07b2beb60baa7f
+      internalID: -1518050778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_40
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd4854f1bb72d34c8ba464f894589ea
+      internalID: -242149251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_41
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a845dd580293d184686c596de4d09a04
+      internalID: 1326086978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_42
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ccda62b3770cff44b9e2e8f14cf31af
+      internalID: -473179349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_43
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b6a001b804f0bf49a8aaae7bcdd5a63
+      internalID: -104216213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_44
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 950
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46707beffd0d318489dc3db02bfe5cdb
+      internalID: 1164494937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8856b3f1498204e47857e1a325274638
+      internalID: -1998082403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7f1cff7d136ba84483040a5b8f45f01
+      internalID: -908288709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_47
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644f4a604d57d1e4f99d9cf057363fdd
+      internalID: 923641436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_48
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3039ea9cb1d4bed4781fb026c5754bf6
+      internalID: 1382102611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_49
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4538a2ec1fcbb2c4bb6f8b6b67018567
+      internalID: -1461292300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_50
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb803885dca26744b2307f5226e43ac
+      internalID: 1498262026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_51
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057675804e764e746b715f4adce52749
+      internalID: 1085792359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_52
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1df3cd2b9e1da749b3629321d8ee114
+      internalID: 2089030456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_53
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 475
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849887141cb701d4890267dfb5f726b4
+      internalID: -139430094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spritesheet_deathniara_54
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 0
+        width: 349
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60be09529fa48c742b630ac2abd6cd88
+      internalID: -1315774689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spritesheet_deathniara_0: 1652091073
+      spritesheet_deathniara_1: 513394356
+      spritesheet_deathniara_10: -1068392411
+      spritesheet_deathniara_11: 1396444976
+      spritesheet_deathniara_12: 977316793
+      spritesheet_deathniara_13: 853557155
+      spritesheet_deathniara_14: -222591482
+      spritesheet_deathniara_15: 2037446768
+      spritesheet_deathniara_16: 592674477
+      spritesheet_deathniara_17: -198994025
+      spritesheet_deathniara_18: -636760902
+      spritesheet_deathniara_19: 1907226090
+      spritesheet_deathniara_2: 853835366
+      spritesheet_deathniara_20: -1874165446
+      spritesheet_deathniara_21: -486763457
+      spritesheet_deathniara_22: -567998677
+      spritesheet_deathniara_23: 758093987
+      spritesheet_deathniara_24: 877859561
+      spritesheet_deathniara_25: -1623400477
+      spritesheet_deathniara_26: -1089338087
+      spritesheet_deathniara_27: 1239186488
+      spritesheet_deathniara_28: -357387118
+      spritesheet_deathniara_29: 1880143022
+      spritesheet_deathniara_3: -1703300505
+      spritesheet_deathniara_30: -583471096
+      spritesheet_deathniara_31: 1436722026
+      spritesheet_deathniara_32: 181913227
+      spritesheet_deathniara_33: 964482863
+      spritesheet_deathniara_34: 1262928910
+      spritesheet_deathniara_35: -482598184
+      spritesheet_deathniara_36: 389479330
+      spritesheet_deathniara_37: -750804491
+      spritesheet_deathniara_38: -531989800
+      spritesheet_deathniara_39: -1518050778
+      spritesheet_deathniara_4: -1003857519
+      spritesheet_deathniara_40: -242149251
+      spritesheet_deathniara_41: 1326086978
+      spritesheet_deathniara_42: -473179349
+      spritesheet_deathniara_43: -104216213
+      spritesheet_deathniara_44: 1164494937
+      spritesheet_deathniara_45: -1998082403
+      spritesheet_deathniara_46: -908288709
+      spritesheet_deathniara_47: 923641436
+      spritesheet_deathniara_48: 1382102611
+      spritesheet_deathniara_49: -1461292300
+      spritesheet_deathniara_5: -1956769925
+      spritesheet_deathniara_50: 1498262026
+      spritesheet_deathniara_51: 1085792359
+      spritesheet_deathniara_52: 2089030456
+      spritesheet_deathniara_53: -139430094
+      spritesheet_deathniara_54: -1315774689
+      spritesheet_deathniara_6: 1515731851
+      spritesheet_deathniara_7: 927664174
+      spritesheet_deathniara_8: -1682835773
+      spritesheet_deathniara_9: 1222351305
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
