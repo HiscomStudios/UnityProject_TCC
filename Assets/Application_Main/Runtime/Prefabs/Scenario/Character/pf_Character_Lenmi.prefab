@@ -1134,9 +1134,6 @@ MonoBehaviour:
   agentStoppingDistance: 0
   nodeAnimationClip: {fileID: 7400000, guid: 9199d1548fa4d8a4a85b10a63e39a30e, type: 2}
   aiAgentView: {fileID: 5087349100713723781}
-  allowedNotificationSenders:
-  - {fileID: 6909523899706378462}
-  - {fileID: 3490892961201202634}
   PO_notification: PO_notification
 --- !u!1 &3763367230312564956
 GameObject:
@@ -2783,6 +2780,9 @@ MonoBehaviour:
   successStateNotification: Sucess
   failureStateNotification: Failure
   agentAnimator: {fileID: 6322080505701606414}
+  allowedNotificationSenders:
+  - {fileID: 6909523899706378462}
+  - {fileID: 3490892961201202634}
 --- !u!114 &3103712761479994493
 MonoBehaviour:
   m_ObjectHideFlags: 0
