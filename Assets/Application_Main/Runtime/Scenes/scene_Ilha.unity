@@ -190,7 +190,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 0.5
+  m_PixelsPerUnitMultiplier: 0.65
 --- !u!222 &1575459
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8385,8 +8385,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8397,6 +8405,14 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 234918146}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 2081670881}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetFlag
       objectReference: {fileID: 0}
@@ -8405,18 +8421,38 @@ PrefabInstance:
       value: SetActive
       objectReference: {fileID: 0}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Play
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.FlagsController,
         com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 1757474489}
     - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_StringArgument
+      value: anmtn_Character_NiaraDeath
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.FlagModifierView,
         com.thehiscomgameengine.main
+      objectReference: {fileID: 0}
+    - target: {fileID: 4969061189422348279, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5108120683950810194, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: m_AffectTranslationX
@@ -33749,7 +33785,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1345, y: 200}
+  m_SizeDelta: {x: 1345, y: 150}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &978012583
 MonoBehaviour:
@@ -33816,7 +33852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossStatsController: {fileID: 0}
   lifeSlider: {fileID: 978012583}
-  lifeStatID: 0
+  lifeStatID: 1
 --- !u!1001 &979344102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59645,14 +59681,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1608124090}
-  m_LocalRotation: {x: 0, y: 0.67559016, z: 0, w: 0.7372774}
+  m_LocalRotation: {x: 0, y: 0.70852464, z: 0, w: 0.70568615}
   m_LocalPosition: {x: -128.6, y: 0, z: 45.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 85, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90.23, z: 0}
 --- !u!1001 &1610920046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -77343,6 +77379,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51202665093ece5459dc5384978563c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2081670881 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1375405301706913755, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+  m_PrefabInstance: {fileID: 227947246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2084328170 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6197161260687241088, guid: 23979d45dfa571f4092283d9380aa393, type: 3}
@@ -79332,7 +79373,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2121228406}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
@@ -82090,10 +82131,6 @@ PrefabInstance:
     - target: {fileID: 9043615071143654061, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
       propertyPath: chains.Array.data[0].animationSpeed
       value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 9043615071143654061, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
-      propertyPath: chains.Array.data[0].maxChainDistance
-      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
