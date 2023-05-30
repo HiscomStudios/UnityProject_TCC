@@ -791,6 +791,51 @@ Transform:
   m_Father: {fileID: 1219374985}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &35604770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 35604771}
+  - component: {fileID: 35604772}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &35604771
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35604770}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1910462545}
+  m_Father: {fileID: 1230094040}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &35604772
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35604770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &37651950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2228,6 +2273,101 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &65969772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 65969773}
+  - component: {fileID: 65969775}
+  - component: {fileID: 65969774}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &65969773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65969772}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1637390446}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65969774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65969772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 252792076}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &65969775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65969772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 252792076}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &71795465
 GameObject:
   m_ObjectHideFlags: 0
@@ -3553,6 +3693,51 @@ CapsuleCollider:
   m_Height: 0
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &109698375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 109698376}
+  - component: {fileID: 109698377}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &109698376
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109698375}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 195464549}
+  m_Father: {fileID: 1482927020}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &109698377
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109698375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &111662795
 GameObject:
   m_ObjectHideFlags: 0
@@ -5812,7 +5997,7 @@ Transform:
   m_Children:
   - {fileID: 852502986}
   m_Father: {fileID: 2106943572}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &172089148
 MonoBehaviour:
@@ -6100,6 +6285,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3680578527723582207, guid: 6925a448039c8284ea3392b5c697def4, type: 3}
   m_PrefabInstance: {fileID: 193997541}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &195464548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 195464549}
+  - component: {fileID: 195464551}
+  - component: {fileID: 195464550}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &195464549
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195464548}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 109698376}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &195464550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195464548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 2114543358}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &195464551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195464548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 2114543358}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &196896789 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 500656466066699163, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
@@ -7981,6 +8261,18 @@ PrefabInstance:
     - target: {fileID: 9188723375497671202, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
       propertyPath: eventConditions.Array.size
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188723375497671202, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188723375497671202, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9188723375497671202, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
+      propertyPath: eventToExecuteIfConditionTrue.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e786b91fcb8e9b4598315e61ecbd564, type: 3}
@@ -19952,7 +20244,7 @@ Transform:
   - {fileID: 739991431}
   - {fileID: 571127093}
   m_Father: {fileID: 2106943572}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &630924269
 MonoBehaviour:
@@ -23798,6 +24090,7 @@ Transform:
   m_Children:
   - {fileID: 54667937}
   - {fileID: 1049832856}
+  - {fileID: 1451698513}
   m_Father: {fileID: 1959440442}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -24314,6 +24607,51 @@ MonoBehaviour:
   hybridUpdateRate: 0.1
   notificationToReceive: ratCount
   amountToDo: 10
+--- !u!1 &746835041
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 746835042}
+  - component: {fileID: 746835043}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &746835042
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746835041}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1412286880}
+  m_Father: {fileID: 2106943572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &746835043
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 746835041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &747126788
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25029,7 +25367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &768003345
 Transform:
   m_ObjectHideFlags: 0
@@ -26031,6 +26369,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 797130645068614719, guid: 175acf711f92ce04f9188495ddb8016f, type: 3}
   m_PrefabInstance: {fileID: 783491157}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &783515875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 783515876}
+  - component: {fileID: 783515878}
+  - component: {fileID: 783515877}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &783515876
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783515875}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1451698513}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &783515877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783515875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1462967562}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &783515878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783515875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1462967562}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &787760006
 GameObject:
   m_ObjectHideFlags: 0
@@ -26210,6 +26643,101 @@ Transform:
   m_Father: {fileID: 1838029034}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &806970650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806970651}
+  - component: {fileID: 806970653}
+  - component: {fileID: 806970652}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &806970651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806970650}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1606096865}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &806970652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806970650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 270931221}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &806970653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806970650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 270931221}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &808663226
 GameObject:
   m_ObjectHideFlags: 0
@@ -27472,7 +28000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &859901599
 Transform:
   m_ObjectHideFlags: 0
@@ -30390,7 +30918,7 @@ MonoBehaviour:
           - m_Target: {fileID: 470550189}
             m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
               com.thehiscomgameengine.main
-            m_MethodName: QueueToLoad
+            m_MethodName: Load
             m_Mode: 2
             m_Arguments:
               m_ObjectArgument: {fileID: 1756126702}
@@ -30490,6 +31018,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 2072259182}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 3
     overrideDay: 0
     baseDay:
@@ -30501,6 +31049,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1787895530}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1787895530}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 693756892}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30516,6 +31092,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1787895530}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 4
     overrideDay: 0
     baseDay:
@@ -30527,6 +31123,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1472814433}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1472814433}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 1334924834}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30534,6 +31158,26 @@ MonoBehaviour:
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
               m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 6
+        minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1472814433}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 
@@ -30553,6 +31197,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1412286882}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1412286882}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 2097393803}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30568,6 +31240,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1412286882}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 6
     overrideDay: 0
     baseDay:
@@ -30579,6 +31271,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 806970653}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 806970653}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 510422873}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30594,6 +31314,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 806970653}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 7
     overrideDay: 0
     baseDay:
@@ -30605,6 +31345,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1910462547}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1910462547}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 764021125}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30620,6 +31388,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1910462547}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 8
     overrideDay: 0
     baseDay:
@@ -30631,6 +31419,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 783515878}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 783515878}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 1959440441}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30646,6 +31462,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 783515878}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 9
     overrideDay: 0
     baseDay:
@@ -30657,6 +31493,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1784259799}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1784259799}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 296650724}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30672,6 +31536,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToSave
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 1784259799}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 10
     overrideDay: 0
     baseDay:
@@ -30683,6 +31567,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 65969775}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 65969775}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 34616844}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30698,6 +31610,26 @@ MonoBehaviour:
       hourView:
         hourValue: 6
         minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 65969775}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
+        minutesValue: 0
   - id: 11
     overrideDay: 0
     baseDay:
@@ -30709,6 +31641,34 @@ MonoBehaviour:
     - onHourReachedEvent:
         m_PersistentCalls:
           m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: QueueToLoad
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 195464551}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 195464551}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
           - m_Target: {fileID: 1552229538}
             m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
             m_MethodName: SetActive
@@ -30723,6 +31683,26 @@ MonoBehaviour:
             m_CallState: 2
       hourView:
         hourValue: 6
+        minutesValue: 0
+    - onHourReachedEvent:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 470550189}
+            m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Controllers.DataController,
+              com.thehiscomgameengine.main
+            m_MethodName: Load
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 195464551}
+              m_ObjectArgumentAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Connectors.DataConnector,
+                com.thehiscomgameengine.main
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
+            m_CallState: 2
+      hourView:
+        hourValue: 23
         minutesValue: 0
   yearsPlaceholder: 
   monthsPlaceholder: 
@@ -41570,6 +42550,7 @@ Transform:
   m_Children:
   - {fileID: 278413206}
   - {fileID: 1971366575}
+  - {fileID: 35604771}
   m_Father: {fileID: 764021126}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -46366,6 +47347,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 671061937454039863, guid: 58531e22a06625a42ad46d79c794dd7f, type: 3}
   m_PrefabInstance: {fileID: 1354419872}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1355437136
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1355437137}
+  - component: {fileID: 1355437138}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1355437137
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355437136}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1472814431}
+  m_Father: {fileID: 1759543472}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1355437138
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355437136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1356468277
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47706,6 +48732,7 @@ Transform:
   m_Children:
   - {fileID: 1340087772}
   - {fileID: 1513510207}
+  - {fileID: 1606096865}
   m_Father: {fileID: 510422874}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48459,6 +49486,101 @@ Transform:
   m_Father: {fileID: 899551222}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1412286879
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412286880}
+  - component: {fileID: 1412286882}
+  - component: {fileID: 1412286881}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1412286880
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412286879}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 746835042}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1412286881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412286879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1187143723}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1412286882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412286879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1187143723}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1412736193
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49701,6 +50823,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1451698512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1451698513}
+  - component: {fileID: 1451698514}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1451698513
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451698512}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 783515876}
+  m_Father: {fileID: 729739626}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1451698514
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451698512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1454514771
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50454,6 +51621,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6197161260687241088, guid: 23979d45dfa571f4092283d9380aa393, type: 3}
   m_PrefabInstance: {fileID: 1947679403}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1469351141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1469351142}
+  - component: {fileID: 1469351143}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1469351142
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469351141}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1784259797}
+  m_Father: {fileID: 1631719349}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1469351143
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469351141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1471640210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50520,6 +51732,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4761253225506834005, guid: e5cbdde96025a9d4b8249a5dc5ebab4f, type: 3}
   m_PrefabInstance: {fileID: 1471640210}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1472814430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1472814431}
+  - component: {fileID: 1472814433}
+  - component: {fileID: 1472814432}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472814431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472814430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1355437137}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472814432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472814430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1191917905}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1472814433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1472814430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1191917905}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1482927019
 GameObject:
   m_ObjectHideFlags: 0
@@ -50551,6 +51858,7 @@ Transform:
   m_Children:
   - {fileID: 722643886}
   - {fileID: 1614272883}
+  - {fileID: 109698376}
   m_Father: {fileID: 1552229539}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -50930,6 +52238,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 891103619237500995, guid: 972a81abe82138f45867af02a6fa442b, type: 3}
   m_PrefabInstance: {fileID: 1703674567}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1489184528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489184529}
+  - component: {fileID: 1489184530}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1489184529
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489184528}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1787895528}
+  m_Father: {fileID: 1557779178}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1489184530
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489184528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1489192177
 GameObject:
   m_ObjectHideFlags: 0
@@ -53251,6 +54604,7 @@ Transform:
   m_Children:
   - {fileID: 226511496}
   - {fileID: 143485576}
+  - {fileID: 1637390446}
   m_Father: {fileID: 34616845}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -53297,6 +54651,7 @@ Transform:
   m_Children:
   - {fileID: 1937184821}
   - {fileID: 2092606218}
+  - {fileID: 1489184529}
   m_Father: {fileID: 693756893}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -56209,6 +57564,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4afae8032ddf4308b131cb740e05275f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1606096864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606096865}
+  - component: {fileID: 1606096866}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1606096865
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606096864}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 806970651}
+  m_Father: {fileID: 1397511263}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1606096866
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606096864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1610920046
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -56962,6 +58362,7 @@ Transform:
   m_Children:
   - {fileID: 2119186315}
   - {fileID: 2109534819}
+  - {fileID: 1469351142}
   m_Father: {fileID: 296650725}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57190,6 +58591,51 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1637103917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1637390445
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637390446}
+  - component: {fileID: 1637390447}
+  m_Layer: 0
+  m_Name: Variable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &1637390446
+Transform:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637390445}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 65969773}
+  m_Father: {fileID: 1556291391}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637390447
+MonoBehaviour:
+  m_ObjectHideFlags: 10
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637390445}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
@@ -60981,34 +62427,10 @@ MonoBehaviour:
       m_Calls: []
   eventToExecuteOnLoadSuccess:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 570328796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   eventToExecuteOnLoadFailure:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 570328796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1756126703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61164,6 +62586,7 @@ Transform:
   m_Children:
   - {fileID: 2134211199}
   - {fileID: 2133717857}
+  - {fileID: 1355437137}
   m_Father: {fileID: 1334924835}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -61756,6 +63179,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3797372556348216868, guid: 26f9441bc6aaeaf4db29d60bd30b13be, type: 3}
   m_PrefabInstance: {fileID: 1781289118}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1784259796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1784259797}
+  - component: {fileID: 1784259799}
+  - component: {fileID: 1784259798}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1784259797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784259796}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1469351142}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1784259798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784259796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1723048500}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1784259799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784259796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1723048500}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1784414965
 GameObject:
   m_ObjectHideFlags: 0
@@ -61916,6 +63434,101 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &1787895527
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1787895528}
+  - component: {fileID: 1787895530}
+  - component: {fileID: 1787895529}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787895528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787895527}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1489184529}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787895529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787895527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 2100711549}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1787895530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787895527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 2100711549}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1 &1789468445
@@ -66654,6 +68267,101 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a986e817300de88499b25c6dd04ca872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1910462544
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1910462545}
+  - component: {fileID: 1910462547}
+  - component: {fileID: 1910462546}
+  m_Layer: 0
+  m_Name: _PlayerStatsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1910462545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910462544}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 35604771}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1910462546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910462544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 1
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1583292571}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1910462547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910462544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15bff18a9df0d5a4ea370858eb39f4f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  saveFileSet: stats
+  stringValue: 
+  dataRulesToUse: {fileID: 11400000, guid: 807e980b82593b14d8670fd3f2c44b49, type: 2}
+  dataFileAction: 0
+  dataFileType: 0
+  componentsValues:
+  - {fileID: 1583292571}
+  eventToExecuteOnSaveSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnSaveFailure:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadSuccess:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteOnLoadFailure:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1910517521
 GameObject:
   m_ObjectHideFlags: 0
@@ -72934,34 +74642,10 @@ MonoBehaviour:
       m_Calls: []
   eventToExecuteOnLoadSuccess:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 570328796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
   eventToExecuteOnLoadFailure:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 570328796}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2072259182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74323,6 +76007,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 746835042}
   - {fileID: 172089147}
   - {fileID: 630924268}
   m_Father: {fileID: 2097393804}
@@ -77224,6 +78909,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1126865735}
     - target: {fileID: 4423110231675548162, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
+      propertyPath: rigidbody3d
+      value: 
+      objectReference: {fileID: 1958617464044785573}
+    - target: {fileID: 4423110231675548162, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
       propertyPath: playerReference
       value: 
       objectReference: {fileID: 2081670874}
@@ -77507,6 +79196,11 @@ MonoBehaviour:
 --- !u!1 &1958617464044785572 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6107942924156502492, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
+  m_PrefabInstance: {fileID: 1958617464044785569}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1958617464044785573 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 2739068836696284288, guid: 716075b927d9af44fab51f39428f3f60, type: 3}
   m_PrefabInstance: {fileID: 1958617464044785569}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1958617464044785574 stripped
