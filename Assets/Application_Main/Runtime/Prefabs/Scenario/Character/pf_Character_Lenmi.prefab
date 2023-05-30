@@ -1003,8 +1003,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d020eb968aebe17419329df90ce12600, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  animationClip: {fileID: 0}
+  animator: {fileID: 6322080505701606414}
+  animationClip: {fileID: 7400000, guid: 0f458b94425231a46b5cb2c9f7ad3e17, type: 2}
   enemyPerSpawner: 2
   cooldownBetweenHordes: 1
   enemyPrefab: {fileID: 4627629618404653793, guid: 454e1099ec5c4c6469962b0a2fa6d7d6, type: 3}
@@ -1132,7 +1132,7 @@ MonoBehaviour:
   nodePriority: 2
   agentSpeed: 10
   agentStoppingDistance: 0
-  nodeAnimationClip: {fileID: 0}
+  nodeAnimationClip: {fileID: 7400000, guid: 9199d1548fa4d8a4a85b10a63e39a30e, type: 2}
   aiAgentView: {fileID: 5087349100713723781}
   allowedNotificationSenders:
   - {fileID: 6909523899706378462}
@@ -1378,8 +1378,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc87cac1675ffdc44874543b8baf18a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  animationClip: {fileID: 0}
+  animator: {fileID: 6322080505701606414}
+  animationClip: {fileID: 7400000, guid: 9108716d6fdaa5d45a6b02fd0eb57e76, type: 2}
   cooldownBetweenDashes: 2
   dashForce: 1000
   mainLightMaxIntensity: 0
@@ -1828,8 +1828,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6f6e5eada1169d488120b365fa83e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  animationClip: {fileID: 0}
+  animator: {fileID: 6322080505701606414}
+  animationClip: {fileID: 7400000, guid: 1f22bc6884766c442a830dec45d98cca, type: 2}
   chains:
   - cooldownToNextInstantiation: 1
     animationSpeed: 1
@@ -2686,6 +2686,7 @@ GameObject:
   - component: {fileID: 8532482180043831131}
   - component: {fileID: 5893315262435970860}
   - component: {fileID: 2931696976390217705}
+  - component: {fileID: 6322080505701606414}
   m_Layer: 10
   m_Name: pf_Character_Lenmi
   m_TagString: NPC
@@ -2781,7 +2782,7 @@ MonoBehaviour:
   runningStateNotification: Running
   successStateNotification: Sucess
   failureStateNotification: Failure
-  agentAnimator: {fileID: 0}
+  agentAnimator: {fileID: 6322080505701606414}
 --- !u!114 &3103712761479994493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2878,7 +2879,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   tagsToCollide:
-  - Bala
+  - 
   executeOnEnter: 1
   executeOnStay: 0
   executeOnExit: 0
@@ -2919,6 +2920,27 @@ CapsuleCollider:
   m_Height: 8
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!95 &6322080505701606414
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909523899706378462}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fa60d9802b9eb96459219a1424084aea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &6909523899734559621
 GameObject:
   m_ObjectHideFlags: 0
