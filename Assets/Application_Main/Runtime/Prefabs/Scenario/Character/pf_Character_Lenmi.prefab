@@ -295,7 +295,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7577109128938499208}
-  - component: {fileID: 6663423507592712157}
   m_Layer: 0
   m_Name: event_EnemiesAttack
   m_TagString: Untagged
@@ -320,25 +319,6 @@ Transform:
   m_Father: {fileID: 539056381568466852}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6663423507592712157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1601456978627823124}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d020eb968aebe17419329df90ce12600, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  animator: {fileID: 6322080505701606414}
-  defaultAnimationClip: {fileID: 7400000, guid: 1f22bc6884766c442a830dec45d98cca, type: 2}
-  movementAnimationClip: {fileID: 7400000, guid: 0f458b94425231a46b5cb2c9f7ad3e17, type: 2}
-  enemyPerSpawner: 2
-  cooldownBetweenHordes: 5
-  enemyPrefab: {fileID: 996572706223398556, guid: 98879cf68ede7544194b13bbf22650f5, type: 3}
-  spawnPositions: []
 --- !u!1 &1669940053907741299
 GameObject:
   m_ObjectHideFlags: 0
