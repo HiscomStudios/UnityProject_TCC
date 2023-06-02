@@ -246,10 +246,10 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7864480869402237606}
         m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.SpriteRendererExtrasView,
           com.thehiscomgameengine.main
-        m_MethodName: ChangeSpriteColor
+        m_MethodName: SendMessage
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -317,7 +317,7 @@ Transform:
   - {fileID: 8421436359795515174}
   - {fileID: 165146283664005211}
   m_Father: {fileID: 539056381568466852}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1669940053907741299
 GameObject:
@@ -1221,8 +1221,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4837205484006612221}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64.555, y: -3.085, z: 20.079998}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5336367879983960518}
@@ -1310,7 +1310,7 @@ Transform:
   - {fileID: 8281711320597510243}
   - {fileID: 552382070131808559}
   m_Father: {fileID: 539056381568466852}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9043615071143654061
 MonoBehaviour:
@@ -1424,7 +1424,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7864480869402237606}
         m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.SpriteRendererExtrasView,
           com.thehiscomgameengine.main
         m_MethodName: ChangeSpriteColor
@@ -1563,6 +1563,62 @@ Transform:
   m_Father: {fileID: 7460574124022813368}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6208019123952473194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 338389233794818468}
+  - component: {fileID: 8099673290627673107}
+  m_Layer: 0
+  m_Name: event_AttackMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &338389233794818468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208019123952473194}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 539056381568466852}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8099673290627673107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6208019123952473194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bfaf9be0b8dc04d9958fe6a706ea26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  priority: 0
+  timerToWaitBeforeExecutingAction: 0
+  repeatEvent: 0
+  executeOnEnable: 0
+  executeOnStart: 0
+  eventConditions: []
+  eventToExecuteIfConditionTrue:
+    m_PersistentCalls:
+      m_Calls: []
+  eventToExecuteIfConditionFalse:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &6377767552394785890
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,6 +2074,7 @@ GameObject:
   - component: {fileID: 6909523899600936827}
   - component: {fileID: 6909523899600936826}
   - component: {fileID: 7864480869402237606}
+  - component: {fileID: 6277864557675709269}
   m_Layer: 10
   m_Name: sprt_Lenmi
   m_TagString: Untagged
@@ -2104,6 +2161,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 913901573c15ba24f84dff1eded56f5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1773428102 &6277864557675709269
+ParentConstraint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6909523899600936772}
+  m_Enabled: 1
+  m_Weight: 1
+  m_TranslationAtRest: {x: 0, y: 0, z: 0}
+  m_RotationAtRest: {x: 0, y: 0, z: 0}
+  m_TranslationOffsets:
+  - {x: 0, y: 0, z: 0}
+  m_RotationOffsets:
+  - {x: 0, y: 0, z: 0}
+  m_AffectTranslationX: 0
+  m_AffectTranslationY: 0
+  m_AffectTranslationZ: 0
+  m_AffectRotationX: 1
+  m_AffectRotationY: 1
+  m_AffectRotationZ: 1
+  m_IsContraintActive: 1
+  m_IsLocked: 1
+  m_Sources:
+  - sourceTransform: {fileID: 0}
+    weight: 1
 --- !u!1 &6909523899706378462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2553,7 @@ Transform:
   - {fileID: 4987852215528547115}
   - {fileID: 3547860781044981637}
   m_Father: {fileID: 539056381568466852}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6843629707328203195
 MonoBehaviour:
@@ -2574,6 +2657,7 @@ Transform:
   - {fileID: 355182781809523807}
   - {fileID: 8596174022364985425}
   - {fileID: 865404507751020818}
+  - {fileID: 338389233794818468}
   - {fileID: 6293547718516434799}
   - {fileID: 7577109128938499208}
   - {fileID: 842806860621792531}
@@ -2645,7 +2729,7 @@ MonoBehaviour:
   eventToExecuteIfConditionTrue:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7864480869402237606}
         m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.SpriteRendererExtrasView,
           com.thehiscomgameengine.main
         m_MethodName: ChangeSpriteColor

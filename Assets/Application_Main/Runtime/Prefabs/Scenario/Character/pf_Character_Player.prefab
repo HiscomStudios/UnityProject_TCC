@@ -1200,7 +1200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priority: 0
-  timerToWaitBeforeExecutingAction: 1
+  timerToWaitBeforeExecutingAction: 3
   repeatEvent: 0
   executeOnEnable: 1
   executeOnStart: 0
