@@ -249,7 +249,7 @@ MonoBehaviour:
       - m_Target: {fileID: 7864480869402237606}
         m_TargetAssemblyTypeName: HiscomEngine.Runtime.Scripts.Patterns.MMVCC.Views.SpriteRendererExtrasView,
           com.thehiscomgameengine.main
-        m_MethodName: SendMessage
+        m_MethodName: ChangeSpriteColor
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -295,6 +295,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7577109128938499208}
+  - component: {fileID: 1864938665079329148}
   m_Layer: 0
   m_Name: event_EnemiesAttack
   m_TagString: Untagged
@@ -319,6 +320,25 @@ Transform:
   m_Father: {fileID: 539056381568466852}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1864938665079329148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601456978627823124}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d020eb968aebe17419329df90ce12600, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  defaultAnimationClip: {fileID: 0}
+  movementAnimationClip: {fileID: 0}
+  enemyPerSpawner: 0
+  cooldownBetweenHordes: 0
+  enemyPrefab: {fileID: 0}
+  spawnPositions: []
 --- !u!1 &1669940053907741299
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,7 +521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priority: 0
-  timerToWaitBeforeExecutingAction: 3
+  timerToWaitBeforeExecutingAction: 5
   repeatEvent: 0
   executeOnEnable: 1
   executeOnStart: 0
@@ -1360,8 +1380,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5153710233816386485}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 64.555, y: -3.085, z: 20.079998}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 539056381568466852}

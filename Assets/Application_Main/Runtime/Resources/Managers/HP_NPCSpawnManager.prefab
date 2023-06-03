@@ -47,11 +47,11 @@ MonoBehaviour:
   availableNpcs:
   - id: Character_Luena
     npcName: Luena
-    splashArtSprite: {fileID: 0}
+    splashArtSprite: {fileID: 21300000, guid: 59df4baf44524b545be478269e171959, type: 3}
   - id: Character_Daktari
     npcName: Daktari
-    splashArtSprite: {fileID: 0}
+    splashArtSprite: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
   - id: Character_Adumi
     npcName: Adumi
-    splashArtSprite: {fileID: 0}
+    splashArtSprite: {fileID: 21300000, guid: 80da9a7bc122d394aab277096ba4860f, type: 3}
   sessionNpcs: []
