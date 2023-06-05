@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Application_Main/Runtime/Scenes/scene_Ilha.unity
     guid: b66d90144ef5bfe4dbf3fdb722813a4a
+  - enabled: 1
+    path: Assets/Application_Main/Runtime/Scenes/scene_Load.unity
+    guid: 306aa917e8d41894ca17ab2def199be3
   m_configObjects: {}
