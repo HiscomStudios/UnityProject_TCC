@@ -34,11 +34,11 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         #region Protected Methods
 
-        protected override void Refresh(HP_NPCView npc)
+        protected override void Refresh(string npcID)
         {
             foreach (var npcConnector in FindObjectsOfType<HP_NPCConnector>())
             {
-                if (!npcConnector.gameObject.activeSelf || npcConnector.GetID != npc.GetID) continue;
+                if (!npcConnector.gameObject.activeSelf || npcConnector.GetID != npcID) continue;
                 npcId = npcConnector.GetID;
                 npcName = npcConnector.GetNPCName;
                 
