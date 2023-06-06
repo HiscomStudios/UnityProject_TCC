@@ -15,7 +15,6 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
         [SerializeField] protected Image npcSplashArtIMG;
         [SerializeField] protected TextMeshProUGUI npcNameTMP;
         [SerializeField] protected Button cardBTN;
-
         protected string npcId, npcName;
 
         #endregion
@@ -36,27 +35,31 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         protected override void Refresh(HP_NPCView npc)
         {
-            npcId = npc.GetID;
-            npcName = npc.GetNpcName;
-            
-            npcSplashArtIMG.sprite = npc.GetSplashArtSprite;
-            npcNameTMP.text = npc.GetNpcName;
-        }
+            foreach (var npcConnector in FindObjectsOfType<HP_NPCConnector>)
+            {
+                if (!npcConnector.gameObject.activeSelf || npcConnector.GetID != npc.GetID) continue;
+                npcId = npcConnector.GetID;
+                npcName = npcConnector.GetNPCName;
+                
+                npcSplashArtIMG.sprite = npcConnector.GetSplashArtSprite;
+                npcNameTMP.text = npcName;
+            }
+       }
 
-        #endregion
+      #endregion
 
-        #region Public Methods
+      #region Public Methods
 
-        public void OnCardButtonPressed()
-        {
-        }
-        protected virtual void SelectNpc(HP_NPCCardView npcCard)
-        {
-            //selectedNpcCard = npcCard;
-        }
+      public void OnCardButtonPressed()
+      {
+      }
+      protected virtual void SelectNpc(HP_NPCCardView npcCard)
+      {
+          //selectedNpcCard = npcCard;
+      }
 
-        #endregion
+      #endregion
 
-        #endregion
+      #endregion
     }
 }
