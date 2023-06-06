@@ -16,6 +16,7 @@ MonoBehaviour:
   dialogueId: 46
   dialogueContent:
   - speakerId: character_Adumi
-    sentence: <Desenvolvimento>
+    sentence: "Ela era realmente maravilhosa, n\xE3o merecia essa destino\u2026 Lamento
+      de todo o meu cora\xE7\xE3o a morte dela."
     icon: {fileID: 21300000, guid: 80da9a7bc122d394aab277096ba4860f, type: 3}
     audio: {fileID: 0}
