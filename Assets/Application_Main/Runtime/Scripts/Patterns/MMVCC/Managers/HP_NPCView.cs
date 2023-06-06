@@ -10,17 +10,13 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views.Internal
 
         #region Protected Variables
 
-        [SerializeField] protected string id, npcName;
-        [SerializeField] protected Sprite splashArtSprite;
-
+        [SerializeField] protected string id;
         #endregion
 
         #region Public Variables
         
         public string GetID => id;
-        public string GetNpcName => npcName;
-        public Sprite GetSplashArtSprite => splashArtSprite;
-
+        
         #endregion
 
         #endregion
