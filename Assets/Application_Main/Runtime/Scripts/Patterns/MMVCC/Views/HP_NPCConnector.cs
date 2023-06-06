@@ -9,13 +9,16 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Connectors
 
         #region Protected Variables
 
-        [SerializeField] protected string id;
+        [SerializeField] protected string id, npcName;
+        [SerializeField] protected Sprite splashSprite;
 
         #endregion
 
         #region Public Variables
 
         public string GetID => id;
+        public string GetNPCName => npcName;
+        public Sprite GetSplashSprite => splashSprite;
 
         #endregion
         
