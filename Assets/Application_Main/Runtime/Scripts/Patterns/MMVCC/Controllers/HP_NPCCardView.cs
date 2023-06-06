@@ -7,7 +7,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
     using Internal;
     using Connectors;
     
-    public class HP_NPCCardView : CarouselCell<HP_NPCView, HP_NPCCardView>
+    public class HP_NPCCardView : CarouselCell<string, HP_NPCCardView>
     {
         #region Variables
 
