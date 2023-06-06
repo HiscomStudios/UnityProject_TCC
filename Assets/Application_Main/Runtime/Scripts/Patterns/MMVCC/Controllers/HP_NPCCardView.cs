@@ -35,7 +35,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Views
 
         protected override void Refresh(HP_NPCView npc)
         {
-            foreach (var npcConnector in FindObjectsOfType<HP_NPCConnector>)
+            foreach (var npcConnector in FindObjectsOfType<HP_NPCConnector>())
             {
                 if (!npcConnector.gameObject.activeSelf || npcConnector.GetID != npc.GetID) continue;
                 npcId = npcConnector.GetID;
