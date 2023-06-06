@@ -526,6 +526,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   id: Character_Daktari
+  npcName: Daktari
+  splashArtSprite: {fileID: 21300000, guid: 8efbc480da1a32f428184f4acc60120d, type: 3}
 --- !u!95 &8974012916949891743
 Animator:
   serializedVersion: 5
