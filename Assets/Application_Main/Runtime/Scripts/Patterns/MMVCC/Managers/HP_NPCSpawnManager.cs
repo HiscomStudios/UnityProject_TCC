@@ -13,14 +13,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
 
         #region Protected Variables
 
-        [SerializeField] protected List<HP_NPCView> availableNpcs, sessionNpcs;
+        [SerializeField] protected List<string> availableNpcs, sessionNpcs;
 
         #endregion
 
         #region Public Variables
 
-        public List<HP_NPCView> GetAvailableNpcs => availableNpcs;
-        public List<HP_NPCView> GetSessionNpcs => sessionNpcs;
+        public List<string> GetAvailableNpcs => availableNpcs;
+        public List<string> GetSessionNpcs => sessionNpcs;
 
         #endregion
 
@@ -42,14 +42,14 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Managers
         public virtual void OnLoadSuccess()
         {
             availableNpcs = sessionNpcs;
-            sessionNpcs = new List<HP_NPCView>();
+            sessionNpcs = new List<string>();
             
             foreach (var availableNpc in availableNpcs)
                 sessionNpcs.Add(availableNpc);
         }
         public virtual void OnLoadFail()
         {
-            sessionNpcs = new List<HP_NPCView>();
+            sessionNpcs = new List<string>();
             
             foreach (var availableNpc in availableNpcs)
                 sessionNpcs.Add(availableNpc);
