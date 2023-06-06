@@ -16,7 +16,7 @@ namespace HiscomProject.Runtime.Scripts.Patterns.MMVCC.Controllers
             foreach (var npc in FindObjectsOfType<HP_NPCConnector>())
             {
                 npc.gameObject.SetActive(false);
-                if (!HP_NPCSpawnManager.Instance.GetAvailableNpcs.Any(spawnedNPC => spawnedNPC.GetID == npc.GetID)) continue;
+                if (!HP_NPCSpawnManager.Instance.GetAvailableNpcs.Any(spawnedNPC => spawnedNPC == npc.GetID)) continue;
                 npc.gameObject.SetActive(true);
             }
         }
